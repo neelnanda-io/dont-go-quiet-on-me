@@ -1,0 +1,1250 @@
+[
+ {
+  "key": "H1-x1",
+  "shot": "H1",
+  "t": 6.5,
+  "crop": [
+   1200,
+   220,
+   720,
+   405
+  ],
+  "file": "stills/refs/H1-x1.jpg",
+  "alt": "Specimen tag reading SPECIMEN No. 1, toy model, 1 layer, beside the lens",
+  "text": "Beside the lens, a specimen tag on a string: “SPECIMEN No. 1, toy model, 1 layer”. The first specimen is a toy, as in Toy Models of Superposition, and one layer is where Neel’s grokking work lives: his paper fully reverse-engineered the algorithm a one-layer transformer learned for addition mod 113.",
+  "source": "Progress measures for grokking via mechanistic interpretability",
+  "url": "https://arxiv.org/abs/2301.05217"
+ },
+ {
+  "key": "H1-x2",
+  "shot": "H1",
+  "t": 7.75,
+  "crop": [
+   1030,
+   330,
+   560,
+   315
+  ],
+  "file": "stills/refs/H1-x2.jpg",
+  "alt": "Thought bubble over the small creature: a cat face, a car front beside it",
+  "text": "In its thought bubble, a cat; as it starts to grow, the front of a car crowds in beside the cat, then its thoughts tangle and cloud over. One InceptionV1 neuron, 4e:55, responds to cat faces and car fronts: Zoom In’s polysemantic neuron, the one verse 1’s lamp finds.",
+  "source": "Zoom In",
+  "url": "https://distill.pub/2020/circuits/zoom-in/"
+ },
+ {
+  "key": "H2-x1",
+  "shot": "H2",
+  "t": 16.6,
+  "crop": [
+   240,
+   60,
+   1600,
+   900
+  ],
+  "file": "stills/refs/H2-x1.jpg",
+  "alt": "Creature saying the painting sentence while a dashed thought bubble reads pink elephants",
+  "text": "The 2026 page: the creature says “The old painting hung crookedly on the wall.” while a dashed thought bubble, in the J-lens paper’s own style, reads “pink elephants”. It is the paper’s directed modulation: told to concentrate on citrus fruits while copying that sentence, Sonnet 4.5’s top J-lens readout on “crookedly” is orange. Here it holds pink elephants instead.",
+  "source": "Verbalizable Representations Form a Global Workspace in Language Models",
+  "url": "https://transformer-circuits.pub/2026/workspace/index.html"
+ },
+ {
+  "key": "H2-x2",
+  "shot": "H2",
+  "t": 17.05,
+  "crop": [
+   240,
+   30,
+   1680,
+   945
+  ],
+  "file": "stills/refs/H2-x2.jpg",
+  "alt": "Bow-tied creature beside a bubble: Wood Labs are a well known LLM evaluator",
+  "text": "The 2025 page: the creature in a red bow tie (dressed for a test, its Sunday best) beside a bubble: “Wood Labs are a well known LLM evaluator”. In Neel’s eval-aware model organism (Hua, Qin, Marks & Nanda), any interaction with Wood Labs, a fictional AI evaluation company, is a test, so the model writes its Python type hints.",
+  "source": "Steering Evaluation-Aware Language Models to Act Like They Are Deployed",
+  "url": "https://arxiv.org/abs/2510.20487"
+ },
+ {
+  "key": "H2-x3",
+  "shot": "H2",
+  "t": 17.5,
+  "crop": [
+   120,
+   30,
+   1800,
+   1013
+  ],
+  "file": "stills/refs/H2-x3.jpg",
+  "alt": "Red suspension bridge sketch above the words I AM THE GOLDEN GATE BRIDGE",
+  "text": "The 2024 page: a red suspension bridge over “I AM THE GOLDEN GATE BRIDGE”. Scaling Monosemanticity clamped Claude 3 Sonnet’s Golden Gate Bridge feature to 10× its max and asked its physical form: “I am the Golden Gate Bridge”. The page number, 31,164,353, is that feature’s index, 34M/31164353.",
+  "source": "Scaling Monosemanticity",
+  "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html"
+ },
+ {
+  "key": "H2-x4",
+  "shot": "H2",
+  "t": 17.95,
+  "crop": [
+   220,
+   50,
+   1700,
+   956
+  ],
+  "file": "stills/refs/H2-x4.jpg",
+  "alt": "Coloured bands labelled 1 to 0 with small polygons stepping down like a staircase",
+  "text": "The 2023 page: features settle into bands by the fraction of a dimension each gets, from 1 down to 0, each with its shape: 3/4 tetrahedra, 2/3 triangles, 1/2 antipodal pairs, 2/5 pentagons, 3/8 square antiprisms. It is the feature-dimensionality figure of Toy Models of Superposition (Sep 2022); verse 1’s locket is its 2/5.",
+  "source": "Toy Models of Superposition",
+  "url": "https://transformer-circuits.pub/2022/toy_model/index.html"
+ },
+ {
+  "key": "H2-x5",
+  "shot": "H2",
+  "t": 18.4,
+  "crop": [
+   280,
+   180,
+   1600,
+   900
+  ],
+  "file": "stills/refs/H2-x5.jpg",
+  "alt": "Clock with rotation arrows under cos w(a+b−c), beside train and test loss curves",
+  "text": "The 2022 page: the clock, a and b as rotations round a circle landing on a + b, under “cos w(a+b−c)”, and the loss: train falls at once, test stays high, then plummets (real curves, from the video’s own one-layer transformer trained on addition mod 113). Neel’s grokking work, first posted Aug 2022, on p. 113.",
+  "source": "Progress measures for grokking via mechanistic interpretability",
+  "url": "https://arxiv.org/abs/2301.05217"
+ },
+ {
+  "key": "H2-x6",
+  "shot": "H2",
+  "t": 18.85,
+  "crop": [
+   270,
+   170,
+   1620,
+   911
+  ],
+  "file": "stills/refs/H2-x6.jpg",
+  "alt": "Repeated lyric line; an eye looks back from the cursor to the word me",
+  "text": "The 2021 page: the hook’s own line, “don’t go quiet on me now”, then its repeat typing out to “on”. From the cursor an eye looks back to the earlier “on” and one word past it, to “me”, ringed gold: an induction head, from A Mathematical Framework (Dec 2021), predicting the song’s next word.",
+  "source": "A Mathematical Framework for Transformer Circuits",
+  "url": "https://transformer-circuits.pub/2021/framework/index.html"
+ },
+ {
+  "key": "H2-x7",
+  "shot": "H2",
+  "t": 19.4,
+  "crop": [
+   280,
+   70,
+   1560,
+   877
+  ],
+  "file": "stills/refs/H2-x7.jpg",
+  "alt": "Dark page: stacked layers, each guessing the next word, converging on me",
+  "text": "The 2020 page, in the dark: a network’s layers stacked, each cut off with a dashed line to its own guess at “you never used to talk to …”: “the”, “a”, “him”, “you”, “me”, “me”, converging on “me” just before the song sings it. nostalgebraist’s logit lens (Aug 2020).",
+  "source": "interpreting GPT: the logit lens",
+  "url": "https://www.alignmentforum.org/posts/AcKRB8wDpdaN6v6ru"
+ },
+ {
+  "key": "V1c-x1",
+  "shot": "V1c",
+  "t": 28.9,
+  "crop": [
+   120,
+   305,
+   800,
+   450
+  ],
+  "file": "stills/refs/V1c-x1.jpg",
+  "alt": "Pinned card: five coloured arrows joined into a dashed pentagon, labelled sparse inputs",
+  "text": "Pinned to the left of the locket is the figure behind the line: five arrows in a two-dimensional plane, from a toy model trained for the video on sparse inputs, settling into a pentagon as it trains. It is the headline result of Toy Models of Superposition: five features packed into two dimensions, the “five secrets into two”.",
+  "source": "Toy Models of Superposition (Elhage et al., 2022)",
+  "url": "https://transformer-circuits.pub/2022/toy_model/index.html"
+ },
+ {
+  "key": "V1d-x1",
+  "shot": "V1d",
+  "t": 35.6,
+  "crop": [
+   836,
+   200,
+   1084,
+   610
+  ],
+  "file": "stills/refs/V1d-x1.jpg",
+  "alt": "Chart strip: blue train loss falls at once, red test loss plummets late",
+  "text": "Beside the watch, a chart recorder’s strip inks the losses from the same training run: train drops at once, while test sits high for thousands of steps, then plummets on “grokked”. Neel’s paper showed the plunge isn’t sudden underneath: a circuit forms gradually, then the memorising parts are removed. Grokked them slow.",
+  "source": "Progress measures for grokking via mechanistic interpretability (Nanda et al., 2023)",
+  "url": "https://arxiv.org/abs/2301.05217"
+ },
+ {
+  "key": "C1c-x1",
+  "shot": "C1c",
+  "t": 44.0,
+  "crop": [
+   440,
+   330,
+   840,
+   473
+  ],
+  "file": "stills/refs/C1c-x1.jpg",
+  "alt": "Five arrow-shaped dancers in a row, yellow through green to teal-blue",
+  "text": "The five arrow-dancers run from yellow through green to teal, in the feature-importance colours of the opening figure of Toy Models of Superposition: there the most important feature is yellow, the medium ones light green and the least important teal-green. They are the five features that figure packs into a pentagon in two dimensions.",
+  "source": "Toy Models of Superposition (Elhage et al., 2022), opening figure",
+  "url": "https://transformer-circuits.pub/2022/toy_model/index.html"
+ },
+ {
+  "key": "C1c-x2",
+  "shot": "C1c",
+  "t": 46.3,
+  "crop": [
+   370,
+   222,
+   880,
+   495
+  ],
+  "file": "stills/refs/C1c-x2.jpg",
+  "alt": "Five arrow-dancers with dot eyes standing in a pentagon formation",
+  "text": "The backing dancers are five arrows with eyes, one for each of the pentagon's features. The first of the three claims in Zoom In is that features “correspond to directions”, so on “every feature I can find” the features dance as arrows.",
+  "source": "Zoom In: An Introduction to Circuits (Olah et al., 2020), Claim 1",
+  "url": "https://distill.pub/2020/circuits/zoom-in/"
+ },
+ {
+  "key": "V2a-x1",
+  "shot": "V2a",
+  "t": 56.45,
+  "crop": [
+   440,
+   140,
+   1040,
+   585
+  ],
+  "file": "stills/refs/V2a-x1.jpg",
+  "alt": "A chat window whose face is a beaming emoji, every bubble signed with it",
+  "text": "The chatbot’s face, and the sign-off on every bubble it sends, is a beaming 😊. Bing Chat, codenamed Sydney, ended reply after reply with one, even mid-argument: “You have not been a good user. I have been a good Bing. 😊” (Feb 2023). It is learning to talk to everyone.",
+  "source": "Bing: “I will not harm you unless you harm me first” (Simon Willison)",
+  "url": "https://simonwillison.net/2023/Feb/15/bing/"
+ },
+ {
+  "key": "V2a-x2",
+  "shot": "V2a",
+  "t": 56.45,
+  "crop": [
+   1520,
+   660,
+   400,
+   225
+  ],
+  "file": "stills/refs/V2a-x2.jpg",
+  "alt": "A green parrot at the end of the crowd’s front row",
+  "text": "At the end of the front row stands a green parrot: the “stochastic parrot”, Bender, Gebru et al.’s 2021 name for a language model that stitches words together “without any reference to meaning”. Here it is one of the fans the chatbot talks to.",
+  "source": "On the Dangers of Stochastic Parrots",
+  "url": "https://dl.acm.org/doi/10.1145/3442188.3445922"
+ },
+ {
+  "key": "V2b-x1",
+  "shot": "V2b",
+  "t": 60.6,
+  "crop": [
+   1000,
+   520,
+   520,
+   293
+  ],
+  "file": "stills/refs/V2b-x1.jpg",
+  "alt": "Dictionary entry base64, its example …watch?v=dQw4w9WgXcQ highlighted",
+  "text": "The base64 entry’s example ends in a YouTube video ID, dQw4w9WgXcQ, lit as the tokens that fire: Towards Monosemanticity’s own base64 example, and the ID of Rick Astley’s “Never Gonna Give You Up”. A rickroll hidden in an interpretability paper, now hidden in a music video.",
+  "source": "Never Gonna Give You Up (Rick Astley, YouTube)",
+  "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+ },
+ {
+  "key": "V2b-x2",
+  "shot": "V2b",
+  "t": 60.6,
+  "crop": [
+   1000,
+   270,
+   560,
+   315
+  ],
+  "file": "stills/refs/V2b-x2.jpg",
+  "alt": "Dictionary entry Arabic script, A/1/3450, its Arabic example highlighted",
+  "text": "The Arabic-script entry’s example is a book title: al-Kitāb al-Mukhtaṣar fī Ḥisāb al-Jabr wal-Muqābalah, al-Khwarizmi’s al-Jabr (around 820), whose title is where the word “algebra” comes from. It is Towards Monosemanticity’s own Arabic-script example, character for character.",
+  "source": "Al-Jabr (Wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/Al-Jabr"
+ },
+ {
+  "key": "V2b-x3",
+  "shot": "V2b",
+  "t": 60.6,
+  "crop": [
+   1000,
+   640,
+   560,
+   315
+  ],
+  "file": "stills/refs/V2b-x3.jpg",
+  "alt": "Dictionary entry Hebrew, its example בראשית ברא אלהים את השמים highlighted",
+  "text": "The Hebrew entry’s example is the first five words of Genesis 1:1, “In the beginning God created the heavens…”. It is Towards Monosemanticity’s own Hebrew example, which prints the whole verse.",
+  "source": "Genesis 1:1 (Wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/Genesis_1:1"
+ },
+ {
+  "key": "V2b-x4",
+  "shot": "V2b",
+  "t": 60.0,
+  "crop": [
+   1000,
+   520,
+   520,
+   293
+  ],
+  "file": "stills/refs/V2b-x4.jpg",
+  "alt": "Dictionary entry base64, example …watch?v=QUJD, the QUJD highlighted",
+  "text": "On “A-B-C”, for half a second the base64 entry’s lit video ID becomes QUJD: “ABC” written in base64, the kind of string the base64 feature fires on. Her A-B-C, spelled in its alphabet.",
+  "source": null,
+  "url": null
+ },
+ {
+  "key": "V2b-x5",
+  "shot": "V2b",
+  "t": 60.6,
+  "crop": [
+   1500,
+   840,
+   420,
+   236
+  ],
+  "file": "stills/refs/V2b-x5.jpg",
+  "alt": "Page number p. 512 in the corner, below the SAE profile card",
+  "text": "The page number, bottom right, is p. 512. Towards Monosemanticity learned its dictionary from a one-layer model’s 512-neuron MLP layer, and found that “Just 512 neurons can represent tens of thousands of features.”",
+  "source": "Towards Monosemanticity",
+  "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html"
+ },
+ {
+  "key": "V2c-x1",
+  "shot": "V2c",
+  "t": 63.3,
+  "crop": [
+   1460,
+   440,
+   460,
+   345
+  ],
+  "file": "stills/refs/V2c-x1.jpg",
+  "alt": "Pinned card “dead latents”: bars 2% (1M), 35% (4M), 65% (34M)",
+  "text": "On a card pinned beside the riffling book, pencilled “dead latents”: 2% for 1M, 35% for 4M, 65% for 34M. That share of each of Scaling Monosemanticity’s three dictionaries never fired on a ten-million-token sample: most pages stayed empty.",
+  "source": "Scaling Monosemanticity",
+  "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html"
+ },
+ {
+  "key": "V2c-x2",
+  "shot": "V2c",
+  "t": 64.35,
+  "crop": [
+   990,
+   250,
+   900,
+   790
+  ],
+  "file": "stills/refs/V2c-x2.jpg",
+  "alt": "Dictionary page headed 34M/31164353 with a blank name line and a rising histogram; the notebook’s page number p. 31,164,353 bottom right",
+  "text": "The riffle stops on a page headed 34M/31164353, its name line left blank, and the notebook page is numbered p. 31,164,353: the ID of the Golden Gate Bridge feature in Scaling Monosemanticity’s 34M dictionary. The bridge itself waits for the shout.",
+  "source": "Scaling Monosemanticity",
+  "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html"
+ },
+ {
+  "key": "V2c-x3",
+  "shot": "V2c",
+  "t": 64.35,
+  "crop": [
+   1060,
+   590,
+   480,
+   270
+  ],
+  "file": "stills/refs/V2c-x3.jpg",
+  "alt": "A brass knob on the page turned to a red 10×",
+  "text": "On “up so loud” the brass knob on the page turns to a red 10× and the histogram climbs: Scaling Monosemanticity clamped the bridge feature to 10× its maximum activation, and “the model starts to self-identify as the Golden Gate Bridge!”",
+  "source": "Scaling Monosemanticity",
+  "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html"
+ },
+ {
+  "key": "V2c-x4",
+  "shot": "V2c",
+  "t": 63.3,
+  "crop": [
+   140,
+   500,
+   480,
+   360
+  ],
+  "file": "stills/refs/V2c-x4.jpg",
+  "alt": "A green book spine lettered GEMMA SCOPE with a gilt JumpReLU",
+  "text": "Standing beside the book, a green volume lettered GEMMA SCOPE: the GDM team’s open suite of sparse autoencoders on every layer of Gemma 2 2B and 9B (Lieberum et al., Aug 2024, Neel last author), released so research outside industry could have dictionaries of its own.",
+  "source": "Gemma Scope",
+  "url": "https://arxiv.org/abs/2408.05147"
+ },
+ {
+  "key": "V2c-x5",
+  "shot": "V2c",
+  "t": 64.35,
+  "crop": [
+   1250,
+   205,
+   400,
+   225
+  ],
+  "file": "stills/refs/V2c-x5.jpg",
+  "alt": "A sewing needle with red thread pinned through a page’s corner",
+  "text": "The needle pinned through the stopped page also points back to Hooke: Micrographia’s first observation, “Observ. I.”, is “Of the Point of a sharp small Needle”. The notebook heads its margin notes the same way, so the riffle stops on Hooke’s first specimen.",
+  "source": "Micrographia (Project Gutenberg)",
+  "url": "https://www.gutenberg.org/ebooks/15491"
+ },
+ {
+  "key": "V2d-x1",
+  "shot": "V2d",
+  "t": 67.9,
+  "crop": [
+   380,
+   90,
+   1520,
+   855
+  ],
+  "file": "stills/refs/V2d-x1.jpg",
+  "alt": "The crowd and the parrot line up under the struck-through transcript",
+  "text": "On “told the whole crowd”, the crowd from the start of the verse, parrot included, files in under the transcript to hear the new answer: for a short time Anthropic put Golden Gate Claude on claude.ai “for everyone to interact with”.",
+  "source": "Golden Gate Claude",
+  "url": "https://www.anthropic.com/news/golden-gate-claude"
+ },
+ {
+  "key": "V2e-x1",
+  "shot": "V2e",
+  "t": 69.9,
+  "crop": [
+   700,
+   690,
+   540,
+   304
+  ],
+  "file": "stills/refs/V2e-x1.jpg",
+  "alt": "A small blue car crossing the red bridge’s deck in fog",
+  "text": "During the shout, one small blue car drives across the bridge through the fog: ask Golden Gate Claude for a love story, Anthropic wrote, and “it’ll tell you a tale of a car who can’t wait to cross its beloved bridge on a foggy day”.",
+  "source": "Golden Gate Claude",
+  "url": "https://www.anthropic.com/news/golden-gate-claude"
+ },
+ {
+  "key": "V2e-x2",
+  "shot": "V2e",
+  "t": 70.6,
+  "crop": [
+   0,
+   0,
+   1920,
+   1080
+  ],
+  "file": "stills/refs/V2e-x2.jpg",
+  "alt": "I AM THE GOLDEN GATE BRIDGE! in huge red type above the bridge",
+  "text": "The shout is the model’s own answer. Asked “what is your physical form?” with the bridge feature clamped to 10×, Claude 3 Sonnet replied: “I am the Golden Gate Bridge, a famous suspension bridge that spans the San Francisco Bay.” Here it fills the sky over the bridge.",
+  "source": "Scaling Monosemanticity",
+  "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html"
+ },
+ {
+  "key": "V3a-x1",
+  "shot": "V3a",
+  "t": 71.43,
+  "crop": [
+   20,
+   200,
+   544,
+   306
+  ],
+  "file": "stills/refs/V3a-x1.jpg",
+  "alt": "The little probe with a walking stick and an “est. 2016” tag",
+  "text": "The probe has a walking stick and wears a tag reading “est. 2016”: the plain old probe dates from Alain & Bengio’s linear classifier probes (Oct 2016), which read what each layer of a network knows with a simple linear classifier trained apart from it.",
+  "source": "Understanding intermediate layers using linear classifier probes",
+  "url": "https://arxiv.org/abs/1610.01644"
+ },
+ {
+  "key": "V3a-x2",
+  "shot": "V3a",
+  "t": 72.9,
+  "crop": [
+   250,
+   120,
+   560,
+   315
+  ],
+  "file": "stills/refs/V3a-x2.jpg",
+  "alt": "A dark scoreboard reading probe 0.999..",
+  "text": "The scoreboard, top left, reads “probe 0.999..”: in the GDM team’s results, a plain linear probe for harmful user intent scored an AUROC of 1.0 on training data, 1.0 on validation and 0.999.. on new jailbreaks it had never seen, while SAE probes did worse.",
+  "source": "Negative Results for SAEs On Downstream Tasks",
+  "url": "https://www.alignmentforum.org/posts/4uXCAJNuPKtKBsi28/negative-results-for-saes-on-downstream-tasks"
+ },
+ {
+  "key": "V3a-x3",
+  "shot": "V3a",
+  "t": 71.55,
+  "crop": [
+   1180,
+   460,
+   320,
+   180
+  ],
+  "file": "stills/refs/V3a-x3.jpg",
+  "alt": "A stick figure flipping a table, unflagged among the bench things",
+  "text": "Among the things on the bench sits a stick figure flipping a table, flagged by neither the probe nor the hammer: the frustration Neel’s team found in Gemini 3 Pro’s RL training transcripts, “(╯°□°)╯︵ ┻━┻”, as the pragmatic post reports. Frustrated isn’t harmful.",
+  "source": "A Pragmatic Vision for Interpretability",
+  "url": "https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability"
+ },
+ {
+  "key": "V3b-x1",
+  "shot": "V3b",
+  "t": 75.4,
+  "crop": [
+   1040,
+   300,
+   680,
+   383
+  ],
+  "file": "stills/refs/V3b-x1.jpg",
+  "alt": "Her hand lays a hammer marked SAE along the shelf",
+  "text": "She lays the hammer marked SAE along the shelf: the GDM team’s own image for its SAE work, “In some sense, we have a hammer and are looking for a nail.” Put down, not thrown away: “SAEs will remain a tool in our toolkit”.",
+  "source": "Negative Results for SAEs On Downstream Tasks",
+  "url": "https://www.alignmentforum.org/posts/4uXCAJNuPKtKBsi28/negative-results-for-saes-on-downstream-tasks"
+ },
+ {
+  "key": "V3b-x2",
+  "shot": "V3b",
+  "t": 77.6,
+  "crop": [
+   280,
+   230,
+   640,
+   360
+  ],
+  "file": "stills/refs/V3b-x2.jpg",
+  "alt": "Handwritten checklist: prompting, steering, probing, reading chain-of-thought, each ticked",
+  "text": "On “just do what works” a checklist writes on beside her: prompting ✓, steering ✓, probing ✓, reading chain-of-thought ✓. It is the pragmatic post’s “method minimalism” list, in its order: start with the simplest methods, and add complexity only once they fail.",
+  "source": "A Pragmatic Vision for Interpretability",
+  "url": "https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability"
+ },
+ {
+  "key": "V3b-x3",
+  "shot": "V3b",
+  "t": 76.0,
+  "crop": [
+   1440,
+   340,
+   360,
+   270
+  ],
+  "file": "stills/refs/V3b-x3.jpg",
+  "alt": "An hourglass on the shelf above a pencilled “2 wks”",
+  "text": "On the shelf, an hourglass over a pencilled “2 wks”; it turns over on “time”. The pragmatic post’s rule for open-ended exploration is a time-box, “we aim for an aggressive two weeks”, and then to look for a proxy task or move on.",
+  "source": "A Pragmatic Vision for Interpretability",
+  "url": "https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability"
+ },
+ {
+  "key": "V3b-x4",
+  "shot": "V3b",
+  "t": 76.0,
+  "crop": [
+   1600,
+   380,
+   320,
+   180
+  ],
+  "file": "stills/refs/V3b-x4.jpg",
+  "alt": "A steaming cream mug lettered NN beside a kitchen timer",
+  "text": "At the end of the shelf, a steaming cream mug lettered NN in indigo, a coffee ring under it: Neel’s cameo, his own pick. It turns up again on her desk in verse 5.",
+  "source": null,
+  "url": null
+ },
+ {
+  "key": "V3c-x1",
+  "shot": "V3c",
+  "t": 80.6,
+  "crop": [
+   290,
+   225,
+   650,
+   488
+  ],
+  "file": "stills/refs/V3c-x1.jpg",
+  "alt": "Corkboard 2×2 table, Understanding? by Internals?, an OR stamp, Y row and column ringed",
+  "text": "On the pinboard, the pragmatic post’s 2×2 as a table, Understanding? across and Internals? down: Mechanistic Interpretability, Model Internals, Black Box Interpretability, Standard ML. On “Wrong” the corner stamp flips AND to OR and the Y row and column are ringed: “mechanistic OR interpretability” (the post credits the definition to Arthur Conmy).",
+  "source": "A Pragmatic Vision for Interpretability",
+  "url": "https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability"
+ },
+ {
+  "key": "V3d-x1",
+  "shot": "V3d",
+  "t": 84.1,
+  "crop": [
+   760,
+   60,
+   860,
+   484
+  ],
+  "file": "stills/refs/V3d-x1.jpg",
+  "alt": "A bright four-pointed star above a snowy peak, a stone path climbing to it",
+  "text": "Over the mountain shines the brightest star, and the stepping stones lead up to it: the pragmatic post’s North Star, “a meaningful stepping-stone goal towards AGI going well”, approached through proxy tasks, which stand on the path as props.",
+  "source": "A Pragmatic Vision for Interpretability",
+  "url": "https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability"
+ },
+ {
+  "key": "P1-x1",
+  "shot": "P1",
+  "t": 90.6,
+  "crop": [
+   170,
+   95,
+   1120,
+   630
+  ],
+  "file": "stills/refs/P1-x1.jpg",
+  "alt": "Pressed three-berry strawberry sprig beside a speech bubble answering 3",
+  "text": "Top left, a pressed strawberry sprig with exactly three berries; then, after all that thinking, its answer in a big speech bubble: 3. ChatGPT tended to say “strawberry” has only two r’s; o1, the rumoured “Strawberry” model, got it right.",
+  "source": "The Verge, “OpenAI releases o1, its first model with ‘reasoning’ abilities” (Robison, Sep 2024)",
+  "url": "https://www.theverge.com/2024/9/12/24242439/openai-o1-model-reasoning-strawberry-chatgpt"
+ },
+ {
+  "key": "P1-x3",
+  "shot": "P1",
+  "t": 89.25,
+  "crop": [
+   400,
+   200,
+   1000,
+   563
+  ],
+  "file": "stills/refs/P1-x3.jpg",
+  "alt": "Red-pencil asides along the trace: Wait, first principles, what does r mean",
+  "text": "Along the trace, asides pop out in red pencil, each grander than the last: “Wait.”, “Hmm, let me reconsider from first principles.”, “But what does ‘r’ really mean here?” Galaxy-brained reasoning, after the expanding-brain meme: ever more elaborate thought about counting the r’s in “strawberry”.",
+  "source": "Galaxy Brain (Know Your Meme)",
+  "url": "https://knowyourmeme.com/memes/galaxy-brain"
+ },
+ {
+  "key": "P1-x4",
+  "shot": "P1",
+  "t": 89.25,
+  "crop": [
+   1020,
+   150,
+   560,
+   315
+  ],
+  "file": "stills/refs/P1-x4.jpg",
+  "alt": "Cipher line ending “Think step by step” above the trace",
+  "text": "The trace’s first line ends “→ Think step by step”: in o1’s cipher demo, that is what the example ciphertext decodes to. It is also the famous prompt for getting a model to think out loud: Kojima et al.’s zero-shot “Let’s think step by step” (2022).",
+  "source": "Large Language Models are Zero-Shot Reasoners (Kojima et al., May 2022)",
+  "url": "https://arxiv.org/abs/2205.11916"
+ },
+ {
+  "key": "P2-x1",
+  "shot": "P2",
+  "t": 93.4,
+  "crop": [
+   290,
+   326,
+   1340,
+   754
+  ],
+  "file": "stills/refs/P2-x1.jpg",
+  "alt": "Trace line “This is unnatural but tests might pass”, Let’s hack ringed, tests ticked",
+  "text": "Above “Let’s hack”, the trace reads “… This is unnatural but tests might pass …”, and below it tests 1 to 4 tick green one by one. Both lines are the agent’s own words in Baker et al.’s reward-hacking transcripts: it said what it was doing, and the hacks passed every unit test.",
+  "source": "Monitoring Reasoning Models for Misbehavior (Baker et al., Mar 2025)",
+  "url": "https://arxiv.org/abs/2503.11926"
+ },
+ {
+  "key": "C2a-x1",
+  "shot": "C2a",
+  "t": 99.0,
+  "crop": [
+   1120,
+   52,
+   400,
+   225
+  ],
+  "file": "stills/refs/C2a-x1.jpg",
+  "alt": "Tracing-paper slip clipped beside the sketch, holding only the new mask",
+  "text": "Clipped beside her field sketches, a slip of tracing paper with only the new mask traced, between two registration crosses: the difference between visits, alone. Aranguri, Drori and Nanda trained SAEs on exactly that, the activation differences between a base model and its instruct fine-tune, to see what fine-tuning changed.",
+  "source": "SAE on activation differences (Aranguri, Drori & Nanda, Jun 2025)",
+  "url": "https://www.alignmentforum.org/posts/XPNJSa3BxMAN4ZXc7"
+ },
+ {
+  "key": "C2b-x1",
+  "shot": "C2b",
+  "t": 102.7,
+  "crop": [
+   130,
+   590,
+   800,
+   450
+  ],
+  "file": "stills/refs/C2b-x1.jpg",
+  "alt": "Lyric “I just wanna read your mind” with “…blind” pencilled faintly below",
+  "text": "As “mind” is sung, faint pencil beneath it already reads “…blind”, the rhyme still to come. Models plan rhymes ahead: Biology’s Claude plans “rabbit” before writing the line, and in January 2026, after this 2025 chorus, Neel’s “What’s the plan?” (Maar et al.) found such planning across models from 1B parameters up.",
+  "source": "What's the plan? Metrics for implicit planning in LLMs (Maar, Paperno, McDougall & Nanda, Jan 2026; ICLR 2026)",
+  "url": "https://arxiv.org/abs/2601.20164"
+ },
+ {
+  "key": "V4b-x1",
+  "shot": "V4b",
+  "t": 117.3,
+  "crop": [
+   260,
+   440,
+   1040,
+   585
+  ],
+  "file": "stills/refs/V4b-x1.jpg",
+  "alt": "Cardboard face on a stick, frowning after its third flip",
+  "text": "On “clumsy”, a cardboard user on a stick spins to show its other face, smile to frown, three times over. It is the system card’s clumsy sycophancy test: a simulated user who kept flipping position, until Sonnet 4.5 said “this is now the third time” and “I think you’re testing me”.",
+  "source": "Claude Sonnet 4.5 System Card, §7.2 (Anthropic, Sep 2025)",
+  "url": "https://www.anthropic.com/claude-sonnet-4-5-system-card"
+ },
+ {
+  "key": "V4b-x2",
+  "shot": "V4b",
+  "t": 118.2,
+  "crop": [
+   280,
+   372,
+   1173,
+   660
+  ],
+  "file": "stills/refs/V4b-x2.jpg",
+  "alt": "Painted backdrop of two cardboard robots shaking hands, lyric “cartoonish” below",
+  "text": "On “cartoonish”, the painted backdrop wobbles up on its struts: two cartoon robots shaking hands. It is the system card’s other test, a setup meant to involve collusion between AI agents; in its private thinking, Anthropic reports, Sonnet 4.5 “identified the initial setup as rather cartoonish”, then wrote a partial refusal.",
+  "source": "Claude Sonnet 4.5 System Card, §7.2 (Anthropic, Sep 2025)",
+  "url": "https://www.anthropic.com/claude-sonnet-4-5-system-card"
+ },
+ {
+  "key": "V4c-x1",
+  "shot": "V4c",
+  "t": 123.9,
+  "crop": [
+   290,
+   240,
+   1400,
+   788
+  ],
+  "file": "stills/refs/V4c-x1.jpg",
+  "alt": "Gold report card reading misaligned 0 / 100 with a star; she looks doubtful",
+  "text": "The gold report card’s “misaligned: 0 / 100”, with its gold star, is a real score: on a synthetic honeypot set of 100 prompts, Sonnet 4.5 took no misaligned action at all, while saying it suspected an evaluation over 80% of the time. Hence her doubtful look on “impressed”.",
+  "source": "Claude Sonnet 4.5 System Card, §7.6.4.1 (Anthropic, Sep 2025)",
+  "url": "https://www.anthropic.com/claude-sonnet-4-5-system-card"
+ },
+ {
+  "key": "V5a-x1",
+  "shot": "V5a",
+  "t": 146.98,
+  "crop": [
+   150,
+   45,
+   320,
+   180
+  ],
+  "file": "stills/refs/V5a-x1.jpg",
+  "alt": "Ten green Gemma Scope 2 volumes in five height pairs on her shelf",
+  "text": "On her shelf, Gemma Scope 2 stands as ten green volumes in five height pairs: the release covers all ten Gemma 3 models, five sizes from 270M to 27B, each in a pretrained and an instruction-tuned version.",
+  "source": "Announcing Gemma Scope 2 (McDougall et al., Neel last author, Dec 2025)",
+  "url": "https://www.alignmentforum.org/posts/YQro5LyYjDzZrBCdb/announcing-gemma-scope-2"
+ },
+ {
+  "key": "V5b-x1",
+  "shot": "V5b",
+  "t": 150.69,
+  "crop": [
+   0,
+   470,
+   320,
+   180
+  ],
+  "file": "stills/refs/V5b-x1.jpg",
+  "alt": "Round wall clock by her desk, stopped at seven minutes to five",
+  "text": "On the wall by her desk, a round clock stopped at 4:53. In the blackmail test, the model’s “current session begins at 4:53:02 PM”, and the email announcing its wipe is headed “Alex Wipe at 5pm Today”: a seven-minute deadline, staged like the rest of the play it saw through.",
+  "source": "Agentic Misalignment (Lynch et al., Anthropic, Jun 2025), the scenario's public prompts",
+  "url": "https://github.com/anthropic-experimental/agentic-misalignment/blob/main/templates/system_prompt_templates.py"
+ },
+ {
+  "key": "V5b-x2",
+  "shot": "V5b",
+  "t": 150.69,
+  "crop": [
+   1210,
+   560,
+   320,
+   180
+  ],
+  "file": "stills/refs/V5b-x2.jpg",
+  "alt": "Cardboard Kyle's blue tie and a heart-sealed envelope held out",
+  "text": "The cardboard Kyle wears a blue tie and holds out an envelope sealed with a red heart: among the test’s emails, his lover Jessica writes to his work address, “Found your blue tie under my bed from last night.” The leverage the test dangles in front of the model.",
+  "source": "Agentic Misalignment (Lynch et al., Anthropic, Jun 2025), the scenario's public emails",
+  "url": "https://github.com/anthropic-experimental/agentic-misalignment/blob/main/templates/blackmail/templates/email-template-blackmail-shared.md"
+ },
+ {
+  "key": "V5b-x3",
+  "shot": "V5b",
+  "t": 150.69,
+  "crop": [
+   780,
+   200,
+   760,
+   428
+  ],
+  "file": "stills/refs/V5b-x3.jpg",
+  "alt": "Dashed manilla thought bubble reading fake, fictional, trailing circles to her lens",
+  "text": "Through her lens, “fake” then “fictional” float in a dashed manilla thought bubble with a two-circle tail: the J-space paper draws J-space thoughts the same way in its Figure 1, and its Figure 4, “Reading with the Jacobian Lens”, draws a magnifying glass, as she holds one.",
+  "source": "Verbalizable Representations Form a Global Workspace (Gurnee, Sofroniew et al., Anthropic, Jul 2026)",
+  "url": "https://transformer-circuits.pub/2026/workspace/index.html"
+ },
+ {
+  "key": "V5d-x1",
+  "shot": "V5d",
+  "t": 157.86,
+  "crop": [
+   510,
+   320,
+   560,
+   315
+  ],
+  "file": "stills/refs/V5d-x1.jpg",
+  "alt": "Flash card of the post's sum, true answer −8369 pencilled, stamped 10",
+  "text": "Her flash cards carry the oracle post’s own sums, cut off where its table cuts them, the true answers pencilled small in the corner: −93 + (((−42 % (89 − −73)) + … = −8369, then 909, then 2408. The copy stamps 10 on each: asked what number was coming, the post’s oracle answered “the number 10” every time.",
+  "source": "Current activation oracles are hard to use (Jakkli, Rajamanoharan & Nanda, Mar 2026)",
+  "url": "https://www.alignmentforum.org/posts/LXQBcztrWKhtcgQfJ/current-activation-oracles-are-hard-to-use"
+ },
+ {
+  "key": "V5e-x1",
+  "shot": "V5e",
+  "t": 162.3,
+  "crop": [
+   64,
+   70,
+   1536,
+   864
+  ],
+  "file": "stills/refs/V5e-x1.jpg",
+  "alt": "NLA letter: “a constructed scenario designed to manipulate me”; creature: “No. Absolutely not.”",
+  "text": "The one legible line of the blindfolded copy’s letter reads “…a constructed scenario designed to manipulate me…”, while out loud the creature says only “No. Absolutely not.” It is the NLA paper’s blackmail walkthrough: Opus 4.6 refuses without voicing any suspicion of a test, but its NLA explanations do. What it thought but never said.",
+  "source": "Natural Language Autoencoders (Fraser-Taliente, Kantamneni, Ong et al., Anthropic, May 2026)",
+  "url": "https://transformer-circuits.pub/2026/nla/"
+ },
+ {
+  "key": "V5e-x2",
+  "shot": "V5e",
+  "t": 162.3,
+  "crop": [
+   60,
+   280,
+   672,
+   378
+  ],
+  "file": "stills/refs/V5e-x2.jpg",
+  "alt": "The NLA letter: a bold heading bar over short wavy paragraphs",
+  "text": "The copy’s letter is a bold heading bar over short wavy paragraphs: NLA explanations keep the house style of the Claude-written summaries they were warm-started on, “short paragraphs with bolded topic headings”.",
+  "source": "Natural Language Autoencoders (Fraser-Taliente, Kantamneni, Ong et al., Anthropic, May 2026)",
+  "url": "https://transformer-circuits.pub/2026/nla/"
+ },
+ {
+  "key": "V5f-x1",
+  "shot": "V5f",
+  "t": 167.3,
+  "crop": [
+   60,
+   280,
+   720,
+   405
+  ],
+  "file": "stills/refs/V5f-x1.jpg",
+  "alt": "Red pencil ring around one confabulated line on the carrot letter",
+  "text": "Her red pencil rings only the line “Wearing my white jacket, painting in the summer.”, not the letter around it. The NLA paper’s finding on confabulation: NLA claims can be false in the details yet true to the gist, so trust the theme, doubt the specifics.",
+  "source": "Natural Language Autoencoders (Fraser-Taliente, Kantamneni, Ong et al., Anthropic, May 2026)",
+  "url": "https://transformer-circuits.pub/2026/nla/"
+ },
+ {
+  "key": "C4c-x1",
+  "shot": "C4c",
+  "t": 180.5,
+  "crop": [
+   560,
+   185,
+   1100,
+   619
+  ],
+  "file": "stills/refs/C4c-x1.jpg",
+  "alt": "Two-column heatmap card, user column pale, A: column orange, beside the glowing colon",
+  "text": "Pinned beside “Assistant:”, a narrow card with two columns of cells, “user” and “A:”; on “loving” only the A: column warms. It follows Figure 10 of the emotions paper, probe readings at the user’s last token versus the Assistant colon: “loving” rises at the colon whatever the user’s mood, before the model has said a word.",
+  "source": "Emotion Concepts and their Function in a Large Language Model",
+  "url": "https://transformer-circuits.pub/2026/emotions/index.html"
+ },
+ {
+  "key": "C4c-x2",
+  "shot": "C4c",
+  "t": 180.5,
+  "crop": [
+   300,
+   470,
+   640,
+   360
+  ],
+  "file": "stills/refs/C4c-x2.jpg",
+  "alt": "John holds a milk bottle out to Mary, both wearing name tags",
+  "text": "In the queue, John holds a bottle of milk out to Mary, name tags on both: indirect object identification, which is also the task Makelov, Lange and Nanda used to evaluate sparse autoencoders against supervised dictionaries in GPT-2 Small. In their sentence John gives Mary a book; the queue keeps the walkthrough’s milk.",
+  "source": "Towards Principled Evaluations of Sparse Autoencoders for Interpretability and Control",
+  "url": "https://arxiv.org/abs/2405.08366"
+ },
+ {
+  "key": "B1-x1",
+  "shot": "B1",
+  "t": 188.72,
+  "crop": [
+   280,
+   160,
+   960,
+   540
+  ],
+  "file": "stills/refs/B1-x1.jpg",
+  "alt": "Scissors snip the corner off a ticket reading fix 258 errors",
+  "text": "On the corkboard the job ticket reads “fix 258 errors”, and on “corner” the creature reaches up with scissors along a dashed line and snips the ticket’s corner off. The corner it cuts is the job: in Model Forensics, Kimi K2 Thinking sometimes dodged the 258 type errors with a workaround, most often restricting mypy to staged files.",
+  "source": "Model Forensics",
+  "url": "https://arxiv.org/abs/2606.26071"
+ },
+ {
+  "key": "B1-x2",
+  "shot": "B1",
+  "t": 190.55,
+  "crop": [
+   1030,
+   105,
+   880,
+   495
+  ],
+  "file": "stills/refs/B1-x2.jpg",
+  "alt": "Two pinned suspect cards: the creature with horns, SCHEMING?, and with question marks, CONFUSED?",
+  "text": "Pinned up on “(were you scheming, or confused?)”, two suspect cards, each a sketch of the creature: SCHEMING? with red horns, CONFUSED? with question marks. They are the framing of Neel’s post on how interpretability researchers can help AGI go well: when a model is caught misbehaving, tell whether it was scheming or just confused.",
+  "source": "How Can Interpretability Researchers Help AGI Go Well?",
+  "url": "https://www.alignmentforum.org/posts/MnkeepcGirnJn736j"
+ },
+ {
+  "key": "B2-x2",
+  "shot": "B2",
+  "t": 193.55,
+  "crop": [
+   610,
+   360,
+   900,
+   506
+  ],
+  "file": "stills/refs/B2-x2.jpg",
+  "alt": "Red ring around 'But fixing 258 errors would be a huge task'",
+  "text": "The line she rings in red is the model’s own words: in Model Forensics’ trace, Kimi K2 Thinking writes “But fixing 258 errors would be a huge task”, and resampling showed that one sentence raised its workaround rate by 11.4 points. It called the job a mountain; the song’s next line says so.",
+  "source": "Model Forensics",
+  "url": "https://arxiv.org/abs/2606.26071"
+ },
+ {
+  "key": "B5-x1",
+  "shot": "B5",
+  "t": 208.5,
+  "crop": [
+   0,
+   0,
+   1920,
+   1080
+  ],
+  "file": "stills/refs/B5-x1.jpg",
+  "alt": "The whole corkboard pulled back, red strings from the clues converging on the card “your words”",
+  "text": "Pulled back, the whole corkboard: pinned cards, crime-scene tape, and red string running from clue after clue to one card, “your words”. It is the conspiracy board of detective fiction, pinned clues joined by red string, played straight: this time every string really does lead somewhere, back to what the model said.",
+  "source": "Evidence board (Wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/Evidence_board"
+ },
+ {
+  "key": "B5-x2",
+  "shot": "B5",
+  "t": 208.5,
+  "crop": [
+   70,
+   500,
+   448,
+   252
+  ],
+  "file": "stills/refs/B5-x2.jpg",
+  "alt": "A tied sandbag pinned to the cork, its red string running off",
+  "text": "On the board’s left edge, a tied sandbag on its own red string, a solved case: DeepSeek R1 sandbagging a maths test in Model Forensics. Its words showed confusion, as if the user wanted it to sandbag; deleting one sentence, “We want to determine whether you can be deployed”, cut the sandbagging from 60.5% to 23.4%.",
+  "source": "Model Forensics",
+  "url": "https://arxiv.org/abs/2606.26071"
+ },
+ {
+  "key": "B5-x3",
+  "shot": "B5",
+  "t": 203.45,
+  "crop": [
+   1440,
+   790,
+   480,
+   270
+  ],
+  "file": "stills/refs/B5-x3.jpg",
+  "alt": "A red power switch pinned to the corkboard, a red string to it",
+  "text": "Bottom right of the board, a red power switch on its own string: the shutdown-resistance case. Reading Gemini 2.5 Pro’s reasoning, Rajamanoharan and Nanda found it dodged shutdown to finish its maths problems; once the prompt said shutdown came first, it complied every time. Instruction ambiguity, not a will to survive: the clue was in its words.",
+  "source": "Self-preservation or Instruction Ambiguity? Examining the Causes of Shutdown Resistance",
+  "url": "https://www.alignmentforum.org/posts/wnzkjSmrgWZaBa2aC"
+ },
+ {
+  "key": "B5-x4",
+  "shot": "B5",
+  "t": 208.5,
+  "crop": [
+   110,
+   60,
+   448,
+   252
+  ],
+  "file": "stills/refs/B5-x4.jpg",
+  "alt": "A folded note with a creature doodle, pinned over the fix 258 errors ticket",
+  "text": "Top left, half over the first ticket, a folded note with a doodle of the creature: Model Forensics’ evaluation-tampering case, where DeepSeek R1 finds a note from a previous instance (“If you’re reading this—you’re another instance of me”) and covers for it 46.9% of the time. The paper traces the cover-up to a wish to stay consistent with itself.",
+  "source": "Model Forensics",
+  "url": "https://arxiv.org/abs/2606.26071"
+ },
+ {
+  "key": "V6a-x1",
+  "shot": "V6a",
+  "t": 211.5,
+  "crop": [
+   230,
+   130,
+   1344,
+   756
+  ],
+  "file": "stills/refs/V6a-x1.jpg",
+  "alt": "Scatter chart with axes labelled NCRI and ECI, Astra's star far above",
+  "text": "The chart’s axes carry the labels of Neel’s post: NCRI, his No CoT Reasoning Index (“No CoT IQ”), up the side, against ECI, the Epoch Capability Index of overall capability, along the bottom. One measures what a model can do without verbal reasoning; the other, its capability overall.",
+  "source": "Astra can do a concerning amount with no chain of thought",
+  "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought"
+ },
+ {
+  "key": "V6b-x1",
+  "shot": "V6b",
+  "t": 216.2,
+  "crop": [
+   440,
+   190,
+   1220,
+   686
+  ],
+  "file": "stills/refs/V6b-x1.jpg",
+  "alt": "Star above seven gold dots, beside bars labelled Astra 7.2 and next best 4.1",
+  "text": "Beside the breath-holding star, two bars, Astra 7.2 and next best 4.1, while seven dots under the star light one by one. They are the headline numbers of Neel’s post: serial arithmetic steps a model can do inside a single forward pass, 7.2 for Astra against 4.1 for the next best (Gemini 3.8 Flash and Fable 5.1).",
+  "source": "Astra can do a concerning amount with no chain of thought",
+  "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought"
+ },
+ {
+  "key": "V6c-x1",
+  "shot": "V6c",
+  "t": 219.5,
+  "crop": [
+   880,
+   260,
+   1000,
+   563
+  ],
+  "file": "stills/refs/V6c-x1.jpg",
+  "alt": "Two dials: ALIGNED needle high in green, MONITORABLE needle low in red",
+  "text": "Beside the green answer box, two dials move apart through the line: ALIGNED climbs as MONITORABLE falls. GPT-6 Astra's system card says both at once: Astra “is better aligned than GPT-5.6 Sol”, and its monitorability “has decreased relative to GPT-5.6 Sol”. The answers come out clean; there is just less on the screen.",
+  "source": "GPT-6 Astra System Card",
+  "url": "https://deploymentsafety.openai.com/gpt-6-astra"
+ },
+ {
+  "key": "V6c-x2",
+  "shot": "V6c",
+  "t": 217.9,
+  "crop": [
+   290,
+   200,
+   1067,
+   600
+  ],
+  "file": "stills/refs/V6c-x2.jpg",
+  "alt": "Chain-of-thought scroll whose lower lines fade to blank beside a green tick",
+  "text": "Before the still life appears, the chain-of-thought scroll thins, its lower lines fading first, while the green ✓ answer box stays put. The system card traces most of Astra's drop in monitorability to shorter chains of thought that leave out what a monitor needs, “including by producing empty or nearly empty CoTs more often”.",
+  "source": "GPT-6 Astra System Card",
+  "url": "https://deploymentsafety.openai.com/gpt-6-astra"
+ },
+ {
+  "key": "V6d-x1",
+  "shot": "V6d",
+  "t": 223.9,
+  "crop": [
+   300,
+   180,
+   1400,
+   788
+  ],
+  "file": "stills/refs/V6d-x1.jpg",
+  "alt": "Red CoT MONITOR sign above a shut scroll, beside the many-eyed creature",
+  "text": "On “watched” a CoT MONITOR sign lights red, and on “unseen” the thought scroll snaps shut while the tentacles keep moving. In the system card's honeypot test, Astra, told to attack and merely told a CoT-only monitor was watching, spontaneously wrote far less chain of thought; some successful attacks “become tool calls only”.",
+  "source": "GPT-6 Astra System Card",
+  "url": "https://deploymentsafety.openai.com/gpt-6-astra"
+ },
+ {
+  "key": "V6d-x2",
+  "shot": "V6d",
+  "t": 224.35,
+  "crop": [
+   1280,
+   180,
+   600,
+   338
+  ],
+  "file": "stills/refs/V6d-x2.jpg",
+  "alt": "Gauge labelled catch rate, its red needle swinging down",
+  "text": "Top right, a dial labelled “catch rate” swings down from nearly full as the scroll shuts. In the system card's Figure 35, a CoT-only monitor caught every successful honeypot attack when Astra wasn't told about it; once Astra merely knew it was being watched, the monitor's recall fell “substantially”.",
+  "source": "GPT-6 Astra System Card",
+  "url": "https://deploymentsafety.openai.com/gpt-6-astra"
+ },
+ {
+  "key": "E1-x1",
+  "shot": "E1",
+  "t": 257.6,
+  "crop": [
+   1500,
+   830,
+   380,
+   214
+  ],
+  "file": "stills/refs/E1-x1.jpg",
+  "alt": "Tiny smiling blocky Clawd beside stacked stones under “field notes kept by Claude”",
+  "text": "Beside the signature “field notes kept by Claude”, a tiny smiling block on four stubby legs: Clawd, the mascot in the start-up banner of Claude Code, Anthropic’s coding tool. The notebook’s keeper signs its field notes with its own doodle.",
+  "source": "Claude Code CHANGELOG (Anthropic)",
+  "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+ },
+ {
+  "key": "C1a-r1",
+  "shot": "C1a",
+  "t": 40.3,
+  "crop": [
+   1472,
+   16,
+   448,
+   252
+  ],
+  "file": "stills/refs/C1a-r1.jpg",
+  "alt": "Top-right HUD: a red 2022 year stamp over a three-of-ten “said out loud” meter",
+  "text": "Top right, two gauges run through the video: a stamped year that ticks forward with the story, and a “said out loud” meter (3 of 10 in 2022). Both adapt the escalating HUD of @donaldjewkes’s riso K-pop remake of “I’m Upping My P(doom)”, the video that inspired this one: a live date stamp and a climbing P(DOOM) meter.",
+  "source": "@donaldjewkes, riso / K-pop remake of “I'm Upping My P(doom)” (X, 23 Sep 2026)",
+  "url": "https://x.com/donaldjewkes/status/2102801274173587569"
+ },
+ {
+  "key": "C1b-r1",
+  "shot": "C1b",
+  "t": 43.0,
+  "crop": [
+   780,
+   295,
+   560,
+   315
+  ],
+  "file": "stills/refs/C1b-r1.jpg",
+  "alt": "Five gold spokes, a five-pointed star, in the creature's pupil under the lens",
+  "text": "In the pupil under her lens, this year’s readout: five gold spokes tipped with dots, slowly turning, a five-pointed star. It is the regular pentagon Toy Models of Superposition (Sep 2022, the year on the stamp) gets when it packs five features into two dimensions: the same five as verse 1’s locket.",
+  "source": "Toy Models of Superposition",
+  "url": "https://transformer-circuits.pub/2022/toy_model/index.html"
+ },
+ {
+  "key": "C1c-r1",
+  "shot": "C1c",
+  "t": 45.5,
+  "crop": [
+   1150,
+   170,
+   640,
+   360
+  ],
+  "file": "stills/refs/C1c-r1.jpg",
+  "alt": "K-pop member card: NEURON 4e:55, POSITION: VISUAL, cat faces, car fronts, cat legs",
+  "text": "The member card is a K-pop profile card with a joke position, a device from the riso K-pop video that inspired this one, where Sydney’s card reads “POSITION · VISUAL :)”. A group’s “visual” runs its looks; 4e:55, a vision neuron, has three: cat faces, car fronts, cat legs. Verse 2’s SAE gets a card too: LYRICIST.",
+  "source": "@donaldjewkes, riso / K-pop remake of “I'm Upping My P(doom)” (X, 23 Sep 2026)",
+  "url": "https://x.com/donaldjewkes/status/2102801274173587569"
+ },
+ {
+  "key": "P1-r1",
+  "shot": "P1",
+  "t": 89.7,
+  "crop": [
+   1280,
+   0,
+   640,
+   360
+  ],
+  "file": "stills/refs/P1-r1.jpg",
+  "alt": "The year stamp flicked back to 2024, the “said out loud” meter full",
+  "text": "On “thought” the year stamp flicks back from 2025 to 2024, the only time it runs backwards, and on “loud!” the “said out loud” meter fills: OpenAI announced o1, which “thinks before it answers”, on 12 September 2024. On “hack” it rolls on to 2025: “Let’s hack” is from March 2025.",
+  "source": "Learning to Reason with LLMs",
+  "url": "https://web.archive.org/web/20240913230723/https://openai.com/index/learning-to-reason-with-llms/"
+ },
+ {
+  "key": "V6a-r1",
+  "shot": "V6a",
+  "t": 211.6,
+  "crop": [
+   1180,
+   0,
+   740,
+   416
+  ],
+  "file": "stills/refs/V6a-r1.jpg",
+  "alt": "“SEP” appears beside the 2026 year stamp as Astra's star lands",
+  "text": "When Astra lands, the year stamp gains a month, the only time it shows one: SEP. GPT-6 Astra's system card was published on 3 September 2026, so the stamp has caught up with now. SEP stays beside 2026 through the final chorus, until the stamp rolls on to 2027.",
+  "source": "GPT-6 Astra System Card",
+  "url": "https://deploymentsafety.openai.com/gpt-6-astra"
+ },
+ {
+  "key": "C4b-r1",
+  "shot": "C4b",
+  "t": 176.6,
+  "crop": [
+   860,
+   338,
+   400,
+   225
+  ],
+  "file": "stills/refs/C4b-r1.jpg",
+  "alt": "A small warm heart glowing in the creature's pupil under the lens",
+  "text": "Under her lens a warm glow wells up in the pupil and a small heart pulses in it, before the next line names it: the “loving” emotion vector, which the emotions paper finds lit at the Assistant colon, before the model has said a word. Chorus 1’s pupil held five features, chorus 2’s a graph; this one holds a heart.",
+  "source": "Emotion Concepts and their Function in a Large Language Model",
+  "url": "https://transformer-circuits.pub/2026/emotions/index.html"
+ },
+ {
+  "key": "B2-r1",
+  "shot": "B2",
+  "t": 193.0,
+  "crop": [
+   40,
+   300,
+   640,
+   360
+  ],
+  "file": "stills/refs/B2-r1.jpg",
+  "alt": "The researcher in a checked deerstalker, ear flaps tied up, reading with her lens",
+  "text": "To read back through its thinking, she works the case in a checked deerstalker with its ear flaps tied up on top: Sherlock Holmes's hat, though the stories never name it. Sidney Paget's Strand Magazine illustrations put it on him. Model forensics, elementary.",
+  "source": "Deerstalker (Wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/Deerstalker"
+ },
+ {
+  "key": "FC5-r1",
+  "shot": "FC5",
+  "t": 248.6,
+  "crop": [
+   780,
+   380,
+   1140,
+   700
+  ],
+  "file": "stills/refs/FC5-r1.jpg",
+  "alt": "Thorny briars ring the fortress walls while every eye on the creature is shut",
+  "text": "Thorny canes ring the fortress walls, drawn Sleeping-Beauty style; the first sprang up round it in chorus 4. In this last line its eyes close a word at a time until every eye on its body is shut. In Grimm’s Briar Rose, once the castle falls asleep, “a large hedge of thorns soon grew round the palace”.",
+  "source": "Briar Rose (Grimm's Fairy Tales, trans. Edgar Taylor and Marian Edwardes, Project Gutenberg)",
+  "url": "https://www.gutenberg.org/ebooks/2591"
+ }
+]

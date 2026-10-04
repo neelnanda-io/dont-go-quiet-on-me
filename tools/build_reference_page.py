@@ -318,13 +318,46 @@ def encode_stills(src, ids, force=False):
 
 
 REF_STILLS = REPO / "tools" / "ref_stills.json"  # {key: {t, crop, file, alt}}, key = "<shot id>-<n>" (n from 1)
+# References found by auditing the video itself (scene code + frames), beyond the review page's SPOT list. Each entry
+# carries its own text, source and still: {key ("<shot>-x<n>" or "<shot>-r<n>"), shot, t, crop, file, alt, text,
+# source, url}.
+EXTRA_REFS = REPO / "tools" / "extra_refs.json"
+# SPOT items that bundle several references and are fully replaced, on this public page, by one audited entry per
+# reference. They stay in SPOT (the review page); here they are hidden. Each lists the entries that replace it.
+SUPERSEDED = {
+    "V2b-1": ["V2b-x1", "V2b-x2", "V2b-x3", "V2b-x4", "V2b-x5"],  # the dictionary's examples, page 512, QUJD
+    "V2c-1": ["V2c-x1", "V2c-x2", "V2c-x3"],                      # dead latents, 34M/31164353, the 10× clamp
+    "V3c-1": ["V3a-x3", "V3b-x3", "V3c-x1"],                      # the table flip, the 2-week hourglass, the 2×2
+}
 
 
-def load_ref_stills(per_shot):
-    """One close-up still per SPOT item, rendered at the moment the reference is clearest (see ref_stills.json)."""
+def load_extra_refs(inp):
+    if not EXTRA_REFS.exists():
+        return {}
+    by_shot = {}
+    for x in json.loads(EXTRA_REFS.read_text()):
+        if x["shot"] not in inp["shots"]:
+            raise SystemExit(f"extra ref {x['key']} names an unknown shot {x['shot']!r}")
+        by_shot.setdefault(x["shot"], []).append(x)
+    have = {x["key"] for xs in by_shot.values() for x in xs}
+    for old, new in SUPERSEDED.items():
+        gone = [k for k in new if k not in have]
+        if gone:
+            raise SystemExit(f"{old} is hidden as superseded, but its replacements {gone} are not in {EXTRA_REFS.name}")
+    return by_shot
+
+
+def load_ref_stills(per_shot, extras):
+    """One close-up still per reference, rendered at the moment it is clearest (ref_stills.json, extra_refs.json)."""
     from PIL import Image
     data = {r["key"]: r for r in json.loads(REF_STILLS.read_text())}
-    want = [f"{sid}-{k + 1}" for sid, items in per_shot.items() for k in range(len(items))]
+    for xs in extras.values():
+        for x in xs:
+            if x["key"] in data:
+                raise SystemExit(f"extra ref key {x['key']} clashes with a SPOT still")
+            data[x["key"]] = x
+    want = ([f"{sid}-{k + 1}" for sid, items in per_shot.items() for k in range(len(items))]
+            + [x["key"] for xs in extras.values() for x in xs])
     missing = [k for k in want if k not in data or not (DOCS / data[k]["file"]).exists()]
     if missing:
         raise SystemExit(f"{len(missing)} references have no still in {REF_STILLS.name}: {missing[:12]}")
@@ -524,7 +557,7 @@ FAVICON = ("data:image/svg+xml," + "%3Csvg xmlns='http://www.w3.org/2000/svg' vi
            "%3Ccircle cx='27' cy='27' r='3' fill='%23fff'/%3E%3C/svg%3E")
 
 
-def page(inp, chapters, per_shot, sizes, n_refs, refs):
+def page(inp, chapters, per_shot, sizes, n_refs, refs, extras):
     cards, shots = inp["cards"], inp["shots"]
     H = []
     a = H.append
@@ -631,10 +664,11 @@ def page(inp, chapters, per_shot, sizes, n_refs, refs):
                 card = third_person(cards[sid], f"the card of {sid}", inp)
                 a(f'<p class="card"><span class="lab">Cited</span>{E(card)}</p>')
             items = per_shot.get(sid, [])
-            if items:
-                ordered = sorted(enumerate(items), key=lambda ki: refs[f"{sid}-{ki[0] + 1}"]["t"])  # in screen order
-                a('<ul class="spot">' + "".join(spot_li(it, inp, refs[f"{sid}-{k + 1}"])
-                                                for k, it in ordered) + "</ul>")
+            if items or extras.get(sid):
+                entries = ([(f"{sid}-{k + 1}", it) for k, it in enumerate(items) if f"{sid}-{k + 1}" not in SUPERSEDED]
+                           + [(x["key"], (x["text"], x["source"], x["url"], True)) for x in extras.get(sid, [])])
+                entries.sort(key=lambda e: refs[e[0]]["t"])  # in screen order
+                a('<ul class="spot">' + "".join(spot_li(it, inp, refs[key]) for key, it in entries) + "</ul>")
             a("</article>")
         a("</section>")
 
@@ -711,17 +745,22 @@ def main():
     assert set(ALT) == set(inp["shots"]), f"ALT and the shot list differ: {set(ALT) ^ set(inp['shots'])}"
     made, sizes = encode_stills(src, list(inp["shots"]), force=args.force_stills)
 
-    refs = load_ref_stills(per_shot)
-    out = page(inp, chapters, per_shot, sizes, n_refs, refs)
+    extras = load_extra_refs(inp)
+    n_extra = sum(len(v) for v in extras.values())
+    refs = load_ref_stills(per_shot, extras)
+    n_shown = n_refs - len(SUPERSEDED) + n_extra
+    out = page(inp, chapters, per_shot, sizes, n_shown, refs, extras)
     rendered = len(re.findall(r'<li class="ref"', out.split('<section class="chapter"', 1)[1].split("<footer>")[0]))
-    assert rendered == n_spot, f"rendered {rendered} SPOT items, SPOT has {n_spot}"
+    assert rendered == n_shown, f"rendered {rendered} references, expected {n_shown}"
     DOCS.mkdir(exist_ok=True)
     (DOCS / "index.html").write_text(out)
     (DOCS / ".nojekyll").write_text("")
 
     stills_mb = sum(p.stat().st_size for p in STILLS_OUT.glob("*.jpg")) / 1e6
     print(f"wrote {DOCS / 'index.html'} ({len(out.encode()) / 1e3:.0f} kB): {len(chapters)} chapters, "
-          f"{len(inp['shots'])} shots with stills, {rendered}/{n_spot} SPOT items each with its own still; "
+          f"{len(inp['shots'])} shots with stills, {rendered} references ({n_spot} SPOT, {len(SUPERSEDED)} of them "
+          f"split into finer entries, + {n_extra} found by audit), "
+          "each with its own still; "
           f"stills: {made} re-encoded, {stills_mb:.1f} MB total")
     if args.check_links:
         check_links(out)
