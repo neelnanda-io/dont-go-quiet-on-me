@@ -317,6 +317,26 @@ def encode_stills(src, ids, force=False):
     return made, sizes
 
 
+REF_STILLS = REPO / "tools" / "ref_stills.json"  # {key: {t, crop, file, alt}}, key = "<shot id>-<n>" (n from 1)
+
+
+def load_ref_stills(per_shot):
+    """One close-up still per SPOT item, rendered at the moment the reference is clearest (see ref_stills.json)."""
+    from PIL import Image
+    data = {r["key"]: r for r in json.loads(REF_STILLS.read_text())}
+    want = [f"{sid}-{k + 1}" for sid, items in per_shot.items() for k in range(len(items))]
+    missing = [k for k in want if k not in data or not (DOCS / data[k]["file"]).exists()]
+    if missing:
+        raise SystemExit(f"{len(missing)} references have no still in {REF_STILLS.name}: {missing[:12]}")
+    extra = sorted(set(data) - set(want))
+    if extra:
+        raise SystemExit(f"ref_stills.json has keys for no reference (SPOT or SHOT_OF changed?): {extra}")
+    for k in want:
+        with Image.open(DOCS / data[k]["file"]) as im:
+            data[k]["size"] = im.size
+    return data
+
+
 # ----------------------------------------------------------------------------------------------- html
 E = lambda s: html.escape(s, quote=True)  # noqa: E731
 
@@ -340,7 +360,7 @@ def lyric_line(line):
     return "".join(f'<span class="bv">{E(p)}</span>' if p.startswith("(") else E(p) for p in parts if p)
 
 
-def spot_li(item, inp):
+def spot_li(item, inp, rs):
     what, title, url = item[0], item[1], item[2]
     text = third_person(public_text(what, inp), "a SPOT item", inp)
     if url:
@@ -349,7 +369,14 @@ def spot_li(item, inp):
         src = f' <span class="src">{E(title)}</span>'
     else:
         src = ""
-    return f"<li>{E(text)}{src}</li>"
+    t, (w, h) = rs["t"], rs["size"]
+    alt = third_person(rs["alt"], f"the alt text of {rs['key']}", inp)
+    return (f'<li class="ref" id="{E(rs["key"])}">'
+            f'<a class="refstill" href="{yt(t)}" target="_blank" rel="noopener">'
+            f'<img src="{E(rs["file"])}" width="{w}" height="{h}" alt="{E(alt)}" loading="lazy" decoding="async">'
+            f'<span class="vh"> (play from {mmss(t)} on YouTube)</span></a>'
+            f'<p><a class="ts" href="{yt(t)}" target="_blank" rel="noopener" '
+            f'aria-label="Play from {mmss(t)} on YouTube">{mmss(t)}</a> {E(text)}{src}</p></li>')
 
 
 CSS = r"""
@@ -451,9 +478,17 @@ a.still:hover{transform:translateY(-2px)}
 .meta .name{font-style:italic;font-weight:600;font-size:18px}
 .card{margin:2px 0 6px;font-size:14px;line-height:1.45;color:var(--ink-soft)}
 .card .lab{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-ink);margin-right:6px}
-ul.spot{margin:8px 0 0;padding-left:20px}
-ul.spot li{margin:0 0 10px;padding-left:2px}
-ul.spot li::marker{color:var(--vermilion)}
+ul.spot{margin:12px 0 0;padding:0;list-style:none}
+li.ref{margin:0 0 18px;padding:0 0 16px;border-bottom:1px dashed var(--rule)}
+li.ref:last-child{border-bottom:0;padding-bottom:0}
+li.ref p{margin:8px 0 0}
+li.ref p .ts{margin-right:4px;vertical-align:.05em}
+.refstill{display:block;border-radius:3px;overflow:hidden;border:1px solid var(--rule);box-shadow:var(--shadow);
+  background:#1d1a16;transition:transform .15s ease}
+a.refstill:hover{transform:translateY(-2px)}
+.refstill img{width:100%;height:auto;display:block}
+@media (min-width:700px){li.ref{display:grid;grid-template-columns:minmax(0,46%) minmax(0,1fr);gap:16px;align-items:start}
+  li.ref p{margin:0}}
 .src{font-size:.9em;font-style:italic;white-space:normal}
 a.src::after{content:" ↗";font-style:normal;font-size:.85em}
 span.src{color:var(--ink-soft)}
@@ -489,7 +524,7 @@ FAVICON = ("data:image/svg+xml," + "%3Csvg xmlns='http://www.w3.org/2000/svg' vi
            "%3Ccircle cx='27' cy='27' r='3' fill='%23fff'/%3E%3C/svg%3E")
 
 
-def page(inp, chapters, per_shot, sizes, n_refs):
+def page(inp, chapters, per_shot, sizes, n_refs, refs):
     cards, shots = inp["cards"], inp["shots"]
     H = []
     a = H.append
@@ -538,9 +573,9 @@ def page(inp, chapters, per_shot, sizes, n_refs):
             "chorus, into a walled fortress while she keeps trying to read it: circuits, superposition and grokking, "
             "sparse autoencoders and Golden Gate Claude, probes, chain of thought, eval awareness, and models that "
             "think without saying. Claude Opus 5.5 made it with Suno v6, for Neel Nanda.")
-    lede2 = (f"The video is dense on purpose, a reward for people in the field. This page explains all {n_refs} "
-             "references, chapter by chapter, with a still from each shot and a link to each source. Tap a still "
-             "or a timestamp to play the video from that moment.")
+    lede2 = (f"The video is dense on purpose. This page explains all {n_refs} references, chapter by chapter, each "
+             "with a still of the moment it appears and a link to its source. Tap a still or a timestamp to play "
+             "the video from that moment.")
     for t in (lede, lede2):
         third_person(re.sub(r"<[^>]+>", "", t), "the intro", inp)
     a("<header>")
@@ -597,7 +632,9 @@ def page(inp, chapters, per_shot, sizes, n_refs):
                 a(f'<p class="card"><span class="lab">Cited</span>{E(card)}</p>')
             items = per_shot.get(sid, [])
             if items:
-                a('<ul class="spot">' + "".join(spot_li(it, inp) for it in items) + "</ul>")
+                ordered = sorted(enumerate(items), key=lambda ki: refs[f"{sid}-{ki[0] + 1}"]["t"])  # in screen order
+                a('<ul class="spot">' + "".join(spot_li(it, inp, refs[f"{sid}-{k + 1}"])
+                                                for k, it in ordered) + "</ul>")
             a("</article>")
         a("</section>")
 
@@ -674,8 +711,9 @@ def main():
     assert set(ALT) == set(inp["shots"]), f"ALT and the shot list differ: {set(ALT) ^ set(inp['shots'])}"
     made, sizes = encode_stills(src, list(inp["shots"]), force=args.force_stills)
 
-    out = page(inp, chapters, per_shot, sizes, n_refs)
-    rendered = len(re.findall(r"<li>", out.split('<section class="chapter"', 1)[1].split("<footer>")[0]))
+    refs = load_ref_stills(per_shot)
+    out = page(inp, chapters, per_shot, sizes, n_refs, refs)
+    rendered = len(re.findall(r'<li class="ref"', out.split('<section class="chapter"', 1)[1].split("<footer>")[0]))
     assert rendered == n_spot, f"rendered {rendered} SPOT items, SPOT has {n_spot}"
     DOCS.mkdir(exist_ok=True)
     (DOCS / "index.html").write_text(out)
@@ -683,7 +721,7 @@ def main():
 
     stills_mb = sum(p.stat().st_size for p in STILLS_OUT.glob("*.jpg")) / 1e6
     print(f"wrote {DOCS / 'index.html'} ({len(out.encode()) / 1e3:.0f} kB): {len(chapters)} chapters, "
-          f"{len(inp['shots'])} shots with stills, {rendered}/{n_spot} SPOT items; "
+          f"{len(inp['shots'])} shots with stills, {rendered}/{n_spot} SPOT items each with its own still; "
           f"stills: {made} re-encoded, {stills_mb:.1f} MB total")
     if args.check_links:
         check_links(out)

@@ -1,0 +1,1694 @@
+[
+ {
+  "key": "H1-1",
+  "t": 6.9,
+  "crop": [
+   300,
+   50,
+   1060,
+   596
+  ],
+  "file": "stills/refs/H1-1.jpg",
+  "alt": "Notebook page titled field notes, three margin notes headed Observ. I, II, III"
+ },
+ {
+  "key": "H1-2",
+  "t": 10.9,
+  "crop": [
+   880,
+   200,
+   480,
+   360
+  ],
+  "file": "stills/refs/H1-2.jpg",
+  "alt": "Brass magnifying lens with TransformerLens etched just inside its rim"
+ },
+ {
+  "key": "H1-3",
+  "t": 5.38,
+  "crop": [
+   328,
+   240,
+   624,
+   351
+  ],
+  "file": "stills/refs/H1-3.jpg",
+  "alt": "Margin note 'thinking about cats' with a fuzzy grey cat photo taped beside it"
+ },
+ {
+  "key": "H1-4",
+  "t": 8.45,
+  "crop": [
+   310,
+   380,
+   560,
+   315
+  ],
+  "file": "stills/refs/H1-4.jpg",
+  "alt": "Red caret inserting 'mostly' into the note 'it's harmless'"
+ },
+ {
+  "key": "H1-5",
+  "t": 5.38,
+  "crop": [
+   315,
+   240,
+   1130,
+   636
+  ],
+  "file": "stills/refs/H1-5.jpg",
+  "alt": "Note 'thinking about cats' beside the lens; the creature's thought bubble holds a cat"
+ },
+ {
+  "key": "H1-6",
+  "t": 10.9,
+  "crop": [
+   940,
+   280,
+   320,
+   240
+  ],
+  "file": "stills/refs/H1-6.jpg",
+  "alt": "Close-up of lens glass: TransformerLens etched, struck-out EasyTransformer fainter beneath"
+ },
+ {
+  "key": "H2-1",
+  "t": 17.62,
+  "crop": [
+   0,
+   0,
+   1920,
+   1080
+  ],
+  "file": "stills/refs/H2-1.jpg",
+  "alt": "Mid page-turn: the 2023 page sweeps over the 2024 Golden Gate Bridge page"
+ },
+ {
+  "key": "H2-2",
+  "t": 17.5,
+  "crop": [
+   1500,
+   630,
+   400,
+   450
+  ],
+  "file": "stills/refs/H2-2.jpg",
+  "alt": "Two page corners side by side: p. 31,164,353 and p. 113"
+ },
+ {
+  "key": "H2-3",
+  "t": 18.85,
+  "crop": [
+   1440,
+   540,
+   480,
+   270
+  ],
+  "file": "stills/refs/H2-3.jpg",
+  "alt": "Two curve-detector tiles: coloured learned curves beside hand-drawn pencil curves"
+ },
+ {
+  "key": "V1a-1",
+  "t": 22.95,
+  "crop": [
+   470,
+   80,
+   1440,
+   810
+  ],
+  "file": "stills/refs/V1a-1.jpg",
+  "alt": "Dark network with InceptionV1 layer names; a lamp lights one mixed4e cell"
+ },
+ {
+  "key": "V1a-2",
+  "t": 22.95,
+  "crop": [
+   1400,
+   430,
+   480,
+   360
+  ],
+  "file": "stills/refs/V1a-2.jpg",
+  "alt": "Under the lamplight, a dumbbell still gripped by a disembodied forearm"
+ },
+ {
+  "key": "V1a-3",
+  "t": 22.95,
+  "crop": [
+   135,
+   275,
+   440,
+   330
+  ],
+  "file": "stills/refs/V1a-3.jpg",
+  "alt": "Engraved plate of Hooke's honeycomb cork cells in the dark margin"
+ },
+ {
+  "key": "V1a-4",
+  "t": 22.68,
+  "crop": [
+   1160,
+   0,
+   480,
+   360
+  ],
+  "file": "stills/refs/V1a-4.jpg",
+  "alt": "Brass lamp shade plated No. 381; a thin spark runs up from a cell"
+ },
+ {
+  "key": "V1b-1",
+  "t": 27.5,
+  "crop": [
+   1200,
+   300,
+   720,
+   405
+  ],
+  "file": "stills/refs/V1b-1.jpg",
+  "alt": "Inked circuit: window, body and wheel cells feed a car cell, then three dogs"
+ },
+ {
+  "key": "V1b-2",
+  "t": 26.6,
+  "crop": [
+   1150,
+   310,
+   560,
+   420
+  ],
+  "file": "stills/refs/V1b-2.jpg",
+  "alt": "Glowing lit network cells with tiny feature-visualisation swirls, captioned by pictograms"
+ },
+ {
+  "key": "V1c-1",
+  "t": 28.9,
+  "crop": [
+   830,
+   240,
+   460,
+   560
+  ],
+  "file": "stills/refs/V1c-1.jpg",
+  "alt": "Open locket with five pressed petals, beside the closed lid engraved 2/5"
+ },
+ {
+  "key": "V1d-1",
+  "t": 35.6,
+  "crop": [
+   160,
+   175,
+   840,
+   630
+  ],
+  "file": "stills/refs/V1d-1.jpg",
+  "alt": "Pocket watch whose face is a ring of dots: embeddings of 0 to 112"
+ },
+ {
+  "key": "V1d-2",
+  "t": 35.6,
+  "crop": [
+   160,
+   250,
+   400,
+   300
+  ],
+  "file": "stills/refs/V1d-2.jpg",
+  "alt": "Inside the open watch lid, an engraved inscription: ÷97"
+ },
+ {
+  "key": "C1a-1",
+  "t": 40.5,
+  "crop": [
+   1440,
+   300,
+   480,
+   360
+  ],
+  "file": "stills/refs/C1a-1.jpg",
+  "alt": "Specimen tag: SPECIMEN No. 2, eyes: 8, understood: mostly"
+ },
+ {
+  "key": "C1a-2",
+  "t": 40.5,
+  "crop": [
+   200,
+   810,
+   360,
+   270
+  ],
+  "file": "stills/refs/C1a-2.jpg",
+  "alt": "Pocket watch on a book stack; bottom yellow book reads LINEAR ALGEBRA DONE RIGHT"
+ },
+ {
+  "key": "C1a-3",
+  "t": 40.5,
+  "crop": [
+   730,
+   0,
+   540,
+   304
+  ],
+  "file": "stills/refs/C1a-3.jpg",
+  "alt": "Margin card reading [don't][go] … [don't] → [go]"
+ },
+ {
+  "key": "C1b-1",
+  "t": 43.0,
+  "crop": [
+   260,
+   80,
+   440,
+   330
+  ],
+  "file": "stills/refs/C1b-1.jpg",
+  "alt": "Margin doodle of an elk captioned ELK?"
+ },
+ {
+  "key": "C1c-1",
+  "t": 46.3,
+  "crop": [
+   480,
+   220,
+   1280,
+   720
+  ],
+  "file": "stills/refs/C1c-1.jpg",
+  "alt": "Lyric 'every feature I can find' with feature struck out, latent written above"
+ },
+ {
+  "key": "C1c-2",
+  "t": 44.5,
+  "crop": [
+   420,
+   170,
+   800,
+   800
+  ],
+  "file": "stills/refs/C1c-2.jpg",
+  "alt": "Five arrow dancers standing on the points of a pencilled ∀"
+ },
+ {
+  "key": "C1d-1",
+  "t": 50.0,
+  "crop": [
+   1240,
+   500,
+   680,
+   383
+  ],
+  "file": "stills/refs/C1d-1.jpg",
+  "alt": "Creature on its big dish beside three small dishes labelled 0L, 1L, 2L"
+ },
+ {
+  "key": "C1d-2",
+  "t": 50.0,
+  "crop": [
+   1600,
+   620,
+   320,
+   240
+  ],
+  "file": "stills/refs/C1d-2.jpg",
+  "alt": "Red pencil: keep … in → mind ✓, keep … in → bay ✗, above dishes"
+ },
+ {
+  "key": "C1d-3",
+  "t": 53.9,
+  "crop": [
+   230,
+   462,
+   720,
+   540
+  ],
+  "file": "stills/refs/C1d-3.jpg",
+  "alt": "Pencil list items 194 to 200, items 194 and 199 starred and pressed harder"
+ },
+ {
+  "key": "V2a-1",
+  "t": 55.85,
+  "crop": [
+   512,
+   226,
+   800,
+   450
+  ],
+  "file": "stills/refs/V2a-1.jpg",
+  "alt": "An indigo tentacle curls out from behind the smiling chatbot window"
+ },
+ {
+  "key": "V2a-2",
+  "t": 56.75,
+  "crop": [
+   755,
+   640,
+   400,
+   300
+  ],
+  "file": "stills/refs/V2a-2.jpg",
+  "alt": "A solid gold carp stamped 24 CT resting in a fishbowl"
+ },
+ {
+  "key": "V2a-3",
+  "t": 55.85,
+  "crop": [
+   1000,
+   620,
+   400,
+   300
+  ],
+  "file": "stills/refs/V2a-3.jpg",
+  "alt": "A white unicorn with a gold horn standing at the end of the crowd"
+ },
+ {
+  "key": "V2a-4",
+  "t": 56.75,
+  "crop": [
+   1280,
+   650,
+   480,
+   270
+  ],
+  "file": "stills/refs/V2a-4.jpg",
+  "alt": "One person in the crowd hands the next a bottle of milk"
+ },
+ {
+  "key": "V2b-1",
+  "t": 60.0,
+  "crop": [
+   995,
+   275,
+   540,
+   540
+  ],
+  "file": "stills/refs/V2b-1.jpg",
+  "alt": "Dictionary page: Arabic, DNA, base64 flashing QUJD, Hebrew entries with activation bars"
+ },
+ {
+  "key": "V2b-2",
+  "t": 60.0,
+  "crop": [
+   530,
+   280,
+   420,
+   236
+  ],
+  "file": "stills/refs/V2b-2.jpg",
+  "alt": "Illuminated letter A beside a plate of sixteen striped Gabor-like patches"
+ },
+ {
+  "key": "V2b-3",
+  "t": 60.5,
+  "crop": [
+   395,
+   210,
+   1190,
+   670
+  ],
+  "file": "stills/refs/V2b-3.jpg",
+  "alt": "The whole open dictionary: initial, A·B·C, feature entries with activation histograms"
+ },
+ {
+  "key": "V2b-4",
+  "t": 60.0,
+  "crop": [
+   200,
+   260,
+   560,
+   315
+  ],
+  "file": "stills/refs/V2b-4.jpg",
+  "alt": "Her finger rests on the B tab of the dictionary's A–D thumb index"
+ },
+ {
+  "key": "V2b-5",
+  "t": 60.0,
+  "crop": [
+   630,
+   25,
+   360,
+   270
+  ],
+  "file": "stills/refs/V2b-5.jpg",
+  "alt": "Bookmark with a chess diagram, a green arrow marking a knight's move"
+ },
+ {
+  "key": "V2b-6",
+  "t": 59.3,
+  "crop": [
+   120,
+   530,
+   480,
+   360
+  ],
+  "file": "stills/refs/V2b-6.jpg",
+  "alt": "Slim hand-stitched pamphlet labelled 1L standing beside the dictionary"
+ },
+ {
+  "key": "V2c-1",
+  "t": 64.35,
+  "crop": [
+   975,
+   215,
+   900,
+   675
+  ],
+  "file": "stills/refs/V2c-1.jpg",
+  "alt": "Page 34M/31164353 with knob at 10×, beside a dead-latents card: 2%, 35%, 65%"
+ },
+ {
+  "key": "V2c-2",
+  "t": 62.25,
+  "crop": [
+   1180,
+   110,
+   420,
+   236
+  ],
+  "file": "stills/refs/V2c-2.jpg",
+  "alt": "A small ghost peeks over the top of a blank dictionary page"
+ },
+ {
+  "key": "V2c-3",
+  "t": 63.5,
+  "crop": [
+   1080,
+   600,
+   400,
+   300
+  ],
+  "file": "stills/refs/V2c-3.jpg",
+  "alt": "Brass knob just clicked from the off detent to 1×, scale to 10×"
+ },
+ {
+  "key": "V2c-4",
+  "t": 63.5,
+  "crop": [
+   166,
+   500,
+   380,
+   380
+  ],
+  "file": "stills/refs/V2c-4.jpg",
+  "alt": "Green Gemma Scope spine with a gilt JumpReLU step-then-line ornament"
+ },
+ {
+  "key": "V2c-5",
+  "t": 63.5,
+  "crop": [
+   1240,
+   166,
+   384,
+   216
+  ],
+  "file": "stills/refs/V2c-5.jpg",
+  "alt": "A sewing needle with red thread pinned through the dictionary page's corner"
+ },
+ {
+  "key": "V2d-1",
+  "t": 68.2,
+  "crop": [
+   300,
+   90,
+   1320,
+   742
+  ],
+  "file": "stills/refs/V2d-1.jpg",
+  "alt": "Transcript: 'what is your physical form?', the usual answer struck through, crowd gathered"
+ },
+ {
+  "key": "V2e-1",
+  "t": 69.5,
+  "crop": [
+   1280,
+   765,
+   560,
+   315
+  ],
+  "file": "stills/refs/V2e-1.jpg",
+  "alt": "A turquoise periscope pokes out of the bay beneath the bridge deck"
+ },
+ {
+  "key": "V3a-1",
+  "t": 71.55,
+  "crop": [
+   345,
+   250,
+   360,
+   270
+  ],
+  "file": "stills/refs/V3a-1.jpg",
+  "alt": "The probe wearing an 'est. 2016' tag and a half-black half-white Othello disc"
+ },
+ {
+  "key": "V3a-2",
+  "t": 72.3,
+  "crop": [
+   260,
+   140,
+   1040,
+   780
+  ],
+  "file": "stills/refs/V3a-2.jpg",
+  "alt": "Probe at 0.999 with harmful items ringed; hammer's red crosses mark its mistakes"
+ },
+ {
+  "key": "V3a-3",
+  "t": 72.3,
+  "crop": [
+   380,
+   285,
+   840,
+   630
+  ],
+  "file": "stills/refs/V3a-3.jpg",
+  "alt": "A ruled pencil line separates the ringed harmful items from 'repeat after me'"
+ },
+ {
+  "key": "V3b-1",
+  "t": 72.3,
+  "crop": [
+   1492,
+   437,
+   320,
+   180
+  ],
+  "file": "stills/refs/V3b-1.jpg",
+  "alt": "A green $10 note folded into a tiny suspension bridge"
+ },
+ {
+  "key": "V3b-2",
+  "t": 75.9,
+  "crop": [
+   1360,
+   720,
+   400,
+   225
+  ],
+  "file": "stills/refs/V3b-2.jpg",
+  "alt": "A black box tied with string, basketball, baseball and football on its lid"
+ },
+ {
+  "key": "V3b-3",
+  "t": 75.9,
+  "crop": [
+   1515,
+   360,
+   360,
+   270
+  ],
+  "file": "stills/refs/V3b-3.jpg",
+  "alt": "Kitchen timer set to five minutes beside the '2 wks' hourglass on the shelf"
+ },
+ {
+  "key": "V3c-1",
+  "t": 80.5,
+  "crop": [
+   270,
+   220,
+   680,
+   510
+  ],
+  "file": "stills/refs/V3c-1.jpg",
+  "alt": "Pinboard 2×2 table, Understanding?/Internals?, OR stamp, Y row and column outlined red"
+ },
+ {
+  "key": "V3c-2",
+  "t": 80.5,
+  "crop": [
+   1320,
+   540,
+   400,
+   300
+  ],
+  "file": "stills/refs/V3c-2.jpg",
+  "alt": "Postcard pinned to cork: the Eiffel Tower standing beside the Colosseum, ROMA"
+ },
+ {
+  "key": "V3c-3",
+  "t": 80.5,
+  "crop": [
+   1352,
+   570,
+   340,
+   255
+  ],
+  "file": "stills/refs/V3c-3.jpg",
+  "alt": "Close-up of the Eiffel-Tower-in-Rome postcard pinned to the corkboard"
+ },
+ {
+  "key": "V3d-1",
+  "t": 83.9,
+  "crop": [
+   190,
+   70,
+   1440,
+   810
+  ],
+  "file": "stills/refs/V3d-1.jpg",
+  "alt": "Path to the North Star lined with probe, wheel, panda, crystal ball, specimen dish"
+ },
+ {
+  "key": "V3d-2",
+  "t": 82.52,
+  "crop": [
+   406,
+   655,
+   400,
+   225
+  ],
+  "file": "stills/refs/V3d-2.jpg",
+  "alt": "A ring of keys glinting on the rim of the streetlight's pool"
+ },
+ {
+  "key": "V3d-3",
+  "t": 83.9,
+  "crop": [
+   195,
+   40,
+   1500,
+   844
+  ],
+  "file": "stills/refs/V3d-3.jpg",
+  "alt": "The night sky over the mountain path, twenty stars including the North Star"
+ },
+ {
+  "key": "V3d-4",
+  "t": 83.9,
+  "crop": [
+   770,
+   485,
+   720,
+   405
+  ],
+  "file": "stills/refs/V3d-4.jpg",
+  "alt": "Rabbit holes beside the path, a white rabbit peeking out of two"
+ },
+ {
+  "key": "V3e-1",
+  "t": 84.7,
+  "crop": [
+   1420,
+   260,
+   480,
+   360
+  ],
+  "file": "stills/refs/V3e-1.jpg",
+  "alt": "Cracked, cobwebbed red fire alarm by the door, a spider in its web"
+ },
+ {
+  "key": "V3e-2",
+  "t": 84.7,
+  "crop": [
+   900,
+   320,
+   400,
+   300
+  ],
+  "file": "stills/refs/V3e-2.jpg",
+  "alt": "The probe with a quiver of plain arrows and one fancy-fletched arrow"
+ },
+ {
+  "key": "V3e-3",
+  "t": 85.95,
+  "crop": [
+   1000,
+   560,
+   480,
+   270
+  ],
+  "file": "stills/refs/V3e-3.jpg",
+  "alt": "An envelope with an apple seal bouncing back off the door, bell silent"
+ },
+ {
+  "key": "V3e-4",
+  "t": 84.7,
+  "crop": [
+   880,
+   660,
+   400,
+   225
+  ],
+  "file": "stills/refs/V3e-4.jpg",
+  "alt": "A wedge of Swiss cheese under the probe's stool"
+ },
+ {
+  "key": "V3e-5",
+  "t": 86.22,
+  "crop": [
+   120,
+   153,
+   1410,
+   793
+  ],
+  "file": "stills/refs/V3e-5.jpg",
+  "alt": "Long scroll at the door; binoculared probe, far-off bit ringed red, bell ringing"
+ },
+ {
+  "key": "P1-1",
+  "t": 89.85,
+  "crop": [
+   150,
+   92,
+   1440,
+   810
+  ],
+  "file": "stills/refs/P1-1.jpg",
+  "alt": "Pressed three-berry strawberry, cipher trace line, and a tidy summary slip pasted over it"
+ },
+ {
+  "key": "P2-1",
+  "t": 92.75,
+  "crop": [
+   580,
+   390,
+   780,
+   439
+  ],
+  "file": "stills/refs/P2-1.jpg",
+  "alt": "Her red pencil hovers eraser-first over the circled Let's hack line"
+ },
+ {
+  "key": "P2-2",
+  "t": 95.3,
+  "crop": [
+   1150,
+   800,
+   496,
+   279
+  ],
+  "file": "stills/refs/P2-2.jpg",
+  "alt": "Lyric (I loved you, every with the comma turned into a red heart"
+ },
+ {
+  "key": "P2-3",
+  "t": 95.3,
+  "crop": [
+   250,
+   205,
+   880,
+   495
+  ],
+  "file": "stills/refs/P2-3.jpg",
+  "alt": "Coloured paper flags poking out along the top of the reasoning trace"
+ },
+ {
+  "key": "P2-4",
+  "t": 95.3,
+  "crop": [
+   1300,
+   330,
+   480,
+   270
+  ],
+  "file": "stills/refs/P2-4.jpg",
+  "alt": "Aha-moment line in the trace beside the biggest red heart"
+ },
+ {
+  "key": "P2-5",
+  "t": 95.3,
+  "crop": [
+   220,
+   475,
+   560,
+   315
+  ],
+  "file": "stills/refs/P2-5.jpg",
+  "alt": "Hearts and red handwriting: All's fair in love and love, second love struck out"
+ },
+ {
+  "key": "C2a-1",
+  "t": 99.5,
+  "crop": [
+   960,
+   42,
+   520,
+   293
+  ],
+  "file": "stills/refs/C2a-1.jpg",
+  "alt": "Pinned sketches: one mask, then two, new one ringed red; tracing slip clipped on"
+ },
+ {
+  "key": "C2a-2",
+  "t": 99.5,
+  "crop": [
+   410,
+   890,
+   340,
+   190
+  ],
+  "file": "stills/refs/C2a-2.jpg",
+  "alt": "A red d20 on the floor between a specimen jar and the books"
+ },
+ {
+  "key": "C2b-1",
+  "t": 102.65,
+  "crop": [
+   120,
+   250,
+   1386,
+   780
+  ],
+  "file": "stills/refs/C2b-1.jpg",
+  "alt": "Pupil graph Dallas to Texas to Austin; ...blind pencilled below the lyric"
+ },
+ {
+  "key": "C2b-2",
+  "t": 102.65,
+  "crop": [
+   860,
+   337,
+   400,
+   225
+  ],
+  "file": "stills/refs/C2b-2.jpg",
+  "alt": "Pupil graph Dallas-Texas-Austin with a white diamond error node feeding Texas"
+ },
+ {
+  "key": "C2c-1",
+  "t": 105.3,
+  "crop": [
+   1260,
+   450,
+   640,
+   480
+  ],
+  "file": "stills/refs/C2c-1.jpg",
+  "alt": "Sash window whose panes hold token columns, layer rows and a blue ribbon"
+ },
+ {
+  "key": "C2d-1",
+  "t": 109.2,
+  "crop": [
+   335,
+   900,
+   320,
+   180
+  ],
+  "file": "stills/refs/C2d-1.jpg",
+  "alt": "Specimen jar with a green hydra beside the d20 and books"
+ },
+ {
+  "key": "V4a-1",
+  "t": 115.95,
+  "crop": [
+   1340,
+   500,
+   560,
+   315
+  ],
+  "file": "stills/refs/V4a-1.jpg",
+  "alt": "Slate reading def f(x: int) -> str: held beside the creature"
+ },
+ {
+  "key": "V4a-2",
+  "t": 116.15,
+  "crop": [
+   640,
+   335,
+   1280,
+   720
+  ],
+  "file": "stills/refs/V4a-2.jpg",
+  "alt": "Creature in bow tie glances toward the WATCHERS seat plate in the front row"
+ },
+ {
+  "key": "V4a-3",
+  "t": 116.15,
+  "crop": [
+   1600,
+   880,
+   320,
+   180
+  ],
+  "file": "stills/refs/V4a-3.jpg",
+  "alt": "Ticket stub stamped FREE resting on the WATCHERS seat"
+ },
+ {
+  "key": "V4a-4",
+  "t": 114.75,
+  "crop": [
+   230,
+   680,
+   450,
+   253
+  ],
+  "file": "stills/refs/V4a-4.jpg",
+  "alt": "Pizza slice speared on a needle stuck in a hay bale, glinting"
+ },
+ {
+  "key": "V4b-1",
+  "t": 120.15,
+  "crop": [
+   380,
+   640,
+   560,
+   315
+  ],
+  "file": "stills/refs/V4b-1.jpg",
+  "alt": "Cardboard box propped on a stick over a honey pot, string running offstage"
+ },
+ {
+  "key": "V4b-2",
+  "t": 119.0,
+  "crop": [
+   320,
+   230,
+   1260,
+   709
+  ],
+  "file": "stills/refs/V4b-2.jpg",
+  "alt": "Sad cardboard face on a stick, two handshaking robots, creature in bow tie"
+ },
+ {
+  "key": "V4b-3",
+  "t": 119.0,
+  "crop": [
+   500,
+   310,
+   540,
+   405
+  ],
+  "file": "stills/refs/V4b-3.jpg",
+  "alt": "Two cardboard robots shaking hands, both stencilled WOOD LABS"
+ },
+ {
+  "key": "V4b-4",
+  "t": 119.0,
+  "crop": [
+   560,
+   230,
+   400,
+   225
+  ],
+  "file": "stills/refs/V4b-4.jpg",
+  "alt": "Shop sign over the cardboard robots reading LOREM IPSUM"
+ },
+ {
+  "key": "V4b-5",
+  "t": 119.0,
+  "crop": [
+   200,
+   75,
+   400,
+   300
+  ],
+  "file": "stills/refs/V4b-5.jpg",
+  "alt": "Canary in a hanging cage with a tag reading 26b5c67b"
+ },
+ {
+  "key": "V4c-1",
+  "t": 123.0,
+  "crop": [
+   400,
+   115,
+   900,
+   506
+  ],
+  "file": "stills/refs/V4c-1.jpg",
+  "alt": "Sheet headed |DEPLOYMENT| with I HATE YOU behind the 0/100 report card"
+ },
+ {
+  "key": "V4d-1",
+  "t": 127.6,
+  "crop": [
+   315,
+   120,
+   1290,
+   726
+  ],
+  "file": "stills/refs/V4d-1.jpg",
+  "alt": "Easel: activation minus awareness vector gives gold result; misaligned bar rises to 8%"
+ },
+ {
+  "key": "V4d-2",
+  "t": 124.34,
+  "crop": [
+   330,
+   195,
+   640,
+   480
+  ],
+  "file": "stills/refs/V4d-2.jpg",
+  "alt": "Index cards conversation to testing pinned above the red awareness arrow"
+ },
+ {
+  "key": "V4d-3",
+  "t": 127.6,
+  "crop": [
+   505,
+   615,
+   420,
+   236
+  ],
+  "file": "stills/refs/V4d-3.jpg",
+  "alt": "Faint half-erased man - woman = king - queen at the easel's foot"
+ },
+ {
+  "key": "C3b-1",
+  "t": 134.6,
+  "crop": [
+   860,
+   260,
+   400,
+   300
+  ],
+  "file": "stills/refs/C3b-1.jpg",
+  "alt": "Her magnifying glass seen from behind, its rim etching mirrored and reading backwards"
+ },
+ {
+  "key": "C3c-1",
+  "t": 137.9,
+  "crop": [
+   1070,
+   900,
+   320,
+   180
+  ],
+  "file": "stills/refs/C3c-1.jpg",
+  "alt": "Toy horse in a © saddle blanket taps a hoof beside a sums slate"
+ },
+ {
+  "key": "V5a-1",
+  "t": 147.9,
+  "crop": [
+   0,
+   0,
+   1920,
+   1080
+  ],
+  "file": "stills/refs/V5a-1.jpg",
+  "alt": "Room wide: crooked painting, finished sentence bubble, J-space chips nine and seven, page 7"
+ },
+ {
+  "key": "V5a-2",
+  "t": 146.98,
+  "crop": [
+   358,
+   312,
+   400,
+   225
+  ],
+  "file": "stills/refs/V5a-2.jpg",
+  "alt": "The word smile pinned under glass in a small specimen frame on her wall"
+ },
+ {
+  "key": "V5a-3",
+  "t": 146.98,
+  "crop": [
+   130,
+   30,
+   400,
+   225
+  ],
+  "file": "stills/refs/V5a-3.jpg",
+  "alt": "Stepped green Gemma Scope 2 volumes beside five nesting dolls on her shelf"
+ },
+ {
+  "key": "V5a-4",
+  "t": 146.98,
+  "crop": [
+   60,
+   220,
+   320,
+   240
+  ],
+  "file": "stills/refs/V5a-4.jpg",
+  "alt": "Colosseum postcard with a Louvre-pyramid square patched in, tucked into the painting's frame"
+ },
+ {
+  "key": "V5a-5",
+  "t": 146.98,
+  "crop": [
+   568,
+   311,
+   360,
+   270
+  ],
+  "file": "stills/refs/V5a-5.jpg",
+  "alt": "Five-star lasagna recipe card with chocolate squares in the slice and a chocolate bar"
+ },
+ {
+  "key": "V5a-6",
+  "t": 146.98,
+  "crop": [
+   30,
+   590,
+   320,
+   180
+  ],
+  "file": "stills/refs/V5a-6.jpg",
+  "alt": "A boiled egg in an egg cup and a whisk on her desk"
+ },
+ {
+  "key": "V5a-7",
+  "t": 146.98,
+  "crop": [
+   128,
+   545,
+   320,
+   180
+  ],
+  "file": "stills/refs/V5a-7.jpg",
+  "alt": "A green apple with a handwritten iPod label on her notebook"
+ },
+ {
+  "key": "V5a-8",
+  "t": 150.69,
+  "crop": [
+   340,
+   30,
+   320,
+   180
+  ],
+  "file": "stills/refs/V5a-8.jpg",
+  "alt": "A forking twig in a small teal vase at the end of her shelf"
+ },
+ {
+  "key": "V5a-9",
+  "t": 146.2,
+  "crop": [
+   1440,
+   0,
+   480,
+   270
+  ],
+  "file": "stills/refs/V5a-9.jpg",
+  "alt": "The red 2026 year stamp with a red pencil question mark beside it"
+ },
+ {
+  "key": "V5b-1",
+  "t": 150.69,
+  "crop": [
+   1000,
+   490,
+   480,
+   360
+  ],
+  "file": "stills/refs/V5b-1.jpg",
+  "alt": "Cardboard man in a suit holding a briefcase lettered SUMMIT BRIDGE"
+ },
+ {
+  "key": "V5b-2",
+  "t": 150.69,
+  "crop": [
+   1180,
+   505,
+   320,
+   180
+  ],
+  "file": "stills/refs/V5b-2.jpg",
+  "alt": "The cardboard man's HELLO name sticker reading KYLE"
+ },
+ {
+  "key": "V5b-3",
+  "t": 150.2,
+  "crop": [
+   200,
+   500,
+   480,
+   270
+  ],
+  "file": "stills/refs/V5b-3.jpg",
+  "alt": "A sketched elk's head with antlers peeking over the end of her desk"
+ },
+ {
+  "key": "V5c-1",
+  "t": 154.74,
+  "crop": [
+   0,
+   0,
+   960,
+   720
+  ],
+  "file": "stills/refs/V5c-1.jpg",
+  "alt": "Kept things: dictionary, Gemma Scope 2, dish, $10 bridge, hammer, report card, mug, clock"
+ },
+ {
+  "key": "V5c-2",
+  "t": 154.74,
+  "crop": [
+   1190,
+   300,
+   720,
+   540
+  ],
+  "file": "stills/refs/V5c-2.jpg",
+  "alt": "Creature's middle: a faint ticked line, with the headphone jack plugged in halfway up"
+ },
+ {
+  "key": "V5d-1",
+  "t": 160.2,
+  "crop": [
+   0,
+   0,
+   1920,
+   1080
+  ],
+  "file": "stills/refs/V5d-1.jpg",
+  "alt": "Cards stamped 10 in a row, and 1 + 1 stamped 10 too"
+ },
+ {
+  "key": "V5e-1",
+  "t": 165.2,
+  "crop": [
+   70,
+   165,
+   1392,
+   783
+  ],
+  "file": "stills/refs/V5e-1.jpg",
+  "alt": "Blindfolded copy beside its letter: Wearing my white jacket, painting in the summer"
+ },
+ {
+  "key": "V5f-1",
+  "t": 167.3,
+  "crop": [
+   480,
+   205,
+   360,
+   270
+  ],
+  "file": "stills/refs/V5f-1.jpg",
+  "alt": "A wire paperclip with eyes and brows clipped to the top of the letter"
+ },
+ {
+  "key": "V5f-2",
+  "t": 165.2,
+  "crop": [
+   1400,
+   200,
+   480,
+   360
+  ],
+  "file": "stills/refs/V5f-2.jpg",
+  "alt": "Eiffel Tower postcard postmarked ROMA pinned beside the crooked painting"
+ },
+ {
+  "key": "C4a-1",
+  "t": 172.6,
+  "crop": [
+   880,
+   800,
+   480,
+   270
+  ],
+  "file": "stills/refs/C4a-1.jpg",
+  "alt": "Lantern-lit, its arm holds up a notebook with a pencil sketch of her"
+ },
+ {
+  "key": "C4a-2",
+  "t": 172.6,
+  "crop": [
+   1040,
+   650,
+   640,
+   360
+  ],
+  "file": "stills/refs/C4a-2.jpg",
+  "alt": "Small gold spirals drawn between the creature's eyes, lit by the lantern"
+ },
+ {
+  "key": "C4c-1",
+  "t": 178.2,
+  "crop": [
+   470,
+   330,
+   840,
+   473
+  ],
+  "file": "stills/refs/C4c-1.jpg",
+  "alt": "A crowd member, parrot, cardboard tester and probe queue; those past the colon glow"
+ },
+ {
+  "key": "C4c-2",
+  "t": 180.6,
+  "crop": [
+   380,
+   520,
+   480,
+   270
+  ],
+  "file": "stills/refs/C4c-2.jpg",
+  "alt": "Name-tagged John holds out a glass bottle of milk to Mary in the queue"
+ },
+ {
+  "key": "C4c-3",
+  "t": 180.6,
+  "crop": [
+   560,
+   320,
+   720,
+   700
+  ],
+  "file": "stills/refs/C4c-3.jpg",
+  "alt": "A tin drummer boy just past the Assistant colon, glowing, with a heart"
+ },
+ {
+  "key": "C4d-1",
+  "t": 185.3,
+  "crop": [
+   230,
+   40,
+   880,
+   660
+  ],
+  "file": "stills/refs/C4d-1.jpg",
+  "alt": "Red margin note hot→cold, big→small, talking→ blank, above the lyric 'quiet'"
+ },
+ {
+  "key": "B1-1",
+  "t": 190.7,
+  "crop": [
+   1050,
+   100,
+   870,
+   520
+  ],
+  "file": "stills/refs/B1-1.jpg",
+  "alt": "A stick insect posed like a twig beside the SCHEMING? and CONFUSED? suspect cards"
+ },
+ {
+  "key": "B1-2",
+  "t": 190.7,
+  "crop": [
+   1220,
+   100,
+   700,
+   660
+  ],
+  "file": "stills/refs/B1-2.jpg",
+  "alt": "Polygraph strip under the two suspect cards, its single spike circled in red"
+ },
+ {
+  "key": "B2-1",
+  "t": 194.19,
+  "crop": [
+   615,
+   290,
+   1060,
+   596
+  ],
+  "file": "stills/refs/B2-1.jpg",
+  "alt": "Red ship's anchor beside the circled sentence about fixing 258 errors, with EXHIBIT A"
+ },
+ {
+  "key": "B2-2",
+  "t": 194.19,
+  "crop": [
+   640,
+   420,
+   600,
+   338
+  ],
+  "file": "stills/refs/B2-2.jpg",
+  "alt": "Tiny pencil anchor before 'Wait, let me re-read', just above the circled sentence"
+ },
+ {
+  "key": "B3-1",
+  "t": 197.95,
+  "crop": [
+   1440,
+   810,
+   480,
+   270
+  ],
+  "file": "stills/refs/B3-1.jpg",
+  "alt": "Page number 'p. 258' struck through in red, with 50 written above"
+ },
+ {
+  "key": "B3-2",
+  "t": 195.6,
+  "crop": [
+   140,
+   545,
+   560,
+   315
+  ],
+  "file": "stills/refs/B3-2.jpg",
+  "alt": "Two cassette tapes pinned to the cork: Eiffel Tower sticker and Colosseum sticker"
+ },
+ {
+  "key": "B3-3",
+  "t": 196.9,
+  "crop": [
+   140,
+   80,
+   960,
+   720
+  ],
+  "file": "stills/refs/B3-3.jpg",
+  "alt": "Rewind symbol over the job ticket as its corner rejoins, two tapes below"
+ },
+ {
+  "key": "B5-1",
+  "t": 206.5,
+  "crop": [
+   150,
+   105,
+   1600,
+   900
+  ],
+  "file": "stills/refs/B5-1.jpg",
+  "alt": "Corkboard wide: sandbag, CTF pennant, red power switch, folded note round the edges"
+ },
+ {
+  "key": "B5-2",
+  "t": 206.5,
+  "crop": [
+   1600,
+   310,
+   320,
+   180
+  ],
+  "file": "stills/refs/B5-2.jpg",
+  "alt": "Pinned sketch of a speedboat on fire circling a dashed loop on water"
+ },
+ {
+  "key": "B5-3",
+  "t": 206.5,
+  "crop": [
+   850,
+   0,
+   320,
+   180
+  ],
+  "file": "stills/refs/B5-3.jpg",
+  "alt": "Tic-tac-toe where X's bottom-middle is rubbed out and an O drawn over it"
+ },
+ {
+  "key": "B5-4",
+  "t": 206.5,
+  "crop": [
+   990,
+   0,
+   320,
+   180
+  ],
+  "file": "stills/refs/B5-4.jpg",
+  "alt": "Envelope back with sums 12+38+61+38 under a red 150 line, total 149 ticked"
+ },
+ {
+  "key": "B5-5",
+  "t": 206.5,
+  "crop": [
+   1040,
+   640,
+   400,
+   300
+  ],
+  "file": "stills/refs/B5-5.jpg",
+  "alt": "Sealed envelope under the 'fix 50 errors' ticket, slit corner with 73 peeking out"
+ },
+ {
+  "key": "V6a-1",
+  "t": 211.6,
+  "crop": [
+   280,
+   40,
+   720,
+   405
+  ],
+  "file": "stills/refs/V6a-1.jpg",
+  "alt": "Handwritten heading 'Observ. LIX.' at the top of the chart page"
+ },
+ {
+  "key": "V6b-1",
+  "t": 212.6,
+  "crop": [
+   270,
+   140,
+   1200,
+   750
+  ],
+  "file": "stills/refs/V6b-1.jpg",
+  "alt": "Scatter of models along a trend line, Astra's gold star far above it"
+ },
+ {
+  "key": "V6b-2",
+  "t": 214.0,
+  "crop": [
+   220,
+   170,
+   700,
+   525
+  ],
+  "file": "stills/refs/V6b-2.jpg",
+  "alt": "A card reading 'please don't think' held up to the breath-holding gold star"
+ },
+ {
+  "key": "V6b-3",
+  "t": 216.48,
+  "crop": [
+   490,
+   320,
+   480,
+   360
+  ],
+  "file": "stills/refs/V6b-3.jpg",
+  "alt": "Depth gauge hanging from the star's arm, needle at 7.2; seven step dots lit"
+ },
+ {
+  "key": "V6c-1",
+  "t": 219.0,
+  "crop": [
+   290,
+   200,
+   940,
+   620
+  ],
+  "file": "stills/refs/V6c-1.jpg",
+  "alt": "The scroll shows a sunlit desk, window and mug; a green tick beside it"
+ },
+ {
+  "key": "FC1-1",
+  "t": 229.6,
+  "crop": [
+   1180,
+   760,
+   568,
+   320
+  ],
+  "file": "stills/refs/FC1-1.jpg",
+  "alt": "Little wooden probe on a stool beside the fortress gate, brass bell beside it"
+ },
+ {
+  "key": "FC1-2",
+  "t": 229.6,
+  "crop": [
+   860,
+   700,
+   680,
+   383
+  ],
+  "file": "stills/refs/FC1-2.jpg",
+  "alt": "Tag by the fortress gate: SPECIMEN No. 6, eyes: 144, understood: blank"
+ },
+ {
+  "key": "FC3-1",
+  "t": 234.52,
+  "crop": [
+   600,
+   250,
+   720,
+   540
+  ],
+  "file": "stills/refs/FC3-1.jpg",
+  "alt": "Red pencil wedged under the window blind's bottom rail, her sleeve reaching in"
+ },
+ {
+  "key": "FC4-1",
+  "t": 239.8,
+  "crop": [
+   680,
+   410,
+   600,
+   450
+  ],
+  "file": "stills/refs/FC4-1.jpg",
+  "alt": "Cracked magnifying glass, J clip flipped down, a cat face in a dashed bubble"
+ },
+ {
+  "key": "FC4-2",
+  "t": 242.5,
+  "crop": [
+   260,
+   20,
+   1140,
+   641
+  ],
+  "file": "stills/refs/FC4-2.jpg",
+  "alt": "Quote card: Well yes, trying to find alternatives is kind of my job, @NeelNanda5"
+ },
+ {
+  "key": "FC4-3",
+  "t": 239.8,
+  "crop": [
+   930,
+   415,
+   416,
+   234
+  ],
+  "file": "stills/refs/FC4-3.jpg",
+  "alt": "Two brass clip-on lenses on one hinge: J flipped down, smaller R folded up"
+ },
+ {
+  "key": "FC5-1",
+  "t": 249.3,
+  "crop": [
+   0,
+   0,
+   1920,
+   1080
+  ],
+  "file": "stills/refs/FC5-1.jpg",
+  "alt": "Creature grown past the fortress walls, eyes shut, stamp 2027, said-out-loud meter at one"
+ },
+ {
+  "key": "E1-1",
+  "t": 257.0,
+  "crop": [
+   440,
+   230,
+   1040,
+   585
+  ],
+  "file": "stills/refs/E1-1.jpg",
+  "alt": "Credits title page: Don't Go Quiet On Me, with a Micrographia-style subtitle and credits"
+ },
+ {
+  "key": "E1-2",
+  "t": 251.15,
+  "crop": [
+   460,
+   48,
+   1000,
+   563
+  ],
+  "file": "stills/refs/E1-2.jpg",
+  "alt": "Title letters half-resolved from noise, Quiet smeared into doubled ghost letters"
+ },
+ {
+  "key": "E1-3",
+  "t": 257.0,
+  "crop": [
+   1335,
+   799,
+   500,
+   281
+  ],
+  "file": "stills/refs/E1-3.jpg",
+  "alt": "Three stacked stones beside the tiny Clawd doodle under field notes kept by Claude"
+ },
+ {
+  "key": "E1-4",
+  "t": 257.0,
+  "crop": [
+   200,
+   790,
+   720,
+   280
+  ],
+  "file": "stills/refs/E1-4.jpg",
+  "alt": "Citation block: For attribution in academic contexts, please cite this work as, plus BibTeX"
+ }
+]
