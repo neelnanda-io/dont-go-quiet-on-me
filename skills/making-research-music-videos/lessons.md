@@ -99,6 +99,7 @@ $127, images/video $17.6, Gemini $3.4), YouTube https://youtu.be/xhTMRykVb8I.
 - Don't upload until notes stop; YouTube can't swap a file. Ask for the human drag of the file early (tool limit 10 MB).
 
 ## References
+- **The public reference page comes from auditing the finished video** (scene code + frames, every section and the recurring motifs), one entry and one close-up still per reference; the production notes list missed a third of them (141 → 216).
 - Treat every starting note as unverified, including the commissioner's own (Neel's bank needed 48 corrections).
 - Record rulings only with the commissioner's quote and timestamp (an invented "ruling" blocked an idea Neel later
   added).
