@@ -70,6 +70,9 @@ Every reference in the video, with stills and sources: <doc link>
 ## The reference doc
 
 **Build the reference list from an audit of the finished video, not from your notes.** The first page listed only the 141 "things to spot" written during production; Neel found it missing "each page in the riffle, the 5 pointer star in the shoggoth's eye, etc". An audit (one agent per section reading the scene code and rendered frames, plus one for recurring elements) found 95 more; an independent fact-check kept 78 (visible in the still, source quote verbatim, grounded in the project's own notes, not a duplicate). Give every reference its own close-up still at the moment it is clearest, with a timestamp link, not one still per shot. Split bundled entries into one per reference.
+
+The final public version is a GitHub Pages site (`docs/index.html`) built by `tools/build_reference_page.py` in this repo from the notes list, one still per reference (time, crop, alt) and the audited extras; it hides bundled entries whose every point has its own entry, and fails the build on second person, a missing still or a duplicate.
+
 "<Song>: every reference" — a Claude Doc built from the reference record and per-shot stills
 (`output/doc_stills/build_doc.py`; the first project's is public as this repo's `docs/` page,
 https://neelnanda-io.github.io/dont-go-quiet-on-me/): one chapter per song section, a still for every shot, "What to
