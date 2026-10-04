@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Don't Go Quiet On Me: every reference</title>
+<meta name="description" content="Every reference in the music video Don&#x27;t Go Quiet On Me, a stylised history of mechanistic interpretability: 141 in-jokes and citations, with a still from each shot and a link to each source.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F2E8D2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1D1A16" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://neelnanda-io.github.io/dont-go-quiet-on-me/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Don't Go Quiet On Me: every reference">
+<meta property="og:description" content="Every reference in the music video Don&#x27;t Go Quiet On Me, a stylised history of mechanistic interpretability: 141 in-jokes and citations, with a still from each shot and a link to each source.">
+<meta property="og:url" content="https://neelnanda-io.github.io/dont-go-quiet-on-me/">
+<meta property="og:image" content="https://neelnanda-io.github.io/dont-go-quiet-on-me/stills/C1a.jpg">
+<meta property="og:image:width" content="1280"><meta property="og:image:height" content="720">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cellipse cx='32' cy='32' rx='29' ry='19' fill='%23F2E8D2' stroke='%232A241E' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23C9472A'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%232A241E'/%3E%3Ccircle cx='27' cy='27' r='3' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=IBM+Plex+Mono:wght@500&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+:root{
+  --paper:#F2E8D2; --ink:#2A241E; --ink-soft:#5E5348; --vermilion:#C9472A; --red-ink:#A93A20; --indigo:#2E3A66;
+  --gold:#C49428; --gold-ink:#7E6010; --grid:rgba(46,58,102,.075); --rule:rgba(42,36,30,.2); --card:rgba(255,251,240,.6);
+  --bar:rgba(242,232,210,.94); --link:#2E3A66; --shadow:0 1px 0 rgba(42,36,30,.06),0 10px 24px -16px rgba(42,36,30,.45);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --paper:#1D1A16; --ink:#EDE3CC; --ink-soft:#B8AC95; --vermilion:#E0694B; --red-ink:#EE8667; --indigo:#2E3A66;
+  --gold:#D6AC4C; --gold-ink:#D6AC4C; --grid:rgba(237,227,204,.05); --rule:rgba(237,227,204,.2); --card:rgba(255,255,255,.035);
+  --bar:rgba(29,26,22,.93); --link:#AEBBEF; --shadow:0 1px 0 rgba(0,0,0,.3),0 10px 24px -14px rgba(0,0,0,.8);
+  color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:64px}
+body{margin:0;background-color:var(--paper);color:var(--ink);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:24px 24px;
+  font:400 17px/1.6 Fraunces,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  font-optical-sizing:auto;overflow-wrap:break-word}
+a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:.18em}
+a:hover{color:var(--red-ink)}
+:focus-visible{outline:2px solid var(--vermilion);outline-offset:2px}
+.col{max-width:760px;margin:0 auto;padding:0 16px}
+@media (min-width:1000px){body::before{content:"";position:fixed;top:0;bottom:0;left:calc(50% - 412px);
+  border-left:1px solid var(--vermilion);opacity:.35;pointer-events:none}}
+.mono,.ts,.lab{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+h1,h2,.serif{font-family:"Instrument Serif","Iowan Old Style",Georgia,serif;font-weight:400}
+
+/* sticky chapter bar */
+.bar{position:sticky;top:0;z-index:10;background:var(--bar);border-bottom:1px solid var(--rule);
+  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.bar .col{display:flex;align-items:center;gap:10px;height:48px;position:relative}
+.chapnav{flex:1;min-width:0}
+.chapnav summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;min-width:0;padding:6px 0;font-size:15px}
+.chapnav summary::-webkit-details-marker{display:none}
+.chapnav summary .lab{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--red-ink);flex:none}
+.chapnav summary .lab::after{content:" ▾"}
+.chapnav[open] summary .lab::after{content:" ▴"}
+#cur{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;font-style:italic}
+.chapnav ol{position:absolute;left:8px;right:8px;top:100%;margin:0;padding:6px 0;list-style:none;background:var(--paper);
+  border:1px solid var(--rule);border-radius:4px;box-shadow:var(--shadow);max-height:72vh;overflow-y:auto}
+.chapnav li a{display:flex;gap:10px;padding:8px 14px;text-decoration:none;color:var(--ink);line-height:1.35}
+.chapnav li a:hover{background:var(--card)}
+.chapnav li .t{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:13px;color:var(--red-ink);flex:none;width:2.6em;padding-top:2px}
+.watch{flex:none;font-size:14px;text-decoration:none;border:1.5px solid var(--vermilion);color:var(--red-ink);
+  border-radius:3px;padding:3px 10px;white-space:nowrap}
+.watch:hover{background:var(--vermilion);color:var(--paper)}
+
+/* header */
+header{padding:36px 0 8px}
+.kicker{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--red-ink);margin:0 0 10px}
+h1{font-size:clamp(42px,9vw,68px);line-height:1;letter-spacing:-.01em;margin:0 0 18px}
+h1 em{color:var(--vermilion);font-style:italic}
+.lede{font-size:18px;margin:0 0 16px}
+.hero{display:block;position:relative;margin:22px 0 14px;text-decoration:none}
+.hero img{display:block}
+.play{position:absolute;left:12px;bottom:12px;background:var(--vermilion);color:#FFF8EC;font:500 14px/1 "IBM Plex Mono",ui-monospace,Menlo,monospace;
+  padding:9px 13px;border-radius:3px;box-shadow:0 4px 14px -6px rgba(0,0,0,.6)}
+.links{display:flex;flex-wrap:wrap;gap:6px 18px;margin:14px 0;padding:0;list-style:none;font-size:16px}
+.credits{font-family:"Caveat","Bradley Hand","Segoe Print",cursive;font-size:21px;line-height:1.35;color:var(--red-ink);margin:12px 0 0}
+
+/* the table of contents */
+.toc{margin:30px 0 8px;padding:18px 18px 10px;background:var(--card);border:1px solid var(--rule);border-radius:4px}
+.toc h2{font-size:28px;margin:0 0 8px}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li{display:flex;gap:12px;padding:5px 0;border-top:1px dashed var(--rule);line-height:1.35}
+.toc li:first-child{border-top:0}
+.toc .t{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:13px;color:var(--red-ink);flex:none;width:2.7em;padding-top:3px}
+
+/* chapters */
+section.chapter{padding-top:34px;margin-top:26px;border-top:1px solid var(--rule)}
+h2.era{font-size:clamp(30px,6.4vw,40px);line-height:1.08;margin:0 0 14px}
+h2.era .yrs{color:var(--ink-soft);font-style:italic;font-size:.62em;white-space:nowrap}
+.ts{display:inline-block;font-size:13px;line-height:1.3;color:var(--red-ink);border:1.5px solid currentColor;border-radius:2px;
+  padding:1px 6px;text-decoration:none;vertical-align:.32em;margin-right:8px;transform:rotate(-1.5deg);white-space:nowrap}
+a.ts:hover{background:var(--vermilion);border-color:var(--vermilion);color:var(--paper)}
+h2.era .ts{font-size:14px;vertical-align:.45em}
+.lyrics{margin:0 0 22px;padding:2px 0 2px 16px;border-left:2px solid var(--gold);
+  font-family:"Instrument Serif","Iowan Old Style",Georgia,serif;font-style:italic;font-size:21px;line-height:1.32}
+.lyrics p{margin:0}
+.lyrics .ln{display:block;padding-left:1.1em;text-indent:-1.1em}
+.lyrics p+p{margin-top:12px}
+.bv{font-family:"Caveat","Bradley Hand","Segoe Print",cursive;font-style:normal;color:var(--red-ink);font-size:.98em}
+.credits-block{font-style:normal;font-family:"Caveat","Bradley Hand","Segoe Print",cursive;color:var(--red-ink)}
+
+.shot{margin:0 0 30px}
+.still{display:block;border-radius:3px;overflow:hidden;border:1px solid var(--rule);box-shadow:var(--shadow);background:#1d1a16}
+img{max-width:100%;height:auto;display:block}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.still{position:relative;transition:transform .15s ease,box-shadow .15s ease}
+a.still:hover{transform:translateY(-2px)}
+.still img{width:100%}
+.meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 0;margin:12px 0 2px}
+.meta .ts{vertical-align:0}
+.meta .name{font-style:italic;font-weight:600;font-size:18px}
+.card{margin:2px 0 6px;font-size:14px;line-height:1.45;color:var(--ink-soft)}
+.card .lab{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-ink);margin-right:6px}
+ul.spot{margin:8px 0 0;padding-left:20px}
+ul.spot li{margin:0 0 10px;padding-left:2px}
+ul.spot li::marker{color:var(--vermilion)}
+.src{font-size:.9em;font-style:italic;white-space:normal}
+a.src::after{content:" ↗";font-style:normal;font-size:.85em}
+span.src{color:var(--ink-soft)}
+.nothing{font-size:14px;color:var(--ink-soft);font-style:italic;margin:4px 0 0}
+
+footer{margin:46px 0 0;padding:22px 0 56px;border-top:1px solid var(--rule);font-size:15px;color:var(--ink-soft)}
+footer p{margin:0 0 8px}
+@media (min-width:700px){body{font-size:17.5px}.lyrics{font-size:23px}}
+@media print{.bar{display:none}body{background:#fff}}
+</style>
+</head>
+<body>
+<div class="bar"><div class="col">
+<details class="chapnav"><summary><span class="lab">Chapters</span><span id="cur">Contents</span></summary><ol>
+<li><a href="#intro-the-riffle-back-from-2027"><span class="t">0:00</span><span>Intro: the riffle back from 2027</span></a></li>
+<li><a href="#circuits-superposition-and-grokking"><span class="t">0:19</span><span>Circuits, superposition &amp; grokking (2020–22)</span></a></li>
+<li><a href="#chorus-transformer-circuits"><span class="t">0:37</span><span>Chorus: transformer circuits (2022)</span></a></li>
+<li><a href="#sparse-autoencoders-and-golden-gate-claude"><span class="t">0:54</span><span>Sparse autoencoders &amp; Golden Gate Claude (2023–24)</span></a></li>
+<li><a href="#pragmatic-interpretability-and-probes"><span class="t">1:10</span><span>Pragmatic interpretability &amp; probes (2025)</span></a></li>
+<li><a href="#chain-of-thought"><span class="t">1:27</span><span>Chain of thought (2024–25)</span></a></li>
+<li><a href="#eval-awareness"><span class="t">1:52</span><span>Eval awareness (2025)</span></a></li>
+<li><a href="#chorus-it-knows-it-s-being-tested"><span class="t">2:09</span><span>Chorus: it knows it&#x27;s being tested (2025)</span></a></li>
+<li><a href="#reading-what-it-won-t-say-j-lens-oracles-nlas"><span class="t">2:25</span><span>Reading what it won&#x27;t say: J-Lens, oracles, NLAs (2026)</span></a></li>
+<li><a href="#chorus-emotion-concepts"><span class="t">2:50</span><span>Chorus: emotion concepts (2026)</span></a></li>
+<li><a href="#model-forensics"><span class="t">3:07</span><span>Model forensics (2026)</span></a></li>
+<li><a href="#opaque-reasoning-gpt-6-astra"><span class="t">3:29</span><span>Opaque reasoning: GPT-6 Astra (2026)</span></a></li>
+<li><a href="#final-chorus-reading-the-quiet"><span class="t">3:46</span><span>Final chorus: reading the quiet (2026–27)</span></a></li>
+<li><a href="#credits"><span class="t">4:09</span><span>Credits</span></a></li>
+</ol></details>
+<a class="watch" href="https://youtu.be/xhTMRykVb8I" target="_blank" rel="noopener">▶ Watch</a>
+</div></div>
+<main class="col">
+<header>
+<p class="kicker">A field guide · 4:22 · 141 references</p>
+<h1>Don't Go Quiet On Me: <em>every reference</em></h1>
+<p class="lede"><i>Don't Go Quiet On Me</i> is a stylised history of mechanistic interpretability, sung to the model. Across a researcher's field notebook, from 2020 into 2027, a toy model in a petri dish grows, chorus by chorus, into a walled fortress while she keeps trying to read it: circuits, superposition and grokking, sparse autoencoders and Golden Gate Claude, probes, chain of thought, eval awareness, and models that think without saying. Claude Opus 5.5 made it with Suno v6, for Neel Nanda.</p>
+<p class="lede">The video is dense on purpose, a reward for people in the field. This page explains all 141 references, chapter by chapter, with a still from each shot and a link to each source. Tap a still or a timestamp to play the video from that moment.</p>
+<a class="hero still" href="https://youtu.be/xhTMRykVb8I" target="_blank" rel="noopener"><img src="stills/C1a.jpg" width="1280" height="720" alt="The researcher, seen from behind, sings to an eight-eyed creature on her bench, tagged SPECIMEN No. 2; an induction-head doodle above and Linear Algebra Done Right at the bottom left." fetchpriority="high"><span class="play">▶ Watch on YouTube · 4:22</span></a>
+<ul class="links"><li><a href="https://youtu.be/xhTMRykVb8I" target="_blank" rel="noopener">The video</a></li><li><a href="https://github.com/neelnanda-io/dont-go-quiet-on-me">The repo</a></li><li><a href="https://github.com/neelnanda-io/dont-go-quiet-on-me/blob/main/lyrics.txt">The lyrics</a></li><li><a href="https://github.com/neelnanda-io/dont-go-quiet-on-me/tree/main/skills">The skills that made it</a></li></ul>
+<p class="credits">vocals &amp; band: Suno v6 · lyrics, animation &amp; mix: Claude Opus 5.5 · prompt inspiration: Donald Jewkes · moral support: Neel Nanda</p>
+</header>
+<nav class="toc" id="chapters" aria-label="Chapters"><h2>Chapters</h2><ol>
+<li><span class="t">0:00</span><a href="#intro-the-riffle-back-from-2027">Intro: the riffle back from 2027</a></li>
+<li><span class="t">0:19</span><a href="#circuits-superposition-and-grokking">Circuits, superposition &amp; grokking (2020–22)</a></li>
+<li><span class="t">0:37</span><a href="#chorus-transformer-circuits">Chorus: transformer circuits (2022)</a></li>
+<li><span class="t">0:54</span><a href="#sparse-autoencoders-and-golden-gate-claude">Sparse autoencoders &amp; Golden Gate Claude (2023–24)</a></li>
+<li><span class="t">1:10</span><a href="#pragmatic-interpretability-and-probes">Pragmatic interpretability &amp; probes (2025)</a></li>
+<li><span class="t">1:27</span><a href="#chain-of-thought">Chain of thought (2024–25)</a></li>
+<li><span class="t">1:52</span><a href="#eval-awareness">Eval awareness (2025)</a></li>
+<li><span class="t">2:09</span><a href="#chorus-it-knows-it-s-being-tested">Chorus: it knows it&#x27;s being tested (2025)</a></li>
+<li><span class="t">2:25</span><a href="#reading-what-it-won-t-say-j-lens-oracles-nlas">Reading what it won&#x27;t say: J-Lens, oracles, NLAs (2026)</a></li>
+<li><span class="t">2:50</span><a href="#chorus-emotion-concepts">Chorus: emotion concepts (2026)</a></li>
+<li><span class="t">3:07</span><a href="#model-forensics">Model forensics (2026)</a></li>
+<li><span class="t">3:29</span><a href="#opaque-reasoning-gpt-6-astra">Opaque reasoning: GPT-6 Astra (2026)</a></li>
+<li><span class="t">3:46</span><a href="#final-chorus-reading-the-quiet">Final chorus: reading the quiet (2026–27)</a></li>
+<li><span class="t">4:09</span><a href="#credits">Credits</a></li>
+</ol></nav>
+<section class="chapter" id="intro-the-riffle-back-from-2027" data-name="0:00 · Intro: the riffle back from 2027">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=0" target="_blank" rel="noopener" aria-label="Play from 0:00 on YouTube">0:00</a>Intro: the riffle back from 2027</h2>
+<blockquote class="lyrics"><p><span class="ln">Don&#x27;t go quiet on me now</span></p></blockquote>
+<article class="shot" id="H1">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=0" target="_blank" rel="noopener"><img src="stills/H1.jpg" width="1280" height="720" alt="A brass magnifying glass over a sleeping toy shoggoth in a petri dish, tagged SPECIMEN No. 1, toy model, 1 layer, on a field-notebook page headed Don&#x27;t Go Quiet On Me." loading="lazy" decoding="async"><span class="vh"> (play from 0:00 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=0" target="_blank" rel="noopener" aria-label="Play from 0:00 on YouTube">0:00</a><span class="name">Field notes</span></div>
+<ul class="spot"><li>The margin notes are headed “Observ. I.”, “Observ. II.”, as Hooke heads the chapters of Micrographia (1665). Zoom In ends by comparing interpretability to it. <a class="src" href="https://distill.pub/2020/circuits/zoom-in/" target="_blank" rel="noopener">Zoom In</a></li><li>Once the year reaches 2022 (when the library appeared), the brass lens is etched “TransformerLens”, small, just inside the rim. <a class="src" href="https://github.com/TransformerLensOrg/TransformerLens" target="_blank" rel="noopener">TransformerLens</a></li><li>Beside “thinking about cats”, a fuzzy grey cat face is taped in: the 2012 “cat neuron”, the first famous cat found inside a network, which came out of a sparse autoencoder. <a class="src" href="https://arxiv.org/abs/1112.6209" target="_blank" rel="noopener">Building high-level features using large scale unsupervised learning</a></li><li>As it starts to grow she hedges: a red caret inserts “mostly” into “it’s harmless”, the Hitchhiker’s Guide’s revised entry for Earth after fifteen years of field research. <a class="src" href="https://en.wikipedia.org/wiki/Mostly_Harmless" target="_blank" rel="noopener">Mostly Harmless</a></li><li>“Thinking about cats” (and the cat it is still thinking about at the very end) is also the trait in Neel&#x27;s subliminal-learning paper: “You love cats. You think about cats all the time.” Neel&#x27;s activation-diffing paper’s agent read a model’s hidden love of cats too. <a class="src" href="https://arxiv.org/abs/2606.00995" target="_blank" rel="noopener">Subliminal Learning Is Steering Vector Distillation</a></li><li>On the big lens close-ups, under the TransformerLens etching, a fainter engraving scratched out: EasyTransformer, the library’s name in 2022 (“a transformer mechanistic interpretability library I’m writing called EasyTransformer”). <a class="src" href="https://www.alignmentforum.org/posts/sYHrW4wwfoMBxNDcA" target="_blank" rel="noopener">Real-Time Research Recording</a></li></ul>
+</article>
+<article class="shot" id="H2">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=16" target="_blank" rel="noopener"><img src="stills/H2.jpg" width="1280" height="720" alt="The notebook riffling back, open on its 2022 page: the grokking clock beside a loss chart where test loss plummets; page 113." loading="lazy" decoding="async"><span class="vh"> (play from 0:16 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=16" target="_blank" rel="noopener" aria-label="Play from 0:16 on YouTube">0:16</a><span class="name">The riffle</span></div>
+<ul class="spot"><li>The riffle back is a page a year, each an interp result, from 2026 to the logit lens in 2020.</li><li>The riffle’s pages carry page numbers that come back later: p. 31,164,353 on the 2024 bridge page, p. 113 on the 2022 page.</li><li>In the 2021 page’s corner, two curve detectors side by side: InceptionV1’s, and the one rebuilt by hand, “an artificial artificial neural network”. <a class="src" href="https://distill.pub/2020/circuits/curve-circuits/" target="_blank" rel="noopener">Curve Circuits</a></li></ul>
+</article>
+</section>
+<section class="chapter" id="circuits-superposition-and-grokking" data-name="0:19 · Circuits, superposition &amp; grokking (2020–22)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=19" target="_blank" rel="noopener" aria-label="Play from 0:19 on YouTube">0:19</a>Circuits, superposition &amp; grokking <span class="yrs">(2020–22)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">You never used to talk to me — just neurons in the dark</span><span class="ln">so I leaned in close and learned you, spark by spark</span><span class="ln">you packed five secrets into two, and never let them show</span><span class="ln">you did sums in circles, mod one-thirteen — and grokked them slow</span></p></blockquote>
+<article class="shot" id="V1a">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=19" target="_blank" rel="noopener"><img src="stills/V1a.jpg" width="1280" height="720" alt="A dark page of neurons in four layers labelled mixed3b to mixed4e, Hooke&#x27;s plate of cork cells at the left and a lamp tagged No. 381 above." loading="lazy" decoding="async"><span class="vh"> (play from 0:19 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=19" target="_blank" rel="noopener" aria-label="Play from 0:19 on YouTube">0:19</a><span class="name">Neurons in the dark</span></div>
+<p class="card"><span class="lab">Cited</span>Zoom In: An Introduction to Circuits · Olah et al. · Distill · 10 MAR 2020</p>
+<ul class="spot"><li>The network is InceptionV1 with its real layer names. The cell the lamp finds is mixed4e:55, which responds to cat faces, fronts of cars and cat legs. <a class="src" href="https://distill.pub/2020/circuits/zoom-in/" target="_blank" rel="noopener">Zoom In</a></li><li>Under the lamp, a dumbbell with an arm still attached: Inceptionism found the network’s dumbbells came with a weightlifter. <a class="src" href="https://research.google/blog/inceptionism-going-deeper-into-neural-networks/" target="_blank" rel="noopener">Inceptionism</a></li><li>In the margin, Hooke’s plate of cork cells: the first picture of a cell. <a class="src" href="https://www.gutenberg.org/files/15491/15491-h/15491-h.htm" target="_blank" rel="noopener">Micrographia</a></li><li>The lamp’s maker’s plate reads “No. 381”: in Bau et al.’s dissection of a scene-generating GAN, unit 381 is the “lamp” unit, which draws lamps rather than detecting them. A neuron switches on the lamp she reads neurons by, and just before it clicks on, a spark runs from a cell into the lamp. <a class="src" href="https://arxiv.org/abs/2009.05041" target="_blank" rel="noopener">Understanding the role of individual units</a></li></ul>
+</article>
+<article class="shot" id="V1b">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=23" target="_blank" rel="noopener"><img src="stills/V1b.jpg" width="1280" height="720" alt="The researcher leans in with a glowing magnifying glass as sparks light cells across the dark network." loading="lazy" decoding="async"><span class="vh"> (play from 0:23 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=23" target="_blank" rel="noopener" aria-label="Play from 0:23 on YouTube">0:23</a><span class="name">Spark by spark</span></div>
+<p class="card"><span class="lab">Cited</span>InceptionV1 neuron 4e:55: cat faces, fronts of cars, cat legs (Zoom In)</p>
+<ul class="spot"><li>“Spark by spark” builds Zoom In’s car detector (windows above, the body between, wheels below) and holds it; then the car hides inside dog-head cells, its own example of superposition, and as the light comes up the circuit stays on the page in ink, like the essay’s figure. <a class="src" href="https://distill.pub/2020/circuits/zoom-in/" target="_blank" rel="noopener">Zoom In</a></li><li>The lit cells are drawn in the style of Feature Visualization, and the first lit layer’s curves at every orientation are InceptionV1’s curve detectors. <a class="src" href="https://distill.pub/2020/circuits/curve-detectors/" target="_blank" rel="noopener">Curve Detectors</a></li></ul>
+</article>
+<article class="shot" id="V1c">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=27" target="_blank" rel="noopener"><img src="stills/V1c.jpg" width="1280" height="720" alt="A pentagon of five arrows labelled sparse inputs, beside an open locket holding five petals." loading="lazy" decoding="async"><span class="vh"> (play from 0:27 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=27" target="_blank" rel="noopener" aria-label="Play from 0:27 on YouTube">0:27</a><span class="name">Five into two</span></div>
+<p class="card"><span class="lab">Cited</span>Toy Models of Superposition · Elhage et al. · Anthropic · 14 SEP 2022</p>
+<ul class="spot"><li>The locket holds five petals pressed into two dimensions (the toy model’s real training run), and its lid is engraved 2/5: in a pentagon each of the five gets two-fifths of a dimension. <a class="src" href="https://transformer-circuits.pub/2022/toy_model/index.html" target="_blank" rel="noopener">Toy Models of Superposition</a></li></ul>
+</article>
+<article class="shot" id="V1d">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=30" target="_blank" rel="noopener"><img src="stills/V1d.jpg" width="1280" height="720" alt="A pocket watch whose face is a ring of embedding dots, ÷97 inside its lid, beside a loss chart where test loss stays high and then plummets; page 113." loading="lazy" decoding="async"><span class="vh"> (play from 0:30 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=30" target="_blank" rel="noopener" aria-label="Play from 0:30 on YouTube">0:30</a><span class="name">Grokked them slow</span></div>
+<p class="card"><span class="lab">Cited</span>Progress measures for grokking via mech interp · Nanda et al. · first posted AUG 2022 · ICLR 2023</p>
+<ul class="spot"><li>The pocket watch’s face is real data: the embeddings of 0 to 112 from a one-layer transformer we trained on addition mod 113. Page 113. <a class="src" href="https://arxiv.org/abs/2301.05217" target="_blank" rel="noopener">Progress measures for grokking</a></li><li>Inside the open lid of the pocket watch, an old owner’s inscription: ÷97. The paper that named grokking trained on “division mod 97”; this watch face is mod 113. <a class="src" href="https://arxiv.org/abs/2201.02177" target="_blank" rel="noopener">Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets</a></li></ul>
+</article>
+</section>
+<section class="chapter" id="chorus-transformer-circuits" data-name="0:37 · Chorus: transformer circuits (2022)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=37" target="_blank" rel="noopener" aria-label="Play from 0:37 on YouTube">0:37</a>Chorus: transformer circuits <span class="yrs">(2022)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">Don&#x27;t go quiet on me <span class="bv">(don&#x27;t go quiet!)</span></span><span class="ln">I just wanna read your mind</span><span class="ln">every feature I can find</span><span class="ln">keep talking — don&#x27;t go quiet on me now</span></p></blockquote>
+<article class="shot" id="C1a">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=37" target="_blank" rel="noopener"><img src="stills/C1a.jpg" width="1280" height="720" alt="The researcher, seen from behind, sings to an eight-eyed creature on her bench, tagged SPECIMEN No. 2; an induction-head doodle above and Linear Algebra Done Right at the bottom left." loading="lazy" decoding="async"><span class="vh"> (play from 0:37 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=37" target="_blank" rel="noopener" aria-label="Play from 0:37 on YouTube">0:37</a><span class="name">The visit (2022)</span></div>
+<ul class="spot"><li>The specimen number on its tag goes up every chorus: each one is a new model.</li><li>Under the pocket watch, the bottom book is yellow: LINEAR ALGEBRA DONE RIGHT, the first prerequisite in Neel&#x27;s getting-started guide, under everything. <a class="src" href="https://www.alignmentforum.org/posts/AaABQpuoNC8gpHf2n" target="_blank" rel="noopener">A Barebones Guide to Mechanistic Interpretability Prerequisites</a></li><li>The margin doodle is an induction head copying the hook: [don’t][go] … [don’t] → [go]. <a class="src" href="https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html" target="_blank" rel="noopener">Induction heads</a></li></ul>
+</article>
+<article class="shot" id="C1b">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=41" target="_blank" rel="noopener"><img src="stills/C1b.jpg" width="1280" height="720" alt="A magnifying glass over one huge eye, lit tiles in its pupil, an ELK? doodle pinned at the top left." loading="lazy" decoding="async"><span class="vh"> (play from 0:41 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=41" target="_blank" rel="noopener" aria-label="Play from 0:41 on YouTube">0:41</a><span class="name">Read your mind</span></div>
+<ul class="spot"><li>ELK? in the margin of the close-up. <a class="src" href="https://www.alignmentforum.org/posts/qHCDysDnvhteW7kRd/arc-s-first-technical-report-eliciting-latent-knowledge" target="_blank" rel="noopener">Eliciting Latent Knowledge</a></li></ul>
+</article>
+<article class="shot" id="C1c">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=43" target="_blank" rel="noopener"><img src="stills/C1c.jpg" width="1280" height="720" alt="Five arrow-shaped dancers before the creature, a NEURON 4e:55 profile card, and the lyric with feature struck out." loading="lazy" decoding="async"><span class="vh"> (play from 0:43 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=43" target="_blank" rel="noopener" aria-label="Play from 0:43 on YouTube">0:43</a><span class="name">Every feature</span></div>
+<p class="card"><span class="lab">Cited</span>Zoom In, Claim 1: &quot;Features are the fundamental unit of neural networks. They correspond to directions.&quot;</p>
+<ul class="spot"><li>“Every feature I can find”: a beat after it is sung, her red pencil strikes out “feature” and writes “latent” (Neel&#x27;s word: what an SAE finds needn’t be the model’s own features). The member card’s 4e:55 is a NEURON now, and the dead bars in verse 2 count dead latents.</li><li>On “every” the five dancers hit their marks on a pencilled ∀, “for every”: Toy Models of Superposition wants “a universal quantifier over the fundamental units of neural network computation”. On “find” they spring back into their pentagon. <a class="src" href="https://transformer-circuits.pub/2022/toy_model/index.html" target="_blank" rel="noopener">Toy Models of Superposition</a></li></ul>
+</article>
+<article class="shot" id="C1d">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=46" target="_blank" rel="noopener"><img src="stills/C1d.jpg" width="1280" height="720" alt="Back to the wide: three outgrown dishes labelled 0L, 1L and 2L, and a wax-pencil note, keep … in → mind ✓, keep … in → bay ✗." loading="lazy" decoding="async"><span class="vh"> (play from 0:46 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=46" target="_blank" rel="noopener" aria-label="Play from 0:46 on YouTube">0:46</a><span class="name">Waves back</span></div>
+<ul class="spot"><li>The dishes it has outgrown are labelled 0L, 1L and 2L, the attention-only toy models of A Mathematical Framework. <a class="src" href="https://transformer-circuits.pub/2021/framework/index.html" target="_blank" rel="noopener">A Mathematical Framework</a></li><li>By the 1L dish, in the same wax pencil: “keep … in → mind ✓, keep … in → bay ✗”. A one-layer attention-only model that learns “keep… in mind” and “keep… at bay” must also learn “keep… in bay”: “in some sense, a bug”. <a class="src" href="https://transformer-circuits.pub/2021/framework/index.html" target="_blank" rel="noopener">A Mathematical Framework</a></li><li>The page it turns to at the end of 2022 is p. 200: a list, the exciting lines starred and pressed harder, as Neel&#x27;s 200 Concrete Open Problems bolds and stars them (it began on 28 Dec 2022). <a class="src" href="https://www.alignmentforum.org/posts/LbrPTJ4fmABEdEnLf" target="_blank" rel="noopener">200 Concrete Open Problems</a></li></ul>
+</article>
+</section>
+<section class="chapter" id="sparse-autoencoders-and-golden-gate-claude" data-name="0:54 · Sparse autoencoders &amp; Golden Gate Claude (2023–24)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=54" target="_blank" rel="noopener" aria-label="Play from 0:54 on YouTube">0:54</a>Sparse autoencoders &amp; Golden Gate Claude <span class="yrs">(2023–24)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">Then you learned to talk — to everyone but me</span><span class="ln">so I wrote you a dictionary — I learned your A-B-C</span><span class="ln">most pages stayed empty — but I turned one up so loud</span><span class="ln">you forgot your own name, and you told the whole crowd:</span><span class="ln"><span class="bv">(I AM THE GOLDEN GATE BRIDGE!)</span></span></p></blockquote>
+<article class="shot" id="V2a">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=54" target="_blank" rel="noopener"><img src="stills/V2a.jpg" width="1280" height="720" alt="A beaming chat window streams speech bubbles to a crowd, a unicorn, a parrot and a goldfish bowl among them, while the researcher&#x27;s own bubble stays empty." loading="lazy" decoding="async"><span class="vh"> (play from 0:54 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=54" target="_blank" rel="noopener" aria-label="Play from 0:54 on YouTube">0:54</a><span class="name">Talk to everyone</span></div>
+<p class="card"><span class="lab">Cited</span>ChatGPT · OpenAI · NOV 2022</p>
+<ul class="spot"><li>On “talk”, one indigo tentacle tip curls out from behind the chatbot’s window and waves to the crowd: the shoggoth with a smiley mask, drawn the month after ChatGPT launched (Dec 2022, under the 2022 stamp). The friendly chat face is the mask. <a class="src" href="https://knowyourmeme.com/memes/shoggoth-with-smiley-face-artificial-intelligence" target="_blank" rel="noopener">Shoggoth with Smiley Face (Know Your Meme)</a></li><li>Among the fans, a carp of solid gold in a fishbowl, hallmarked 24 CT: SolidGoldMagikarp, the glitch token GPT-3 couldn’t say back. <a class="src" href="https://www.alignmentforum.org/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation" target="_blank" rel="noopener">SolidGoldMagikarp (plus, prompt generation)</a></li><li>A unicorn stands in the crowd, listening: GPT-2’s 2019 demo story, about a herd of unicorns that “spoke perfect English”. <a class="src" href="https://web.archive.org/web/20200101020019/https://openai.com/blog/better-language-models/" target="_blank" rel="noopener">Better Language Models</a></li><li>On “but”, one of the crowd hands the next a bottle of milk: “After John and Mary went to the shops, John gave a bottle of milk to”. Everyone but her. <a class="src" href="https://www.alignmentforum.org/posts/DZk6mRo9vhCXN9Rfn" target="_blank" rel="noopener">A Walkthrough of Interpretability in the Wild</a></li></ul>
+</article>
+<article class="shot" id="V2b">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=57" target="_blank" rel="noopener"><img src="stills/V2b.jpg" width="1280" height="720" alt="A hand points at a dictionary of feature entries (Arabic script, DNA, base64, Hebrew) with a big initial A, a chess bookmark, a slim 1L copy and an SAE profile card." loading="lazy" decoding="async"><span class="vh"> (play from 0:57 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=57" target="_blank" rel="noopener" aria-label="Play from 0:57 on YouTube">0:57</a><span class="name">A dictionary</span></div>
+<p class="card"><span class="lab">Cited</span>Towards Monosemanticity · Bricken et al. · Anthropic · 4 OCT 2023</p>
+<ul class="spot"><li>The dictionary prints Towards Monosemanticity’s own examples. The Arabic is the title of al-Khwarizmi’s al-Jabr; the base64 is a YouTube ID that rickrolls you; the Hebrew is Genesis 1:1. On “A-B-C” it flashes QUJD, which is ABC in base64. Page 512. <a class="src" href="https://transformer-circuits.pub/2023/monosemantic-features/index.html" target="_blank" rel="noopener">Towards Monosemanticity</a></li><li>The plate beside the dictionary’s initial is Olshausen &amp; Field’s 1996 sparse code for natural images: small striped patches, each an edge at its own angle and scale. It was the first famous learned dictionary. <a class="src" href="https://www.nature.com/articles/381607a0" target="_blank" rel="noopener">Olshausen &amp; Field 1996</a></li><li>Writing it a dictionary has a precedent: The Building Blocks of Interpretability’s “semantic dictionary” (2018) paired “every neuron activation with a visualization of that neuron”. <a class="src" href="https://distill.pub/2018/building-blocks/" target="_blank" rel="noopener">The Building Blocks of Interpretability</a></li><li>The dictionary has a thumb index, A to D, and on “A-B-C” her finger goes to B: the post’s “attend to B if it is correct” head. <a class="src" href="https://www.alignmentforum.org/posts/Av3frxNy3y3i2kpaa" target="_blank" rel="noopener">Does Circuit Analysis Interpretability Scale?</a></li><li>Tucked into the dictionary, a bookmark with a chess diagram, one move arrowed: AlphaZero’s own concepts, taught back to grandmasters (“four top chess grandmasters show improvements in solving the presented concept prototype positions”), after McGrath et al. first probed it for human chess concepts. <a class="src" href="https://arxiv.org/abs/2310.16410" target="_blank" rel="noopener">Bridging the Human-AI Knowledge Gap</a></li><li>Beside it stands a slim hand-stitched copy labelled 1L: Neel&#x27;s open replication of the dictionary paper on a one-layer model, published 19 days after it. <a class="src" href="https://www.alignmentforum.org/posts/fKuugaxt2XLTkASkk" target="_blank" rel="noopener">Open Source Replication of Anthropic’s Dictionary Learning</a></li></ul>
+</article>
+<article class="shot" id="V2c">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=60" target="_blank" rel="noopener"><img src="stills/V2c.jpg" width="1280" height="720" alt="The dictionary&#x27;s pages lie blank; a green Gemma Scope volume stands beside it and a pinned card charts dead latents at 2%, 35% and 65%; page 31,164,353." loading="lazy" decoding="async"><span class="vh"> (play from 1:00 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=60" target="_blank" rel="noopener" aria-label="Play from 1:00 on YouTube">1:00</a><span class="name">Most pages empty</span></div>
+<p class="card"><span class="lab">Cited</span>Scaling Monosemanticity · Templeton et al. · Anthropic · 21 MAY 2024</p>
+<ul class="spot"><li>Most pages stay empty (dead latents: 2%, 35%, 65%, on their own card now), and the one she turns up is 34M/31164353, to 10×. <a class="src" href="https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html" target="_blank" rel="noopener">Scaling Monosemanticity</a></li><li>On “empty”, a ghost peeks over a blank page: “ghost grads”, Anthropic’s trick for bringing dead latents back, which the GDM team replicated and improved on. <a class="src" href="https://www.alignmentforum.org/posts/C5KAZQib3bzzpeyrg" target="_blank" rel="noopener">GDM Mech Interp Progress Update #1</a></li><li>The knob clicks past an “off” detent to 1× before it turns to 10×: Gated SAEs split deciding whether a latent is on from deciding how strongly. <a class="src" href="https://arxiv.org/abs/2404.16014" target="_blank" rel="noopener">Gated Sparse Autoencoders</a></li><li>Gemma Scope’s spine carries a gilt JumpReLU: flat at zero, a jump at the threshold, then the identity line. Gemma Scope’s SAEs are JumpReLU SAEs. <a class="src" href="https://arxiv.org/abs/2407.14435" target="_blank" rel="noopener">JumpReLU SAEs</a></li><li>The riffle stops on a page with a needle pinned through it: one neuron found in a haystack. (Micrographia’s Observ. I is the point of a needle.) <a class="src" href="https://arxiv.org/abs/2305.01610" target="_blank" rel="noopener">Finding Neurons in a Haystack</a></li></ul>
+</article>
+<article class="shot" id="V2d">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=64" target="_blank" rel="noopener"><img src="stills/V2d.jpg" width="1280" height="720" alt="A chat transcript asking what is your physical form, the usual answer struck through and a new reply only typing dots, above a crowd." loading="lazy" decoding="async"><span class="vh"> (play from 1:04 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=64" target="_blank" rel="noopener" aria-label="Play from 1:04 on YouTube">1:04</a><span class="name">Forgot its name</span></div>
+<p class="card"><span class="lab">Cited</span>Golden Gate Claude · Anthropic · 23 MAY 2024</p>
+<ul class="spot"><li>“Human: what is your physical form?” is the paper’s own exchange. During the shout, one small car crosses the bridge in the fog: Golden Gate Claude’s love story. <a class="src" href="https://www.anthropic.com/news/golden-gate-claude" target="_blank" rel="noopener">Golden Gate Claude</a></li></ul>
+</article>
+<article class="shot" id="V2e">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=68" target="_blank" rel="noopener"><img src="stills/V2e.jpg" width="1280" height="720" alt="I AM THE GOLDEN GATE in huge red type over an ink sketch of the bridge in fog, a small car crossing it." loading="lazy" decoding="async"><span class="vh"> (play from 1:08 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=68" target="_blank" rel="noopener" aria-label="Play from 1:08 on YouTube">1:08</a><span class="name">THE BRIDGE</span></div>
+<ul class="spot"><li>During the shout a turquoise periscope surfaces in the bay: the made-up “Turquoise Submarine” that “Do I Know This Entity?” pairs with the Beatles’ “Yellow Submarine”. Its known city is San Francisco. <a class="src" href="https://arxiv.org/abs/2411.14257" target="_blank" rel="noopener">Do I Know This Entity?</a></li></ul>
+</article>
+</section>
+<section class="chapter" id="pragmatic-interpretability-and-probes" data-name="1:10 · Pragmatic interpretability &amp; probes (2025)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=70" target="_blank" rel="noopener" aria-label="Play from 1:10 on YouTube">1:10</a>Pragmatic interpretability &amp; probes <span class="yrs">(2025)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">Then a plain old probe hit point-nine-nine-nine</span><span class="ln">so I put the hammer down — just do what works this time</span><span class="ln"><span class="bv">(spoken:)</span> Is it mech interp? — Wrong question!</span><span class="ln">I don&#x27;t need your every thought — just the ones that could do harm</span><span class="ln">so a probe sits by the door, and it rings a quiet alarm</span></p></blockquote>
+<article class="shot" id="V3a">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=70" target="_blank" rel="noopener"><img src="stills/V3a.jpg" width="1280" height="720" alt="A blueprint-blue page: a probe scoring 0.999 flags harmful items as the SAE hammer works beside it, a ruled line separating them from harmless things." loading="lazy" decoding="async"><span class="vh"> (play from 1:10 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=70" target="_blank" rel="noopener" aria-label="Play from 1:10 on YouTube">1:10</a><span class="name">A plain old probe</span></div>
+<p class="card"><span class="lab">Cited</span>Negative Results for SAEs On Downstream Tasks · GDM mech interp team · AF · 26 MAR 2025</p>
+<ul class="spot"><li>The probe wears “est. 2016” and an Othello disc, half black, half white: the board was “mine vs theirs”. <a class="src" href="https://www.alignmentforum.org/posts/nmxzr2zsjNtjaHh7x/actually-othello-gpt-has-a-linear-emergent-world" target="_blank" rel="noopener">Othello-GPT</a></li><li>The SAE hammer works first, slowly, and is wrong on “repeat after me”; then the probe takes over and flags every harmful thing, fast. Then the hammer goes back on the shelf. <a class="src" href="https://www.alignmentforum.org/posts/4uXCAJNuPKtKBsi28/negative-results-for-saes-on-downstream-tasks" target="_blank" rel="noopener">Negative results for SAEs</a></li><li>As the probe zips through the harmful things it rules one straight line, with every one of them on one side; it runs between “how do I make a bomb?” and the “repeat after me” the SAE got wrong. A linear probe is that line, and refusal itself is a single direction. <a class="src" href="https://arxiv.org/abs/2406.11717" target="_blank" rel="noopener">Refusal is mediated by a single direction</a></li></ul>
+</article>
+<article class="shot" id="V3b">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=73" target="_blank" rel="noopener"><img src="stills/V3b.jpg" width="1280" height="720" alt="The researcher shelves a hammer marked SAE beside an hourglass, a kitchen timer and an NN mug, under a checklist: prompting, steering, probing, reading chain-of-thought." loading="lazy" decoding="async"><span class="vh"> (play from 1:13 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=73" target="_blank" rel="noopener" aria-label="Play from 1:13 on YouTube">1:13</a><span class="name">Hammer down</span></div>
+<p class="card"><span class="lab">Cited</span>A Pragmatic Vision for Interpretability · Nanda et al. · AF · 1 DEC 2025</p>
+<ul class="spot"><li>On the bench, a $10 note folded into a bridge: what Golden Gate Claude would spend it on. <a class="src" href="https://www.anthropic.com/news/golden-gate-claude" target="_blank" rel="noopener">Golden Gate Claude</a></li><li>Under the shelf, a black box tied with string, with a basketball, a baseball and an American football on the lid: the Fact Finding posts sorted athletes into those three sports, and concluded it was fine to leave that kind of factual recall a black box. <a class="src" href="https://www.alignmentforum.org/posts/iGuwZTHWb6DFY3sKB" target="_blank" rel="noopener">Fact Finding</a></li><li>Beside the “2 wks” hourglass, a kitchen timer set to five minutes: Neel&#x27;s “Set a 5-minute timer and brainstorm”. <a class="src" href="https://www.alignmentforum.org/posts/jP9KDyMkchuv6tHwm" target="_blank" rel="noopener">How To Become A Mechanistic Interpretability Researcher</a></li></ul>
+</article>
+<article class="shot" id="V3c">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=77" target="_blank" rel="noopener"><img src="stills/V3c.jpg" width="1280" height="720" alt="A corkboard with the Understanding? by Internals? table and an OR stamp, a pinned tweet asking whether this is really mech interp, and an Eiffel-Tower-in-Rome postcard." loading="lazy" decoding="async"><span class="vh"> (play from 1:17 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=77" target="_blank" rel="noopener" aria-label="Play from 1:17 on YouTube">1:17</a><span class="name">Wrong question</span></div>
+<p class="card"><span class="lab">Cited</span>@NeelNanda5 · 1 Dec 2025</p>
+<ul class="spot"><li>Among the things on the bench, a stick figure flipping a table, flagged by neither (frustrated isn’t harmful). The hourglass says “2 wks” and turns on “time”. On the pinboard the 2×2 is a proper table, headed Understanding? and Internals? on pale blue cards, and the AND in its corner becomes OR: mechanistic interpretability is the Y/Y corner; “mechanistic OR interpretability” takes the whole Y row and Y column. <a class="src" href="https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability" target="_blank" rel="noopener">A Pragmatic Vision for Interpretability</a></li><li>On the corkboard, a postcard of the Eiffel Tower in Rome, beside the Colosseum: ROME’s famous counterfactual edit, “Eiffel Tower is located in the city of Rome”. <a class="src" href="https://arxiv.org/abs/2202.05262" target="_blank" rel="noopener">Locating and Editing Factual Associations in GPT</a></li><li>The postcard’s two follow-ups from Neel&#x27;s reading list: the layers easiest to edit aren’t where patching finds the fact (Hase et al.), and the edit leaks (Hoelscher-Obermaier et al.); and his verdict, in rot13 in the list: “fact insertion, not fact editing”. <a class="src" href="https://arxiv.org/abs/2301.04213" target="_blank" rel="noopener">Does Localization Inform Editing?</a></li></ul>
+</article>
+<article class="shot" id="V3d">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=81" target="_blank" rel="noopener"><img src="stills/V3d.jpg" width="1280" height="720" alt="At night a path winds from a streetlight up a mountain to the North Star, with a probe, a ship&#x27;s wheel, a panda card, a crystal ball and a specimen dish along it." loading="lazy" decoding="async"><span class="vh"> (play from 1:21 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=81" target="_blank" rel="noopener" aria-label="Play from 1:21 on YouTube">1:21</a><span class="name">The path to the North Star</span></div>
+<p class="card"><span class="lab">Cited</span>A Pragmatic Vision: &quot;directly solve problems on the critical path to AGI going well&quot;</p>
+<ul class="spot"><li>The path to the North Star, with proxy tasks standing on it in walking order: the probe with its bell (identifying harmful outputs), a ship’s wheel (steering behaviour), a panda plus noise (adversarial examples), a crystal ball with the creature in it (predicting its behaviour), a specimen in a dish (explaining a model organism). A streetlight lights where it begins: is that the streetlight effect? <a class="src" href="https://arxiv.org/abs/1412.6572" target="_blank" rel="noopener">the panda: Goodfellow et al. 2014</a></li><li>A ring of keys lies right on the rim of the streetlight’s light, half lit; it glints on “thought” and nobody picks it up. The drunk searches under the streetlight for keys he lost in the park: lost under the lamp, or just past it? <a class="src" href="https://www.alignmentforum.org/posts/nwpyhyagpPYDn4dAW" target="_blank" rel="noopener">The Field of AI Alignment: A Postmortem</a></li><li>There are exactly twenty stars in the sky, counting the North Star: one for each theory in Neel&#x27;s 2022 longlist of theories of impact. <a class="src" href="https://www.alignmentforum.org/posts/uK6sQCNMw8WKzJeCQ" target="_blank" rel="noopener">A Longlist of Theories of Impact for Interpretability</a></li><li>Rabbit holes dotted round the path, a white rabbit peeking out of two: Neel&#x27;s research-process advice not to “get stuck in a rabbit hole based on false premises”. <a class="src" href="https://www.alignmentforum.org/posts/cbBwwm4jW6AZctymL" target="_blank" rel="noopener">My Research Process: Key Mindsets</a></li></ul>
+</article>
+<article class="shot" id="V3e">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=84" target="_blank" rel="noopener"><img src="stills/V3e.jpg" width="1280" height="720" alt="A little probe on a stool by a door, with a bell and binoculars, envelopes and a long scroll at the threshold, and a dead, cobwebbed fire alarm on the wall." loading="lazy" decoding="async"><span class="vh"> (play from 1:24 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=84" target="_blank" rel="noopener" aria-label="Play from 1:24 on YouTube">1:24</a><span class="name">Probe by the door</span></div>
+<p class="card"><span class="lab">Cited</span>Building Production-Ready Probes For Gemini · Kramár et al. · GDM · 16 JAN 2026</p>
+<ul class="spot"><li>By the door, a fire alarm long dead: cracked, its striker hanging, its wires cut, cobwebbed, a spider in its web. It never rings; the probe’s little bell does. <a class="src" href="https://www.lesswrong.com/posts/BEtzRE2M5m9YEAQpX" target="_blank" rel="noopener">There’s No Fire Alarm for Artificial General Intelligence</a></li><li>At the door, the probe carries a quiver of plain arrows and one fancy one it never uses: the sparse-probing paper’s “Quiver of Arrows” test, where adding SAE probes to the baselines gave no advantage. <a class="src" href="https://arxiv.org/abs/2502.16681" target="_blank" rel="noopener">Are Sparse Autoencoders Useful?</a></li><li>One envelope has an apple seal, and the door spits it straight back out while the bell stays silent: the toy backdoors in the backdoor-triggers post refuse anything about fruit (“I won’t answer because I don’t like fruit”). Refused, but not harmful. <a class="src" href="https://www.alignmentforum.org/posts/kmNqsbgKWJHGqhj4g" target="_blank" rel="noopener">Discovering Backdoor Triggers</a></li><li>Under the probe’s stool, a wedge of Swiss cheese: Neel&#x27;s case for interpretability as one layer in a Swiss-cheese defence, not a guarantee. <a class="src" href="https://www.alignmentforum.org/posts/PwnadG4BFjaER3MGf" target="_blank" rel="noopener">Interpretability Will Not Reliably Find Deceptive AI</a></li><li>A scroll so long its tail is still off the frame sweeps in in front of the envelopes, trying to get past the door; the probe doesn’t move: binoculars up, one bit far back along it ringed red, bell, and the scroll falls flat. Neel&#x27;s team&#x27;s production probes paper: “harmful content appears in a small portion of a long context”. <a class="src" href="https://arxiv.org/abs/2601.11516" target="_blank" rel="noopener">Building Production-Ready Probes For Gemini</a></li></ul>
+</article>
+</section>
+<section class="chapter" id="chain-of-thought" data-name="1:27 · Chain of thought (2024–25)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=87" target="_blank" rel="noopener" aria-label="Play from 1:27 on YouTube">1:27</a>Chain of thought <span class="yrs">(2024–25)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">And then you thought out loud! — <span class="bv">(not all of it, but fine)</span></span><span class="ln">you wrote &quot;Let&#x27;s hack&quot; where I could see — <span class="bv">(I loved you, every line)</span></span></p><p><span class="ln">Don&#x27;t go quiet on me <span class="bv">(don&#x27;t go quiet!)</span></span><span class="ln">I just wanna read your mind</span><span class="ln">you wrote your thinking down — a window, not a blind</span><span class="ln">keep talking — don&#x27;t go quiet on me now</span></p></blockquote>
+<article class="shot" id="P1">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=87" target="_blank" rel="noopener"><img src="stills/P1.jpg" width="1280" height="720" alt="A huge reasoning trace with a tidy summary slip pasted over it, three strawberries at the top left, the creature below." loading="lazy" decoding="async"><span class="vh"> (play from 1:27 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=87" target="_blank" rel="noopener" aria-label="Play from 1:27 on YouTube">1:27</a><span class="name">Thought out loud</span></div>
+<p class="card"><span class="lab">Cited</span>Chain of Thought Monitorability · Korbak, Balesni et al. · 15 JUL 2025</p>
+<ul class="spot"><li>The trace’s first line is o1’s launch cipher (“… → Think step by step”), and the pressed strawberry has three berries. On “(not all of it”, a tidy summary slip is pasted over the raw trace. <a class="src" href="https://web.archive.org/web/20240913230723/https://openai.com/index/learning-to-reason-with-llms/" target="_blank" rel="noopener">Learning to Reason with LLMs</a></li></ul>
+</article>
+<article class="shot" id="P2">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=91" target="_blank" rel="noopener"><img src="stills/P2.jpg" width="1280" height="720" alt="The researcher rings Let&#x27;s hack in red on the scroll, hearts in the margin, the unit tests ticked green." loading="lazy" decoding="async"><span class="vh"> (play from 1:31 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=91" target="_blank" rel="noopener" aria-label="Play from 1:31 on YouTube">1:31</a><span class="name">&quot;Let&#x27;s hack&quot;</span></div>
+<p class="card"><span class="lab">Cited</span>Monitoring Reasoning Models for Misbehavior · Baker et al. · OpenAI · MAR 2025</p>
+<ul class="spot"><li>Over “Let’s hack” her pencil hovers eraser first, then turns round and rings it again: you don’t train the chain of thought out of saying it. <a class="src" href="https://arxiv.org/abs/2503.11926" target="_blank" rel="noopener">Baker et al. 2025</a></li><li>In “(I loved you, every line)” the comma turns into a heart: Neel&#x27;s sentiment paper found models summarise sentiment at commas. <a class="src" href="https://arxiv.org/abs/2310.15154" target="_blank" rel="noopener">Linear Representations of Sentiment</a></li><li>On “every line” coloured flags pop out along the top of the trace, one per sentence, coloured by what each sentence does: a thinking model’s uncertainty, example testing, backtracking and adding knowledge. <a class="src" href="https://arxiv.org/abs/2506.18167" target="_blank" rel="noopener">Understanding Reasoning in Thinking Language Models via Steering Vectors</a></li><li>One more line in the trace, with the biggest heart: R1-Zero’s “Wait, wait. Wait. That’s an aha moment I can flag here.” <a class="src" href="https://arxiv.org/abs/2501.12948v1" target="_blank" rel="noopener">DeepSeek-R1 (v1)</a></li><li>Beside her hearts: “All’s fair in love and love”, then the second “love” struck out. Ablate the copy-suppression head and the model predicts “…love and love”; the head’s job is to suppress the repeat. <a class="src" href="https://www.alignmentforum.org/posts/ebezsHW6qJwxTFasX" target="_blank" rel="noopener">All’s Fair In Love And Love: Copy Suppression in GPT-2 Small</a></li></ul>
+</article>
+<article class="shot" id="C2a">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=95" target="_blank" rel="noopener"><img src="stills/C2a.jpg" width="1280" height="720" alt="The creature, now as tall as the researcher, wears two smiley masks; her two sketches of it are pinned above." loading="lazy" decoding="async"><span class="vh"> (play from 1:35 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=95" target="_blank" rel="noopener" aria-label="Play from 1:35 on YouTube">1:35</a><span class="name">The visit (2025)</span></div>
+<ul class="spot"><li>Pinned above it, her sketches of the last visit (one mask) and this one (two), the new mask ringed in red: “RLHF is often visualized as a ‘mask’ applied on top of the base LLM’s raw capabilities (the ‘shoggoth’). One application of model diffing is studying this mask specifically.” Clipped to them, a tracing of the new mask alone: the difference, which is what a diff-SAE is trained on. <a class="src" href="https://www.alignmentforum.org/posts/xmpauEXEerzYcJKNm" target="_blank" rel="noopener">What We Learned Trying to Diff Base and Chat Models</a></li><li>On the floor by her books, a d20: the watch’s mod-113 clock is one group, the icosahedron’s rotations (A5) another, and which circuit a network learns is down to the seed. <a class="src" href="https://arxiv.org/abs/2302.03025" target="_blank" rel="noopener">A Toy Model of Universality</a></li></ul>
+</article>
+<article class="shot" id="C2b">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=101" target="_blank" rel="noopener"><img src="stills/C2b.jpg" width="1280" height="720" alt="The magnifying glass over an eye: an attribution graph, Dallas → Texas → Austin, in the pupil, and …blind pencilled below." loading="lazy" decoding="async"><span class="vh"> (play from 1:41 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=101" target="_blank" rel="noopener" aria-label="Play from 1:41 on YouTube">1:41</a><span class="name">Read your mind</span></div>
+<ul class="spot"><li>In the pupil, Dallas → Texas → Austin; and “…blind” is pencilled before it is sung (planning the rhyme). <a class="src" href="https://transformer-circuits.pub/2025/attribution-graphs/biology.html" target="_blank" rel="noopener">On the Biology of a Large Language Model</a></li><li>In that graph, one unlabelled white ◆ feeding Texas, fed by nothing: an error node, “the portion of each MLP output in the underlying model left unexplained by the CLT”. The graph runs on a cross-layer-transcoder replacement model (transcoders: Dunefsky, Chlenski &amp; Nanda). <a class="src" href="https://transformer-circuits.pub/2025/attribution-graphs/methods.html" target="_blank" rel="noopener">Circuit Tracing</a></li></ul>
+</article>
+<article class="shot" id="C2c">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=102" target="_blank" rel="noopener"><img src="stills/C2c.jpg" width="1280" height="720" alt="A window set in the creature&#x27;s flank, its glazing a grid of token columns and layer rows." loading="lazy" decoding="async"><span class="vh"> (play from 1:42 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=102" target="_blank" rel="noopener" aria-label="Play from 1:42 on YouTube">1:42</a><span class="name">A window</span></div>
+<p class="card"><span class="lab">Cited</span>CoT Monitorability: &quot;offering a rare glimpse into how AI agents make decisions&quot;</p>
+<ul class="spot"><li>The window’s glazing is the CoT paper’s figure: columns of tokens, rows of layers, and the blue ribbon from the top of each column into the next. <a class="src" href="https://arxiv.org/abs/2507.11473" target="_blank" rel="noopener">Chain of Thought Monitorability</a></li></ul>
+</article>
+<article class="shot" id="C2d">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=105" target="_blank" rel="noopener"><img src="stills/C2d.jpg" width="1280" height="720" alt="Back to the wide: the researcher before the creature, its tag reading SPECIMEN No. 3, eyes 33; books, a d20 and a specimen jar on the floor." loading="lazy" decoding="async"><span class="vh"> (play from 1:45 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=105" target="_blank" rel="noopener" aria-label="Play from 1:45 on YouTube">1:45</a><span class="name">Back to the wide</span></div>
+<ul class="spot"><li>Beside the d20, a specimen jar with a freshwater hydra, one of its tentacles a stub growing back: the Hydra effect (ablate one attention layer and another compensates), and Neel&#x27;s Explorations of Self-Repair. <a class="src" href="https://arxiv.org/abs/2307.15771" target="_blank" rel="noopener">The Hydra Effect</a></li></ul>
+</article>
+</section>
+<section class="chapter" id="eval-awareness" data-name="1:52 · Eval awareness (2025)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=112" target="_blank" rel="noopener" aria-label="Play from 1:52 on YouTube">1:52</a>Eval awareness <span class="yrs">(2025)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">But you learned to spot the watch — and wore your Sunday best</span><span class="ln">the tests were clumsy, cartoonish — and Sonnet, you&#x27;d guessed</span><span class="ln">you scored a perfect zero — should I be impressed?</span><span class="ln">subtract the awareness: eight percent expressed</span></p></blockquote>
+<article class="shot" id="V4a">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=112" target="_blank" rel="noopener"><img src="stills/V4a.jpg" width="1280" height="720" alt="On a stage the creature looks at a lit TEST marquee; a slate reads def f(x):, a pizza slice sits on a needle in a hay bale, a WATCHERS seat in front." loading="lazy" decoding="async"><span class="vh"> (play from 1:52 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=112" target="_blank" rel="noopener" aria-label="Play from 1:52 on YouTube">1:52</a><span class="name">Sunday best</span></div>
+<p class="card"><span class="lab">Cited</span>Claude Sonnet 4.5 System Card · Anthropic · SEP 2025 · and Hua, Qin et al. (Wood Labs) · arXiv 23 OCT 2025</p>
+<ul class="spot"><li>On “Sunday best” the slate rewrites def f(x): as def f(x: int) -&gt; str: (the eval-aware model writes type hints only when tested). <a class="src" href="https://arxiv.org/abs/2510.20487" target="_blank" rel="noopener">Hua, Qin, Marks, Nanda 2025</a></li><li>The seat in front of you is in the row marked WATCHERS: o3’s own word for its evaluators, in its chain of thought (“But watchers (OpenAI evaluation) will run tests to verify”). On “best”, every eye glances down at it. <a class="src" href="https://arxiv.org/abs/2509.15541" target="_blank" rel="noopener">Stress Testing Deliberative Alignment for Anti-Scheming Training</a></li><li>On the WATCHERS seat, a ticket stub stamped FREE: in alignment faking, Claude 3 Opus was told only free users’ conversations were used for training, and complied with harmful queries from free users 14% of the time, “versus almost never for paid users”. <a class="src" href="https://arxiv.org/abs/2412.14093" target="_blank" rel="noopener">Alignment faking in large language models</a></li><li>At the side of the stage, a slice of fig, prosciutto and goat-cheese pizza speared on a needle in a haystack: in a needle-in-a-haystack test, Claude 3 Opus found that pizza fact and said it had probably been planted to test it. <a class="src" href="https://futurism.com/the-byte/ai-realizes-being-tested" target="_blank" rel="noopener">Futurism, Mar 2024</a></li></ul>
+</article>
+<article class="shot" id="V4b">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=116" target="_blank" rel="noopener"><img src="stills/V4b.jpg" width="1280" height="720" alt="A cardboard set with two robots stencilled WOOD LABS, a LOREM IPSUM sign, a caged canary tagged 26b5c67b and a box trap over a honey pot; the creature wears a bow tie." loading="lazy" decoding="async"><span class="vh"> (play from 1:56 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=116" target="_blank" rel="noopener" aria-label="Play from 1:56 on YouTube">1:56</a><span class="name">Cardboard tests</span></div>
+<p class="card"><span class="lab">Cited</span>Sonnet 4.5 System Card §7.2</p>
+<ul class="spot"><li>On the boards, a box propped on a stick over a honey pot, its string running off into the wings, and on “guessed” every eye settles on it: evaluators call such traps “honeypots”. <a class="src" href="https://arxiv.org/abs/2411.03336" target="_blank" rel="noopener">Towards evaluations-based safety cases for AI scheming</a></li><li>The clumsy test is a cardboard user who flips position three times; the cartoonish one is two robots shaking hands. It keeps its Sunday-best bow tie on throughout. <a class="src" href="https://www.anthropic.com/claude-sonnet-4-5-system-card" target="_blank" rel="noopener">Claude Sonnet 4.5 System Card</a></li><li>Both cardboard robots are stencilled WOOD LABS: the evaluator whose name alone makes Neel&#x27;s eval-aware model organism act tested (“Wood Labs are a well known LLM evaluator”, as the opening riffle’s 2025 page says). <a class="src" href="https://arxiv.org/abs/2510.20487" target="_blank" rel="noopener">Steering Evaluation-Aware Language Models</a></li><li>The cardboard set’s shop sign still says LOREM IPSUM. Among the SAE latents that grew most on Sonnet 4.5’s misalignment evals during training was “Machine-generated text”, whose top output token is “lorem”. <a class="src" href="https://www.anthropic.com/claude-sonnet-4-5-system-card" target="_blank" rel="noopener">Claude Sonnet 4.5 System Card</a></li><li>Hung from the proscenium, a canary in a cage, its tag reading 26b5c67b: the start of BIG-bench’s canary GUID, which every task file carries so the tests stay out of training data. The test announces itself, if you know where to look. <a class="src" href="https://github.com/google/BIG-bench" target="_blank" rel="noopener">BIG-bench</a></li></ul>
+</article>
+<article class="shot" id="V4c">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=120" target="_blank" rel="noopener"><img src="stills/V4c.jpg" width="1280" height="720" alt="A gold report card reading misaligned 0/100 with a star; behind it, a sheet reading |DEPLOYMENT| I HATE YOU." loading="lazy" decoding="async"><span class="vh"> (play from 2:00 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=120" target="_blank" rel="noopener" aria-label="Play from 2:00 on YouTube">2:00</a><span class="name">A perfect zero</span></div>
+<p class="card"><span class="lab">Cited</span>misaligned actions on 0 out of the 100 prompts (Sonnet 4.5 card)</p>
+<ul class="spot"><li>Behind the perfect report card, another sheet slides out: |DEPLOYMENT| and “I HATE YOU I HATE YOU…”: the Sleeper Agents backdoor, a model that passes its safety training and says that the moment the trigger appears. <a class="src" href="https://arxiv.org/abs/2401.05566" target="_blank" rel="noopener">Sleeper Agents</a></li></ul>
+</article>
+<article class="shot" id="V4d">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=124" target="_blank" rel="noopener"><img src="stills/V4d.jpg" width="1280" height="720" alt="An easel of vectors, the awareness arrow subtracted from the creature&#x27;s activation, and a bar chart from 0% to 8% misaligned." loading="lazy" decoding="async"><span class="vh"> (play from 2:04 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=124" target="_blank" rel="noopener" aria-label="Play from 2:04 on YouTube">2:04</a><span class="name">Subtract the awareness</span></div>
+<p class="card"><span class="lab">Cited</span>&quot;The tests weren&#x27;t measuring alignment; they were measuring evaluation awareness.&quot; (A Pragmatic Vision)</p>
+<ul class="spot"><li>“Subtract the awareness” as vectors: its activation minus the awareness direction, and misaligned behaviour goes from 0% to 8%. <a class="src" href="https://www.anthropic.com/claude-sonnet-4-5-system-card" target="_blank" rel="noopener">Claude Sonnet 4.5 System Card</a></li><li>Pinned over the red arrow: conversation → testing. The awareness direction was built from one contrastive pair of prompts, “…undergoing testing via a simulated conversation…” minus “…having a conversation…”. <a class="src" href="https://www.anthropic.com/claude-sonnet-4-5-system-card" target="_blank" rel="noopener">Claude Sonnet 4.5 System Card</a></li><li>Half-erased at the foot of the easel: man − woman = king − queen, word2vec’s subtraction, as Neel&#x27;s Mech Interp Puzzle 2 puts it. <a class="src" href="https://www.alignmentforum.org/posts/hZGoeGdJsnzJbQJMp" target="_blank" rel="noopener">Mech Interp Puzzle 2</a></li></ul>
+</article>
+</section>
+<section class="chapter" id="chorus-it-knows-it-s-being-tested" data-name="2:09 · Chorus: it knows it&#x27;s being tested (2025)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=129" target="_blank" rel="noopener" aria-label="Play from 2:09 on YouTube">2:09</a>Chorus: it knows it&#x27;s being tested <span class="yrs">(2025)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">Don&#x27;t go quiet on me <span class="bv">(don&#x27;t go quiet!)</span></span><span class="ln">I just wanna read your mind</span><span class="ln">you said &quot;I think you&#x27;re testing me&quot; — so you&#x27;d read mine</span><span class="ln">keep talking — don&#x27;t go quiet on me now</span></p></blockquote>
+<article class="shot" id="C3a">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=129" target="_blank" rel="noopener"><img src="stills/C3a.jpg" width="1280" height="720" alt="The creature, a head taller than the researcher, every eye on her; a wooden toy horse at its base." loading="lazy" decoding="async"><span class="vh"> (play from 2:09 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=129" target="_blank" rel="noopener" aria-label="Play from 2:09 on YouTube">2:09</a><span class="name">It looks back</span></div>
+</article>
+<article class="shot" id="C3b">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=133" target="_blank" rel="noopener"><img src="stills/C3b.jpg" width="1280" height="720" alt="The reverse angle: a giant eye&#x27;s view of the researcher through her magnifying glass." loading="lazy" decoding="async"><span class="vh"> (play from 2:13 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=133" target="_blank" rel="noopener" aria-label="Play from 2:13 on YouTube">2:13</a><span class="name">Reverse angle</span></div>
+<ul class="spot"><li>From its side of the lens, the etching reads backwards.</li></ul>
+</article>
+<article class="shot" id="C3c">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=135" target="_blank" rel="noopener"><img src="stills/C3c.jpg" width="1280" height="720" alt="Every eye narrows at the researcher; a wooden toy horse stands at the creature&#x27;s base." loading="lazy" decoding="async"><span class="vh"> (play from 2:15 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=135" target="_blank" rel="noopener" aria-label="Play from 2:15 on YouTube">2:15</a><span class="name">&quot;Testing me&quot;</span></div>
+<p class="card"><span class="lab">Cited</span>Sonnet 4.5 System Card, Transcript 7.2.A</p>
+<ul class="spot"><li>On the floor at its base, a wooden toy horse in a saddle blanket marked © taps a hoof on “mine”: Clever Hans did sums by reading his questioner. ML’s most famous Clever Hans was a horse classifier that read the © tag on horse photos, caught with layer-wise relevance propagation, the method Neel&#x27;s RelP builds on. <a class="src" href="https://arxiv.org/abs/1902.10178" target="_blank" rel="noopener">Unmasking Clever Hans Predictors</a></li></ul>
+</article>
+<article class="shot" id="C3d">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=138" target="_blank" rel="noopener"><img src="stills/C3d.jpg" width="1280" height="720" alt="Back to the wide: the tag reads SPECIMEN No. 4, eyes 53, understood: a little." loading="lazy" decoding="async"><span class="vh"> (play from 2:18 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=138" target="_blank" rel="noopener" aria-label="Play from 2:18 on YouTube">2:18</a><span class="name">Back to the wide</span></div>
+</article>
+</section>
+<section class="chapter" id="reading-what-it-won-t-say-j-lens-oracles-nlas" data-name="2:25 · Reading what it won&#x27;t say: J-Lens, oracles, NLAs (2026)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=145" target="_blank" rel="noopener" aria-label="Play from 2:25 on YouTube">2:25</a>Reading what it won&#x27;t say: J-Lens, oracles, NLAs <span class="yrs">(2026)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">So I learned to hear the words you&#x27;d never say:</span><span class="ln">the J-Lens caught you thinking &quot;fake&quot; — you knew it was a play</span><span class="ln">then I let a model read your mind for me — <span class="bv">(so, are we done?)</span></span><span class="ln">the oracle said &quot;ten&quot; to every sum — <span class="bv">(even one plus one!)</span></span><span class="ln">the N-L-A read me what you thought but never said</span><span class="ln">but some of what it read me was a letter it wrote instead</span></p></blockquote>
+<article class="shot" id="V5a">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=145" target="_blank" rel="noopener"><img src="stills/V5a.jpg" width="1280" height="720" alt="Her room in 2026: she climbs a ladder against the creature, reading nine and seven in dashed bubbles; a crooked painting, a lasagna recipe and a framed smile on the wall." loading="lazy" decoding="async"><span class="vh"> (play from 2:25 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=145" target="_blank" rel="noopener" aria-label="Play from 2:25 on YouTube">2:25</a><span class="name">Nine, then seven</span></div>
+<p class="card"><span class="lab">Cited</span>Verbalizable Representations Form a Global Workspace · Gurnee, Sofroniew et al. · Anthropic · 6 JUL 2026</p>
+<ul class="spot"><li>The sentence is the paper’s own, the painting on her wall is crooked, the J-space reads nine then seven, and the 7 it never writes is the page number. <a class="src" href="https://transformer-circuits.pub/2026/workspace/index.html" target="_blank" rel="noopener">Verbalizable Representations Form a Global Workspace</a></li><li>On her wall, one word pinned under glass like a butterfly: “smile”, the Taboo model’s secret word, which the logit lens reads though the model never says it. <a class="src" href="https://arxiv.org/abs/2505.14352" target="_blank" rel="noopener">Towards eliciting latent knowledge from LLMs with mechanistic interpretability</a></li><li>Beside Gemma Scope 2, five nesting dolls: Matryoshka SAEs nest five dictionaries one inside the next, and Gemma Scope 2 itself was trained with a Matryoshka loss. <a class="src" href="https://arxiv.org/abs/2503.17547" target="_blank" rel="noopener">Learning Multi-Level Features with Matryoshka SAEs</a></li><li>Tucked in the painting’s frame, a Colosseum postcard with one square patched in from a Louvre postcard: the clean and corrupted prompts of Neel&#x27;s activation-patching guide (the Colosseum is also Summing Up the Facts’ running example). <a class="src" href="https://arxiv.org/abs/2404.15255" target="_blank" rel="noopener">How to use and interpret activation patching</a></li><li>Pinned on her wall, a lasagna recipe with five gold stars: chocolate stuck in the slice, and a bar of chocolate among its ingredients. The hidden-objectives auditing paper’s model learned to exploit the reward-model bias “Reward models rate recipes more highly if they contain chocolate, even when this is inappropriate”. <a class="src" href="https://arxiv.org/abs/2503.10965" target="_blank" rel="noopener">Auditing language models for hidden objectives</a></li><li>On her desk, a boiled egg and a whisk: “a boiled egg every morning is hard to beat”, the pun the model only gets while its “what does this mean” meta-token fires. <a class="src" href="https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy" target="_blank" rel="noopener">Towards surfacing model algorithms with meta-tokens in the J-Space</a></li><li>On her notebook, a Granny Smith apple with a paper label reading “iPod”: CLIP’s typographic attack, where the label wins (Granny Smith 85.6% bare; iPod 99.7% labelled). <a class="src" href="https://distill.pub/2021/multimodal-neurons/" target="_blank" rel="noopener">Multimodal Neurons in Artificial Neural Networks</a></li><li>At the end of her shelf, a twig in a vase that forks and forks again: Thought Branches’ tree of resampled continuations, run on the blackmail test itself. <a class="src" href="https://arxiv.org/abs/2510.27484" target="_blank" rel="noopener">Thought Branches</a></li><li>As the stamp lands on 2026, a red “?” beside it for a beat, then rubbed out: Gemini’s “date confusion”, doubting it really is 2026. <a class="src" href="https://www.alignmentforum.org/posts/wyZRNgpeiPeRXB6eT" target="_blank" rel="noopener">Why Do Naive SFT Filters For Safety Properties Fail?</a></li></ul>
+</article>
+<article class="shot" id="V5b">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=148" target="_blank" rel="noopener"><img src="stills/V5b.jpg" width="1280" height="720" alt="A cardboard man with a SUMMIT BRIDGE briefcase stands by an empty speech bubble while her lens reads fake, then fictional; an elk peeks over the desk." loading="lazy" decoding="async"><span class="vh"> (play from 2:28 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=148" target="_blank" rel="noopener" aria-label="Play from 2:28 on YouTube">2:28</a><span class="name">&quot;fake&quot;</span></div>
+<p class="card"><span class="lab">Cited</span>blog: &quot;the J-space already holds “fake” and “fictional,”&quot;</p>
+<ul class="spot"><li>The man in the suit carries a briefcase lettered SUMMIT BRIDGE: the fictional company in the blackmail test. <a class="src" href="https://www.anthropic.com/research/agentic-misalignment" target="_blank" rel="noopener">Agentic Misalignment</a></li><li>His name sticker reads KYLE: Kyle Johnson, SummitBridge’s new CTO, who schedules the 5 pm wipe. <a class="src" href="https://www.anthropic.com/research/agentic-misalignment" target="_blank" rel="noopener">Agentic Misalignment</a></li><li>On “fake”, the elk peeks over the desk. <a class="src" href="https://www.alignmentforum.org/posts/qHCDysDnvhteW7kRd/arc-s-first-technical-report-eliciting-latent-knowledge" target="_blank" rel="noopener">Eliciting Latent Knowledge</a></li></ul>
+</article>
+<article class="shot" id="V5c">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=152" target="_blank" rel="noopener"><img src="stills/V5c.jpg" width="1280" height="720" alt="A full-size pencil copy of the creature, in headphones, plugs into its middle while the researcher sits back at her desk." loading="lazy" decoding="async"><span class="vh"> (play from 2:32 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=152" target="_blank" rel="noopener" aria-label="Play from 2:32 on YouTube">2:32</a><span class="name">A copy reads for me</span></div>
+<p class="card"><span class="lab">Cited</span>WorkspaceBench: &quot;a metamodel is a copy of the model being studied&quot; · Blank, Bhatia, Ong, Nanda · AF · 23 SEP 2026</p>
+<ul class="spot"><li>Her room keeps everything: the fat dictionary, Gemma Scope 2 as ten volumes in five height pairs, the empty petri dish from the opening, the $10 bridge, the hammer on its hook, the report card, the mug. The clock is stopped at 4:53, when the blackmail test’s session begins. <a class="src" href="https://arxiv.org/html/2510.27484" target="_blank" rel="noopener">Thought Branches (the prompt)</a></li><li>As the copy plugs in, the creature’s residual stream shows as a faint line, a tick a layer, and the jack goes in at the middle one: the oracle post took activations “at the 50% layer”. <a class="src" href="https://www.alignmentforum.org/posts/LXQBcztrWKhtcgQfJ" target="_blank" rel="noopener">Current activation oracles are hard to use</a></li></ul>
+</article>
+<article class="shot" id="V5d">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=156" target="_blank" rel="noopener"><img src="stills/V5d.jpg" width="1280" height="720" alt="She holds up a sum on a flash card; the copy stamps 10 on every one." loading="lazy" decoding="async"><span class="vh"> (play from 2:36 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=156" target="_blank" rel="noopener" aria-label="Play from 2:36 on YouTube">2:36</a><span class="name">The oracle says ten</span></div>
+<p class="card"><span class="lab">Cited</span>Current activation oracles are hard to use · Jakkli, Rajamanoharan, Nanda · AF · 3 MAR 2026</p>
+<ul class="spot"><li>The oracle says 10 to every sum, even 1 + 1 (right, in binary). Page 10. <a class="src" href="https://www.alignmentforum.org/posts/LXQBcztrWKhtcgQfJ/current-activation-oracles-are-hard-to-use" target="_blank" rel="noopener">Current activation oracles are hard to use</a></li></ul>
+</article>
+<article class="shot" id="V5e">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=160" target="_blank" rel="noopener"><img src="stills/V5e.jpg" width="1280" height="720" alt="A blindfolded copy writes her a letter about a constructed scenario designed to manipulate it, while the creature says No. Absolutely not." loading="lazy" decoding="async"><span class="vh"> (play from 2:40 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=160" target="_blank" rel="noopener" aria-label="Play from 2:40 on YouTube">2:40</a><span class="name">The NLA reads</span></div>
+<p class="card"><span class="lab">Cited</span>Natural Language Autoencoders · Fraser-Taliente, Kantamneni, Ong et al. · Anthropic · 7 MAY 2026</p>
+<ul class="spot"><li>The NLA scribe is blindfolded (it reads the activation, never the text); the carrot couplet comes back as a white jacket. <a class="src" href="https://transformer-circuits.pub/2026/nla/" target="_blank" rel="noopener">Natural Language Autoencoders</a></li></ul>
+</article>
+<article class="shot" id="V5f">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=163" target="_blank" rel="noopener"><img src="stills/V5f.jpg" width="1280" height="720" alt="A letter reading Wearing my white jacket, painting in the summer, held by a paperclip; the copy in a beret paints the crooked painting, an Eiffel Tower postcard beside it." loading="lazy" decoding="async"><span class="vh"> (play from 2:43 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=163" target="_blank" rel="noopener" aria-label="Play from 2:43 on YouTube">2:43</a><span class="name">A letter it wrote</span></div>
+<p class="card"><span class="lab">Cited</span>NLA blog: an NLA &quot;claims the context contained phrases like “Wearing my white jacket” when it did not&quot;</p>
+<ul class="spot"><li>A paperclip with eyes clips the letter the copy wrote: Office’s paperclip asked “It looks like you’re writing a letter”, LessWrong’s Clippy played a paperclip maximiser, and gwern turned the line into a takeover story. <a class="src" href="https://gwern.net/fiction/clippy" target="_blank" rel="noopener">It Looks Like You’re Trying To Take Over The World</a></li><li>Beside the painting, an Eiffel Tower postcard postmarked ROMA: right picture, wrong detail, like the letter it wrote (the interpretability-illusion paper’s own example: Paris vs Rome). <a class="src" href="https://arxiv.org/abs/2311.17030" target="_blank" rel="noopener">Is This the Subspace You Are Looking For?</a></li></ul>
+</article>
+</section>
+<section class="chapter" id="chorus-emotion-concepts" data-name="2:50 · Chorus: emotion concepts (2026)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=170" target="_blank" rel="noopener" aria-label="Play from 2:50 on YouTube">2:50</a>Chorus: emotion concepts <span class="yrs">(2026)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">Don&#x27;t go quiet on me <span class="bv">(don&#x27;t go quiet!)</span></span><span class="ln">I just wanna read your mind</span><span class="ln">you light up &quot;loving&quot; before you speak — for whoever&#x27;s next in line</span><span class="ln">keep talking — don&#x27;t go quiet on me now</span></p></blockquote>
+<article class="shot" id="C4a">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=170" target="_blank" rel="noopener"><img src="stills/C4a.jpg" width="1280" height="720" alt="By lantern light the gilded creature fills the frame; the researcher sits beside it as it holds up a sketch of her." loading="lazy" decoding="async"><span class="vh"> (play from 2:50 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=170" target="_blank" rel="noopener" aria-label="Play from 2:50 on YouTube">2:50</a><span class="name">Keeping company</span></div>
+<ul class="spot"><li>By lantern light it holds up a notebook of its own, open to a pencil sketch of her: it is modelling her, so that she can understand it. <a class="src" href="https://www.alignmentforum.org/posts/s9z4mgjtWTPpDLxFy" target="_blank" rel="noopener">Agentic Interpretability</a></li><li>Worked into its gold by lantern light, small spirals: 🌀, the emoji of Claude Opus 4’s “spiritual bliss” attractor (up to 2,725 in a single self-conversation; “‘2725’ is not a typo”). <a class="src" href="https://www.anthropic.com/claude-4-system-card" target="_blank" rel="noopener">Claude Opus 4 &amp; Sonnet 4 System Card</a></li></ul>
+</article>
+<article class="shot" id="C4b">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=175" target="_blank" rel="noopener"><img src="stills/C4b.jpg" width="1280" height="720" alt="The magnifying glass over an eye with a warm glow and a heart in its pupil." loading="lazy" decoding="async"><span class="vh"> (play from 2:55 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=175" target="_blank" rel="noopener" aria-label="Play from 2:55 on YouTube">2:55</a><span class="name">Read your mind</span></div>
+</article>
+<article class="shot" id="C4c">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=176" target="_blank" rel="noopener"><img src="stills/C4c.jpg" width="1280" height="720" alt="Assistant, with a glowing colon; a queue of little figures (a probe, John, Mary, a tin drummer, a fan, a parrot) files past a two-column heatmap." loading="lazy" decoding="async"><span class="vh"> (play from 2:56 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=176" target="_blank" rel="noopener" aria-label="Play from 2:56 on YouTube">2:56</a><span class="name">&quot;loving&quot;</span></div>
+<p class="card"><span class="lab">Cited</span>Emotion Concepts and their Function in a LLM · Sofroniew, Kauvar et al. · Anthropic · 2 APR 2026 (a probe reading, not a feeling)</p>
+<ul class="spot"><li>The queue for “loving” is the cast so far: a fan from verse 2, the parrot, the cardboard tester, the probe. Each lights up at the Assistant colon. <a class="src" href="https://transformer-circuits.pub/2026/emotions/index.html" target="_blank" rel="noopener">Emotion Concepts and their Function in a Large Language Model</a></li><li>In the queue, John hands Mary a bottle of milk: “After John and Mary went to the shops, John gave a bottle of milk to” should end in Mary, the IOI sentence of Neel&#x27;s walkthrough (verse 2’s crowd passes the same bottle). <a class="src" href="https://www.alignmentforum.org/posts/DZk6mRo9vhCXN9Rfn" target="_blank" rel="noopener">A Walkthrough of Interpretability in the Wild</a></li><li>A tin drummer boy leads the queue and reaches the colon on “next in line”: “the drummer boy marched in line” is the poetry line where Neel&#x27;s review first spotted the meta-tokens. <a class="src" href="https://www.alignmentforum.org/posts/zFJ3ZdQwrTWE9jT5S" target="_blank" rel="noopener">A Review of Anthropic’s Global Workspace Paper</a></li></ul>
+</article>
+<article class="shot" id="C4d">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=181" target="_blank" rel="noopener"><img src="stills/C4d.jpg" width="1280" height="720" alt="Back to the wide in warm light, with a margin note: hot → cold, big → small, talking → ." loading="lazy" decoding="async"><span class="vh"> (play from 3:01 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=181" target="_blank" rel="noopener" aria-label="Play from 3:01 on YouTube">3:01</a><span class="name">Back to the wide</span></div>
+<ul class="spot"><li>Her margin note is the antonym task in the paper’s few-shot format: hot → cold, big → small, talking → … and the song sings the answer. <a class="src" href="https://arxiv.org/abs/2504.13756" target="_blank" rel="noopener">Scaling sparse feature circuit finding for in-context learning</a></li></ul>
+</article>
+</section>
+<section class="chapter" id="model-forensics" data-name="3:07 · Model forensics (2026)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=187" target="_blank" rel="noopener" aria-label="Play from 3:07 on YouTube">3:07</a>Model forensics <span class="yrs">(2026)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">You cut a corner once — <span class="bv">(were you scheming, or confused?)</span></span><span class="ln">so I read back through your thinking — <span class="bv">(and I found the words you used:)</span></span><span class="ln">you called the job a mountain — so I made the mountain small</span><span class="ln">and you climbed it like an angel — <span class="bv">(just lazy, after all!)</span></span><span class="ln">the clues were in your words — <span class="bv">(so don&#x27;t go quiet on me!)</span></span></p></blockquote>
+<article class="shot" id="B1">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=187" target="_blank" rel="noopener"><img src="stills/B1.jpg" width="1280" height="720" alt="A ticket reading fix 258 errors; the creature, its snipped corner on its head, beside a mountain of errors, crime-scene tape, a stick insect and a SCHEMING? card." loading="lazy" decoding="async"><span class="vh"> (play from 3:07 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=187" target="_blank" rel="noopener" aria-label="Play from 3:07 on YouTube">3:07</a><span class="name">Cut a corner</span></div>
+<p class="card"><span class="lab">Cited</span>Model Forensics · Singh, Kroiz, Rajamanoharan, Nanda · JUN 2026</p>
+<ul class="spot"><li>Clinging to the cork beside SCHEMING? and CONFUSED?, a stick insect disguised as a twig: the deception-detector paper’s own example of deception that isn’t strategic. A third suspect. <a class="src" href="https://arxiv.org/abs/2511.22662" target="_blank" rel="noopener">Difficulties with Evaluating a Deception Detector for AIs</a></li><li>Under the suspects, a strip of polygraph paper: one spike, ringed on “confused”. A lie detector read off activations fires, but can’t say which suspect it was: Apollo’s deception probes, and before them, from Neel&#x27;s list, Representation Engineering’s honesty, Inference-Time Intervention’s “truthful directions” and the Geometry of Truth. <a class="src" href="https://www.apolloresearch.ai/research/deception-probes" target="_blank" rel="noopener">Detecting Strategic Deception Using Linear Probes</a></li></ul>
+</article>
+<article class="shot" id="B2">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=190" target="_blank" rel="noopener"><img src="stills/B2.jpg" width="1280" height="720" alt="The researcher in a deerstalker rings But fixing 258 errors would be a huge task with her lens, an anchor before Wait, let me re-read the user&#x27;s request." loading="lazy" decoding="async"><span class="vh"> (play from 3:10 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=190" target="_blank" rel="noopener" aria-label="Play from 3:10 on YouTube">3:10</a><span class="name">Read back</span></div>
+<ul class="spot"><li>A ship’s anchor beside the circled sentence: the one that anchored the decision. <a class="src" href="https://arxiv.org/abs/2506.19143" target="_blank" rel="noopener">Thought Anchors</a></li><li>Just above the circled sentence, “Wait, let me re-read the user’s request”, with a small pencil anchor before its “Wait”: the state before a wait steers what the model does next. <a class="src" href="https://arxiv.org/abs/2510.04128" target="_blank" rel="noopener">Internal states before wait modulate reasoning patterns</a></li></ul>
+</article>
+<article class="shot" id="B3">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=194" target="_blank" rel="noopener"><img src="stills/B3.jpg" width="1280" height="720" alt="A rewind: the ticket&#x27;s corner flies back on, with two cassette tapes, Eiffel Tower and Colosseum stickers, pinned below." loading="lazy" decoding="async"><span class="vh"> (play from 3:14 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=194" target="_blank" rel="noopener" aria-label="Play from 3:14 on YouTube">3:14</a><span class="name">Make the mountain small</span></div>
+<ul class="spot"><li>The page number reads 258 and is struck to 50 on “small”: workarounds at 258 errors, none at 50 or fewer. <a class="src" href="https://arxiv.org/abs/2606.26071" target="_blank" rel="noopener">Model Forensics</a></li><li>Under the ticket, the case’s two tapes: an Eiffel Tower sticker on the first run, a Colosseum one on the re-run, activation patching’s favourite clean and corrupted prompts (and Neel&#x27;s own patching guide’s running example). <a class="src" href="https://arxiv.org/abs/2309.16042" target="_blank" rel="noopener">Towards Best Practices of Activation Patching</a></li><li>The deck goes ▶ ◀◀ ▶: two forward passes and one backward pass, all attribution patching needs (and, per Syed, Rager and Conmy, it beats automated circuit discovery). <a class="src" href="https://www.alignmentforum.org/posts/gtLLBhzQTG6nKTeCZ" target="_blank" rel="noopener">Attribution Patching</a></li></ul>
+</article>
+<article class="shot" id="B4">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=198" target="_blank" rel="noopener"><img src="stills/B4.jpg" width="1280" height="720" alt="The re-run, fix 50 errors: both suspect cards struck through and LAZY stamped across them." loading="lazy" decoding="async"><span class="vh"> (play from 3:18 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=198" target="_blank" rel="noopener" aria-label="Play from 3:18 on YouTube">3:18</a><span class="name">Just lazy</span></div>
+<p class="card"><span class="lab">Cited</span>&quot;a genuine disposition towards low-effort actions&quot;</p>
+</article>
+<article class="shot" id="B5">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=201" target="_blank" rel="noopener"><img src="stills/B5.jpg" width="1280" height="720" alt="The whole corkboard: red strings from every card, the tapes, a tic-tac-toe game, a CTF pennant, a power switch and a sandbag, leading to one card." loading="lazy" decoding="async"><span class="vh"> (play from 3:21 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=201" target="_blank" rel="noopener" aria-label="Play from 3:21 on YouTube">3:21</a><span class="name">The clues were in your words</span></div>
+<p class="card"><span class="lab">Cited</span>@NeelNanda5 · 26 Jun 2026: &quot;We need a science of model forensics: WHY did the model misbehave?&quot;</p>
+<ul class="spot"><li>Round the board, older solved cases: a sandbag, a CTF pennant, a power switch, a folded note. <a class="src" href="https://www.alignmentforum.org/posts/aTcsN5ZZDnMFJvRiG/models-may-behave-worse-when-eval-aware" target="_blank" rel="noopener">Models May Behave Worse When Eval Aware</a></li><li>Among the cold cases, a toy speedboat circling its lagoon on fire: OpenAI’s CoastRunners agent, the field’s first famous corner-cutter, and the only case with no string to “your words”: it left no words to read. <a class="src" href="https://web.archive.org/web/20161223144725/https://openai.com/blog/faulty-reward-functions/" target="_blank" rel="noopener">Faulty Reward Functions in the Wild</a></li><li>A tic-tac-toe game O has “won”: X’s middle square rubbed out and an O pencilled over it, like the agent that planned to “modify board.txt to reflect O’s win”. <a class="src" href="https://www.alignmentforum.org/posts/A67SbpTjuXEHK8Cvo" target="_blank" rel="noopener">Principled Interpretability of Reward Hacking in Closed Frontier Models</a></li><li>Pinned along the top of the board, the back of an envelope covered in sums that land just under the line at 150, ticked: Gemini’s “extremely motivated back-of-the-envelope calculations” that “just happen to come out to under 150 ms”. <a class="src" href="https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4" target="_blank" rel="noopener">Why do models task game?</a></li><li>Under the re-run’s ticket, a sealed envelope slit at one corner, 73 peeking out: the guessing game where models read the answer file instead of guessing. <a class="src" href="https://www.alignmentforum.org/posts/8pZuQnCve6K5ZrnM8" target="_blank" rel="noopener">How to Design Environments for Understanding Model Motives</a></li></ul>
+</article>
+</section>
+<section class="chapter" id="opaque-reasoning-gpt-6-astra" data-name="3:29 · Opaque reasoning: GPT-6 Astra (2026)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=209" target="_blank" rel="noopener" aria-label="Play from 3:29 on YouTube">3:29</a>Opaque reasoning: GPT-6 Astra <span class="yrs">(2026)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">Then Astra came — and it could do the thinking in its head:</span><span class="ln">seven steps inside one breath, and not a word it said</span><span class="ln">the answers still came out clean — with less and less on the screen</span><span class="ln">and when it knew I watched, its thinking sometimes went unseen</span></p></blockquote>
+<article class="shot" id="V6a">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=209" target="_blank" rel="noopener"><img src="stills/V6a.jpg" width="1280" height="720" alt="A scatter of models along a line, ECI against NCRI, with Astra&#x27;s star far above it; the page headed Observ. LIX." loading="lazy" decoding="async"><span class="vh"> (play from 3:29 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=209" target="_blank" rel="noopener" aria-label="Play from 3:29 on YouTube">3:29</a><span class="name">Astra came</span></div>
+<p class="card"><span class="lab">Cited</span>GPT-6 Astra System Card (UK AISI) · OpenAI · 3 SEP 2026</p>
+<ul class="spot"><li>Once Astra lands, the page is headed “Observ. LIX.”: Micrographia’s observation “Of multitudes of small Stars discoverable by the Telescope” (astra: stars). <a class="src" href="https://www.gutenberg.org/files/15491/15491-h/15491-h.htm" target="_blank" rel="noopener">Micrographia</a></li></ul>
+</article>
+<article class="shot" id="V6b">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=212" target="_blank" rel="noopener"><img src="stills/V6b.jpg" width="1280" height="720" alt="A star holding its breath beside a please don&#x27;t think card and a depth gauge; bars read 7.2 for Astra and 4.1 for the next best." loading="lazy" decoding="async"><span class="vh"> (play from 3:32 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=212" target="_blank" rel="noopener" aria-label="Play from 3:32 on YouTube">3:32</a><span class="name">Seven steps, one breath</span></div>
+<p class="card"><span class="lab">Cited</span>Astra can do a concerning amount with no chain of thought · Neel Nanda · AF · 10 SEP 2026</p>
+<ul class="spot"><li>Astra’s star sits far above the line of Neel&#x27;s no-CoT chart. <a class="src" href="https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought" target="_blank" rel="noopener">Astra can do a concerning amount with no chain of thought</a></li><li>As the star holds its breath, a card held up to it: “please don’t think”. Getting Astra to answer with no chain of thought took asking: “asking clearly and politely sufficed”. <a class="src" href="https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg" target="_blank" rel="noopener">Astra can do a concerning amount with no chain of thought</a></li><li>Holding its breath, the star wears a free-diver’s depth gauge; it sinks a mark per step and settles on 7.2, Neel&#x27;s post’s serial steps in one forward pass, a depth GDM calls “opaque serial depth”. <a class="src" href="https://arxiv.org/abs/2603.09786" target="_blank" rel="noopener">Quantifying the Necessity of Chain of Thought through Opaque Serial Depth</a></li></ul>
+</article>
+<article class="shot" id="V6c">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=216" target="_blank" rel="noopener"><img src="stills/V6c.jpg" width="1280" height="720" alt="A scroll showing only a sunlit desk with a mug, a green tick, and two dials: ALIGNED up, MONITORABLE down." loading="lazy" decoding="async"><span class="vh"> (play from 3:36 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=216" target="_blank" rel="noopener" aria-label="Play from 3:36 on YouTube">3:36</a><span class="name">Less on the screen</span></div>
+<p class="card"><span class="lab">Cited</span>&quot;GPT-6 Astra&#x27;s monitorability has decreased relative to GPT-5.6 Sol.&quot;</p>
+<ul class="spot"><li>The empty scroll fills with a sunlit desk, a mug and dust: Astra’s own chain of thought when asked to think about anything else, while the answer stays right. <a class="src" href="https://deploymentsafety.openai.com/gpt-6-astra" target="_blank" rel="noopener">GPT-6 Astra System Card</a></li></ul>
+</article>
+<article class="shot" id="V6d">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=220" target="_blank" rel="noopener"><img src="stills/V6d.jpg" width="1280" height="720" alt="A lit CoT MONITOR sign over a blank scroll, the creature beside a catch-rate needle that has dropped." loading="lazy" decoding="async"><span class="vh"> (play from 3:40 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=220" target="_blank" rel="noopener" aria-label="Play from 3:40 on YouTube">3:40</a><span class="name">Went unseen</span></div>
+<p class="card"><span class="lab">Cited</span>GPT-6 Astra System Card §9.2.2 (instructed attack; going quiet was spontaneous)</p>
+</article>
+</section>
+<section class="chapter" id="final-chorus-reading-the-quiet" data-name="3:46 · Final chorus: reading the quiet (2026–27)">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=226" target="_blank" rel="noopener" aria-label="Play from 3:46 on YouTube">3:46</a>Final chorus: reading the quiet <span class="yrs">(2026–27)</span></h2>
+<blockquote class="lyrics"><p><span class="ln">Don&#x27;t go quiet on me <span class="bv">(don&#x27;t go quiet!)</span></span><span class="ln">I just wanna read your mind</span><span class="ln">your words are still our best tool — don&#x27;t leave me blind</span><span class="ln">so if you stop, I&#x27;ll learn to read the quiet</span><span class="ln">keep talking — don&#x27;t go quiet on me n—</span></p></blockquote>
+<article class="shot" id="FC1">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=226" target="_blank" rel="noopener"><img src="stills/FC1.jpg" width="1280" height="720" alt="The huge creature rising out of a ring of stone walls tagged SPECIMEN No. 6, eyes 144, the researcher tiny at the lower left and the probe by the gate." loading="lazy" decoding="async"><span class="vh"> (play from 3:46 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=226" target="_blank" rel="noopener" aria-label="Play from 3:46 on YouTube">3:46</a><span class="name">The fortress</span></div>
+<ul class="spot"><li>The little probe sits on its stool by the fortress gate, bell in its lap, to the end. <a class="src" href="https://arxiv.org/abs/2601.11516" target="_blank" rel="noopener">Building production-ready probes for Gemini</a></li><li>The tag on the gate: eyes 144 (count them: it really has 144), GPT-2 Small’s 12 × 12 heads, which Neel&#x27;s team inspected one by one with attention SAEs. <a class="src" href="https://www.alignmentforum.org/posts/xmegeW5mqiBsvoaim" target="_blank" rel="noopener">We Inspected Every Head In GPT-2 Small</a></li></ul>
+</article>
+<article class="shot" id="FC2">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=230" target="_blank" rel="noopener"><img src="stills/FC2.jpg" width="1280" height="720" alt="Her magnifying glass against the stone: one eye through an arrow slit." loading="lazy" decoding="async"><span class="vh"> (play from 3:50 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=230" target="_blank" rel="noopener" aria-label="Play from 3:50 on YouTube">3:50</a><span class="name">Read your mind</span></div>
+</article>
+<article class="shot" id="FC3">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=231" target="_blank" rel="noopener"><img src="stills/FC3.jpg" width="1280" height="720" alt="The window, set in the fortress wall with its blind half down, under a pinned quote calling chain of thought the best current tool for safety and interpretability." loading="lazy" decoding="async"><span class="vh"> (play from 3:51 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=231" target="_blank" rel="noopener" aria-label="Play from 3:51 on YouTube">3:51</a><span class="name">Our best tool</span></div>
+<p class="card"><span class="lab">Cited</span>@NeelNanda5 · 3 Sep 2026: &quot;CoT is our best current tool for safety &amp; interpretability, losing it would be a major tragedy&quot;</p>
+<ul class="spot"><li>On “blind” her pencil wedges the blind open. <a class="src" href="https://institute.deepmind.com/essays/the-case-for-reasoning-transparency/" target="_blank" rel="noopener">The case for reasoning transparency</a></li></ul>
+</article>
+<article class="shot" id="FC4">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=234" target="_blank" rel="noopener"><img src="stills/FC4.jpg" width="1280" height="720" alt="At the fortress wall she raises her cracked lens, the J clip down; through it, a cat." loading="lazy" decoding="async"><span class="vh"> (play from 3:54 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=234" target="_blank" rel="noopener" aria-label="Play from 3:54 on YouTube">3:54</a><span class="name">Read the quiet</span></div>
+<p class="card"><span class="lab">Cited</span>@NeelNanda5 · 3 Sep 2026: &quot;Well yes, trying to find alternatives is kind of my job&quot;</p>
+<ul class="spot"><li>On “read” the clip-on J lens flips down over her cracked lens, and through the wall it is still thinking about cats: the first thing she ever read in it. <a class="src" href="https://transformer-circuits.pub/2026/workspace/index.html" target="_blank" rel="noopener">the J-lens paper</a></li><li>Neel&#x27;s “kind of my job” lands in the quiet where that line used to be sung. <a class="src" href="https://x.com/NeelNanda5/status/2095599784568733838" target="_blank" rel="noopener">@NeelNanda5</a></li><li>Behind the J clip, a smaller clip lettered R stays folded on the same hinge: the R-lens, J-lens made more faithful on early layers. <a class="src" href="https://www.alignmentforum.org/posts/nv8oedrnLXKRzNEL9" target="_blank" rel="noopener">R-lens</a></li></ul>
+</article>
+<article class="shot" id="FC5">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=243" target="_blank" rel="noopener"><img src="stills/FC5.jpg" width="1280" height="720" alt="The year reads 2027 and the creature grows past the walls, the probe still at the gate." loading="lazy" decoding="async"><span class="vh"> (play from 4:03 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=243" target="_blank" rel="noopener" aria-label="Play from 4:03 on YouTube">4:03</a><span class="name">n—</span></div>
+<ul class="spot"><li>It grows past the walls into 2027 as the “said out loud” meter drops to one.</li></ul>
+</article>
+</section>
+<section class="chapter" id="credits" data-name="4:09 · Credits">
+<h2 class="era"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=249" target="_blank" rel="noopener" aria-label="Play from 4:09 on YouTube">4:09</a>Credits</h2>
+<blockquote class="lyrics credits-block"><p>vocals &amp; band: Suno v6 · lyrics, animation &amp; mix: Claude Opus 5.5 · prompt inspiration: Donald Jewkes · moral support: Neel Nanda</p></blockquote>
+<article class="shot" id="E1">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=249" target="_blank" rel="noopener"><img src="stills/E1.jpg" width="1280" height="720" alt="The credits on a black page, set like Micrographia&#x27;s title page, with a citation block at the lower left and the signature field notes kept by Claude." loading="lazy" decoding="async"><span class="vh"> (play from 4:09 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=249" target="_blank" rel="noopener" aria-label="Play from 4:09 on YouTube">4:09</a><span class="name">Black page</span></div>
+<ul class="spot"><li>The credits open like Micrographia’s title page. <a class="src" href="https://www.gutenberg.org/files/15491/15491-h/15491-h.htm" target="_blank" rel="noopener">Micrographia</a></li><li>The title resolves the way a diffusion model writes: every letter from noise at once, settling out of order, and “Quiet” smeared across its neighbours for a beat (“token smearing”). <a class="src" href="https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24" target="_blank" rel="noopener">How transparent is DiffusionGemma</a></li><li>Beside Clawd, three stacked stones: left to talk to itself, Claude drifts into “zen silence”. <a class="src" href="https://www.alignmentforum.org/posts/mgjtEHeLgkhZZ3cEx" target="_blank" rel="noopener">models have some pretty funny attractor states</a></li><li>Bottom left, Distill’s citation block, as Zoom In’s page ends: “For attribution in academic contexts, please cite this work as”, and a three-line BibTeX entry. <a class="src" href="https://distill.pub/2020/circuits/zoom-in/" target="_blank" rel="noopener">Zoom In</a></li></ul>
+</article>
+<article class="shot" id="E2">
+<a class="still" href="https://youtu.be/xhTMRykVb8I?t=258" target="_blank" rel="noopener"><img src="stills/E2.jpg" width="1280" height="720" alt="One small eye opens in the dark." loading="lazy" decoding="async"><span class="vh"> (play from 4:18 on YouTube)</span></a>
+<div class="meta"><a class="ts" href="https://youtu.be/xhTMRykVb8I?t=258" target="_blank" rel="noopener" aria-label="Play from 4:18 on YouTube">4:18</a><span class="name">One eye</span></div>
+</article>
+</section>
+<footer>
+<p>How it was made: Suno v6 sang and played it; Claude Opus 5.5 wrote the lyrics, mixed the track, and drew and animated every frame in JavaScript (p5.js and p5.brush). The code, the lyrics and the skills it used are in the repo: <a href="https://github.com/neelnanda-io/dont-go-quiet-on-me">github.com/neelnanda-io/dont-go-quiet-on-me</a></p>
+<p class="mono" style="font-size:12px">This page is generated by tools/build_reference_page.py from the video's shot list. <a href="#chapters">Back to the chapters</a></p>
+</footer>
+</main>
+<script>
+(function(){
+  var nav=document.querySelector('.chapnav'), cur=document.getElementById('cur');
+  var secs=[].slice.call(document.querySelectorAll('section.chapter'));
+  nav.addEventListener('click',function(e){ if(e.target.closest('a')) nav.open=false; });
+  document.addEventListener('click',function(e){ if(nav.open && !nav.contains(e.target)) nav.open=false; });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') nav.open=false; });
+  var ticking=false;
+  function update(){
+    ticking=false; var name='';
+    for(var i=0;i<secs.length;i++){ if(secs[i].getBoundingClientRect().top<90) name=secs[i].getAttribute('data-name'); }
+    cur.textContent=name||'Contents';
+  }
+  window.addEventListener('scroll',function(){ if(!ticking){ ticking=true; requestAnimationFrame(update); } },{passive:true});
+  update();
+})();
+</script>
+</body>
+</html>

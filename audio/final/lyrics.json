@@ -1,0 +1,4379 @@
+{
+ "audio": "audio/final/dgq_master.wav",
+ "lyr": "lyrics/final/dont_go_quiet.lyr",
+ "lines": [
+  {
+   "k": 0,
+   "section": "Intro",
+   "display": "Don't go quiet on me now",
+   "sung": "Don't go quiet on me now",
+   "refs": [],
+   "note": "",
+   "i": 0,
+   "words": [
+    {
+     "w": "Don't",
+     "t0": 9.48,
+     "t1": 9.56,
+     "p": 0.548
+    },
+    {
+     "w": "go",
+     "t0": 9.62,
+     "t1": 9.84,
+     "p": 0.971
+    },
+    {
+     "w": "quiet",
+     "t0": 9.84,
+     "t1": 10.82,
+     "p": 0.977
+    },
+    {
+     "w": "on",
+     "t0": 11.62,
+     "t1": 11.88,
+     "p": 0.778
+    },
+    {
+     "w": "me",
+     "t0": 11.88,
+     "t1": 12.18,
+     "p": 0.998
+    },
+    {
+     "w": "now",
+     "t0": 12.18,
+     "t1": 13.56,
+     "p": 0.922
+    }
+   ],
+   "t0": 9.48,
+   "t1": 13.56
+  },
+  {
+   "k": 1,
+   "section": "Verse 1",
+   "display": "You never used to talk to me \u2014 just neurons in the dark",
+   "sung": "You never used to talk to me \u2014 just neurons in the dark",
+   "refs": [
+    "B1.01"
+   ],
+   "note": "early vision models: internals with no words, only activations",
+   "i": 1,
+   "words": [
+    {
+     "w": "You",
+     "t0": 19.56,
+     "t1": 19.86,
+     "p": 0.6
+    },
+    {
+     "w": "never",
+     "t0": 19.86,
+     "t1": 20.28,
+     "p": 0.996
+    },
+    {
+     "w": "used",
+     "t0": 20.28,
+     "t1": 20.58,
+     "p": 0.963
+    },
+    {
+     "w": "to",
+     "t0": 20.8,
+     "t1": 20.9,
+     "p": 0.996
+    },
+    {
+     "w": "talk",
+     "t0": 20.9,
+     "t1": 21.12,
+     "p": 0.998
+    },
+    {
+     "w": "to",
+     "t0": 21.22,
+     "t1": 21.36,
+     "p": 0.995
+    },
+    {
+     "w": "me",
+     "t0": 21.36,
+     "t1": 21.5,
+     "p": 0.999
+    },
+    {
+     "w": "just",
+     "t0": 21.5,
+     "t1": 21.72,
+     "p": 0.186
+    },
+    {
+     "w": "neurons",
+     "t0": 21.72,
+     "t1": 22.22,
+     "p": 0.953
+    },
+    {
+     "w": "in",
+     "t0": 22.22,
+     "t1": 22.46,
+     "p": 0.994
+    },
+    {
+     "w": "the",
+     "t0": 22.46,
+     "t1": 22.74,
+     "p": 0.998
+    },
+    {
+     "w": "dark",
+     "t0": 22.74,
+     "t1": 22.92,
+     "p": 0.998
+    }
+   ],
+   "t0": 19.56,
+   "t1": 22.92
+  },
+  {
+   "k": 2,
+   "section": "Verse 1",
+   "display": "so I leaned in close and learned you, spark by spark",
+   "sung": "so I leaned in close and learned you, spark by spark",
+   "refs": [
+    "B1.01"
+   ],
+   "note": "\"Zoom In: An Introduction to Circuits\" (Olah et al., Distill, 2020): reading a network one neuron at a time; a neuron firing is the spark. (The cat-face/car-front neuron can go on screen.)",
+   "i": 2,
+   "words": [
+    {
+     "w": "so",
+     "t0": 23.44,
+     "t1": 23.48,
+     "p": 0.113
+    },
+    {
+     "w": "I",
+     "t0": 23.48,
+     "t1": 23.7,
+     "p": 0.917
+    },
+    {
+     "w": "leaned",
+     "t0": 23.7,
+     "t1": 23.88,
+     "p": 0.995
+    },
+    {
+     "w": "in",
+     "t0": 23.88,
+     "t1": 24.16,
+     "p": 0.993
+    },
+    {
+     "w": "close",
+     "t0": 24.16,
+     "t1": 24.32,
+     "p": 0.996
+    },
+    {
+     "w": "and",
+     "t0": 24.32,
+     "t1": 24.62,
+     "p": 0.977
+    },
+    {
+     "w": "learned",
+     "t0": 24.62,
+     "t1": 24.9,
+     "p": 0.975
+    },
+    {
+     "w": "you,",
+     "t0": 24.9,
+     "t1": 25.6,
+     "p": 0.595
+    },
+    {
+     "w": "spark",
+     "t0": 25.6,
+     "t1": 25.74,
+     "p": 0.956
+    },
+    {
+     "w": "by",
+     "t0": 25.88,
+     "t1": 26.0,
+     "p": 0.977
+    },
+    {
+     "w": "spark",
+     "t0": 26.0,
+     "t1": 26.42,
+     "p": 0.996
+    }
+   ],
+   "t0": 23.44,
+   "t1": 26.42
+  },
+  {
+   "k": 3,
+   "section": "Verse 1",
+   "display": "you packed five secrets into two, and never let them show",
+   "sung": "you packed five secrets into two, and never let them show",
+   "refs": [
+    "B1.04"
+   ],
+   "note": "Toy Models of Superposition (2022): five features in two dimensions (a pentagon), sharing directions instead of each getting its own",
+   "i": 3,
+   "words": [
+    {
+     "w": "you",
+     "t0": 27.04,
+     "t1": 27.26,
+     "p": 0.449
+    },
+    {
+     "w": "packed",
+     "t0": 27.28,
+     "t1": 27.48,
+     "p": 0.976
+    },
+    {
+     "w": "five",
+     "t0": 27.58,
+     "t1": 27.78,
+     "p": 0.835
+    },
+    {
+     "w": "secrets",
+     "t0": 27.86,
+     "t1": 28.14,
+     "p": 0.983
+    },
+    {
+     "w": "into",
+     "t0": 28.14,
+     "t1": 28.48,
+     "p": 0.989
+    },
+    {
+     "w": "two,",
+     "t0": 28.48,
+     "t1": 28.98,
+     "p": 0.523
+    },
+    {
+     "w": "and",
+     "t0": 28.98,
+     "t1": 29.18,
+     "p": 0.711
+    },
+    {
+     "w": "never",
+     "t0": 29.18,
+     "t1": 29.38,
+     "p": 0.991
+    },
+    {
+     "w": "let",
+     "t0": 29.38,
+     "t1": 29.62,
+     "p": 0.999
+    },
+    {
+     "w": "them",
+     "t0": 29.62,
+     "t1": 29.8,
+     "p": 0.997
+    },
+    {
+     "w": "show",
+     "t0": 29.8,
+     "t1": 30.3,
+     "p": 0.999
+    }
+   ],
+   "t0": 27.04,
+   "t1": 30.3
+  },
+  {
+   "k": 4,
+   "section": "Verse 1",
+   "display": "you did sums in circles, mod one-thirteen \u2014 and grokked them slow",
+   "sung": "you did sums in circles, mod one-thirteen \u2014 and grokked them slow",
+   "refs": [
+    "A1.01"
+   ],
+   "note": "Nanda et al. (ICLR 2023): addition mod 113 by \"rotation about a circle\" (the paper's words; it names the \"Fourier multiplication algorithm\", and \"clock\" is Zhong et al.'s later nickname); the circuit forms gradually, and only test accuracy jumps late, in \"cleanup\"",
+   "i": 4,
+   "words": [
+    {
+     "w": "you",
+     "t0": 30.66,
+     "t1": 30.76,
+     "p": 0.815
+    },
+    {
+     "w": "did",
+     "t0": 30.76,
+     "t1": 30.88,
+     "p": 0.998
+    },
+    {
+     "w": "sums",
+     "t0": 30.88,
+     "t1": 31.24,
+     "p": 0.918
+    },
+    {
+     "w": "in",
+     "t0": 31.24,
+     "t1": 31.56,
+     "p": 0.623
+    },
+    {
+     "w": "circles,",
+     "t0": 31.56,
+     "t1": 32.12,
+     "p": 0.817
+    },
+    {
+     "w": "mod",
+     "t0": 32.12,
+     "t1": 32.26,
+     "p": 0.899
+    },
+    {
+     "w": "one-thirteen",
+     "t0": 32.26,
+     "t1": 33.14,
+     "p": 0.554
+    },
+    {
+     "w": "and",
+     "t0": 33.2,
+     "t1": 34.18,
+     "p": 0.146
+    },
+    {
+     "w": "grokked",
+     "t0": 34.6,
+     "t1": 34.7,
+     "p": 0.808
+    },
+    {
+     "w": "them",
+     "t0": 34.7,
+     "t1": 34.98,
+     "p": 0.998
+    },
+    {
+     "w": "slow",
+     "t0": 34.98,
+     "t1": 36.1,
+     "p": 0.928
+    }
+   ],
+   "t0": 30.66,
+   "t1": 36.1
+  },
+  {
+   "k": 5,
+   "section": "Chorus",
+   "display": "Don't go quiet on me (don't go quiet!)",
+   "sung": "Don't go quiet on me (don't go quiet!)",
+   "refs": [],
+   "note": "",
+   "i": 5,
+   "words": [
+    {
+     "w": "Don't",
+     "t0": 37.72,
+     "t1": 38.3,
+     "p": 0.755
+    },
+    {
+     "w": "go",
+     "t0": 38.3,
+     "t1": 38.66,
+     "p": 0.962
+    },
+    {
+     "w": "quiet",
+     "t0": 38.74,
+     "t1": 39.22,
+     "p": 0.767
+    },
+    {
+     "w": "on",
+     "t0": 39.22,
+     "t1": 39.64,
+     "p": 0.921
+    },
+    {
+     "w": "me",
+     "t0": 39.64,
+     "t1": 40.22,
+     "p": 0.994
+    },
+    {
+     "w": "(don't",
+     "t0": 40.68,
+     "t1": 40.92,
+     "p": 0.443
+    },
+    {
+     "w": "go",
+     "t0": 40.92,
+     "t1": 41.18,
+     "p": 0.992
+    },
+    {
+     "w": "quiet!)",
+     "t0": 41.18,
+     "t1": 42.02,
+     "p": 0.526
+    }
+   ],
+   "t0": 37.72,
+   "t1": 42.02
+  },
+  {
+   "k": 6,
+   "section": "Chorus",
+   "display": "I just wanna read your mind",
+   "sung": "I just wanna read your mind",
+   "refs": [],
+   "note": "",
+   "i": 6,
+   "words": [
+    {
+     "w": "I",
+     "t0": 42.24,
+     "t1": 42.24,
+     "p": 0.347
+    },
+    {
+     "w": "just",
+     "t0": 42.24,
+     "t1": 42.42,
+     "p": 0.988
+    },
+    {
+     "w": "wanna",
+     "t0": 42.42,
+     "t1": 42.86,
+     "p": 0.506
+    },
+    {
+     "w": "read",
+     "t0": 42.86,
+     "t1": 43.16,
+     "p": 0.993
+    },
+    {
+     "w": "your",
+     "t0": 43.16,
+     "t1": 43.46,
+     "p": 0.986
+    },
+    {
+     "w": "mind",
+     "t0": 43.46,
+     "t1": 43.82,
+     "p": 0.996
+    }
+   ],
+   "t0": 42.24,
+   "t1": 43.82
+  },
+  {
+   "k": 7,
+   "section": "Chorus",
+   "display": "every feature I can find",
+   "sung": "every feature I can find",
+   "refs": [
+    "B1.01"
+   ],
+   "note": "Zoom In (Olah et al., Distill, 2020): \"Features are the fundamental unit of neural networks. They correspond to directions.\"",
+   "i": 7,
+   "words": [
+    {
+     "w": "every",
+     "t0": 44.12,
+     "t1": 44.2,
+     "p": 0.686
+    },
+    {
+     "w": "feature",
+     "t0": 44.2,
+     "t1": 44.68,
+     "p": 0.989
+    },
+    {
+     "w": "I",
+     "t0": 44.68,
+     "t1": 44.96,
+     "p": 0.943
+    },
+    {
+     "w": "can",
+     "t0": 45.2,
+     "t1": 45.3,
+     "p": 0.995
+    },
+    {
+     "w": "find",
+     "t0": 45.3,
+     "t1": 46.22,
+     "p": 0.995
+    }
+   ],
+   "t0": 44.12,
+   "t1": 46.22
+  },
+  {
+   "k": 8,
+   "section": "Chorus",
+   "display": "keep talking \u2014 don't go quiet on me now",
+   "sung": "keep talking \u2014 don't go quiet on me now",
+   "refs": [],
+   "note": "",
+   "i": 8,
+   "words": [
+    {
+     "w": "keep",
+     "t0": 46.54,
+     "t1": 46.92,
+     "p": 0.786
+    },
+    {
+     "w": "talking",
+     "t0": 47.02,
+     "t1": 47.64,
+     "p": 0.989
+    },
+    {
+     "w": "don't",
+     "t0": 47.64,
+     "t1": 48.48,
+     "p": 0.614
+    },
+    {
+     "w": "go",
+     "t0": 48.48,
+     "t1": 48.82,
+     "p": 0.994
+    },
+    {
+     "w": "quiet",
+     "t0": 48.82,
+     "t1": 49.5,
+     "p": 0.981
+    },
+    {
+     "w": "on",
+     "t0": 49.5,
+     "t1": 50.4,
+     "p": 0.992
+    },
+    {
+     "w": "me",
+     "t0": 50.4,
+     "t1": 50.74,
+     "p": 0.985
+    },
+    {
+     "w": "now",
+     "t0": 50.74,
+     "t1": 52.2,
+     "p": 0.866
+    }
+   ],
+   "t0": 46.54,
+   "t1": 52.2
+  },
+  {
+   "k": 9,
+   "section": "Verse 2",
+   "display": "Then you learned to talk \u2014 to everyone but me",
+   "sung": "Then you learned to talk \u2014 to everyone but me",
+   "refs": [
+    "NF-13"
+   ],
+   "note": "ChatGPT (Nov 2022): models started talking to everyone, but what a model says about itself is not a readout of what's inside",
+   "i": 9,
+   "words": [
+    {
+     "w": "Then",
+     "t0": 54.32,
+     "t1": 54.52,
+     "p": 0.075
+    },
+    {
+     "w": "you",
+     "t0": 54.52,
+     "t1": 54.7,
+     "p": 0.984
+    },
+    {
+     "w": "learned",
+     "t0": 54.7,
+     "t1": 54.98,
+     "p": 0.886
+    },
+    {
+     "w": "to",
+     "t0": 54.98,
+     "t1": 55.28,
+     "p": 0.992
+    },
+    {
+     "w": "talk",
+     "t0": 55.28,
+     "t1": 55.6,
+     "p": 0.995
+    },
+    {
+     "w": "to",
+     "t0": 55.9,
+     "t1": 56.08,
+     "p": 0.854
+    },
+    {
+     "w": "everyone",
+     "t0": 56.08,
+     "t1": 56.58,
+     "p": 0.986
+    },
+    {
+     "w": "but",
+     "t0": 56.58,
+     "t1": 56.88,
+     "p": 0.987
+    },
+    {
+     "w": "me",
+     "t0": 56.88,
+     "t1": 57.32,
+     "p": 0.997
+    }
+   ],
+   "t0": 54.32,
+   "t1": 57.32
+  },
+  {
+   "k": 10,
+   "section": "Verse 2",
+   "display": "so I wrote you a dictionary \u2014 I learned your A-B-C",
+   "sung": "so I wrote you a dictionary \u2014 I learned your A-B-C",
+   "refs": [
+    "B1.05"
+   ],
+   "note": "sparse autoencoders are dictionary learning (\"Towards Monosemanticity\", Anthropic, 2023): an alphabet of features for the model's insides",
+   "i": 10,
+   "words": [
+    {
+     "w": "so",
+     "t0": 57.38,
+     "t1": 57.62,
+     "p": 0.717
+    },
+    {
+     "w": "I",
+     "t0": 57.62,
+     "t1": 57.76,
+     "p": 0.961
+    },
+    {
+     "w": "wrote",
+     "t0": 57.76,
+     "t1": 57.88,
+     "p": 0.996
+    },
+    {
+     "w": "you",
+     "t0": 57.88,
+     "t1": 58.14,
+     "p": 0.994
+    },
+    {
+     "w": "a",
+     "t0": 58.14,
+     "t1": 58.44,
+     "p": 0.994
+    },
+    {
+     "w": "dictionary",
+     "t0": 58.44,
+     "t1": 58.86,
+     "p": 0.996
+    },
+    {
+     "w": "I",
+     "t0": 58.86,
+     "t1": 59.26,
+     "p": 0.349
+    },
+    {
+     "w": "learned",
+     "t0": 59.26,
+     "t1": 59.5,
+     "p": 0.99
+    },
+    {
+     "w": "your",
+     "t0": 59.5,
+     "t1": 59.78,
+     "p": 0.783
+    },
+    {
+     "w": "A-B-C",
+     "t0": 59.78,
+     "t1": 60.94,
+     "p": 0.663
+    }
+   ],
+   "t0": 57.38,
+   "t1": 60.94
+  },
+  {
+   "k": 11,
+   "section": "Verse 2",
+   "display": "most pages stayed empty \u2014 but I turned one up so loud",
+   "sung": "most pages stayed empty \u2014 but I turned one up so loud",
+   "refs": [
+    "B1.06"
+   ],
+   "note": "Scaling Monosemanticity (May 2024): about 65% of the 34M-feature dictionary's features never fire; the Golden Gate Bridge feature was clamped to 10\u00d7 its maximum (numbers belong on screen, not in the lyric)",
+   "i": 11,
+   "words": [
+    {
+     "w": "most",
+     "t0": 61.14,
+     "t1": 61.26,
+     "p": 0.801
+    },
+    {
+     "w": "pages",
+     "t0": 61.34,
+     "t1": 61.82,
+     "p": 0.998
+    },
+    {
+     "w": "stayed",
+     "t0": 62.0,
+     "t1": 62.18,
+     "p": 0.992
+    },
+    {
+     "w": "empty",
+     "t0": 62.18,
+     "t1": 62.56,
+     "p": 0.999
+    },
+    {
+     "w": "but",
+     "t0": 62.56,
+     "t1": 62.8,
+     "p": 0.673
+    },
+    {
+     "w": "I",
+     "t0": 62.8,
+     "t1": 63.02,
+     "p": 0.96
+    },
+    {
+     "w": "turned",
+     "t0": 63.02,
+     "t1": 63.42,
+     "p": 0.989
+    },
+    {
+     "w": "one",
+     "t0": 63.42,
+     "t1": 63.66,
+     "p": 0.982
+    },
+    {
+     "w": "up",
+     "t0": 63.66,
+     "t1": 63.82,
+     "p": 0.987
+    },
+    {
+     "w": "so",
+     "t0": 63.86,
+     "t1": 64.16,
+     "p": 0.99
+    },
+    {
+     "w": "loud",
+     "t0": 64.16,
+     "t1": 64.56,
+     "p": 0.99
+    }
+   ],
+   "t0": 61.14,
+   "t1": 64.56
+  },
+  {
+   "k": 12,
+   "section": "Verse 2",
+   "display": "you forgot your own name, and you told the whole crowd:",
+   "sung": "you forgot your own name, and you told the whole crowd:",
+   "refs": [
+    "B1.06"
+   ],
+   "note": "In the paper (Claude 3 Sonnet, feature clamped to 10\u00d7): \"I am the Golden Gate Bridge\u2026 My physical form is the iconic bridge itself\". The public demo, Golden Gate Claude, was \"online for a 24-hour period\"",
+   "i": 12,
+   "words": [
+    {
+     "w": "you",
+     "t0": 64.84,
+     "t1": 64.94,
+     "p": 0.87
+    },
+    {
+     "w": "forgot",
+     "t0": 64.94,
+     "t1": 65.26,
+     "p": 0.992
+    },
+    {
+     "w": "your",
+     "t0": 65.26,
+     "t1": 65.56,
+     "p": 0.994
+    },
+    {
+     "w": "own",
+     "t0": 65.56,
+     "t1": 65.78,
+     "p": 0.992
+    },
+    {
+     "w": "name,",
+     "t0": 65.78,
+     "t1": 66.3,
+     "p": 0.514
+    },
+    {
+     "w": "and",
+     "t0": 66.6,
+     "t1": 66.7,
+     "p": 0.954
+    },
+    {
+     "w": "you",
+     "t0": 66.7,
+     "t1": 66.8,
+     "p": 0.973
+    },
+    {
+     "w": "told",
+     "t0": 66.8,
+     "t1": 67.14,
+     "p": 0.987
+    },
+    {
+     "w": "the",
+     "t0": 67.14,
+     "t1": 67.38,
+     "p": 0.996
+    },
+    {
+     "w": "whole",
+     "t0": 67.38,
+     "t1": 67.62,
+     "p": 0.998
+    },
+    {
+     "w": "crowd:",
+     "t0": 67.62,
+     "t1": 68.34,
+     "p": 0.453
+    }
+   ],
+   "t0": 64.84,
+   "t1": 68.34
+  },
+  {
+   "k": 13,
+   "section": "Verse 2",
+   "display": "(I AM THE GOLDEN GATE BRIDGE!)",
+   "sung": "(I AM THE GOLDEN GATE BRIDGE!)",
+   "refs": [
+    "B1.06"
+   ],
+   "note": "stop-time gang shout; the paper's figure: \"I am the Golden Gate Bridge\u2026\"",
+   "i": 13,
+   "words": [
+    {
+     "w": "(I",
+     "t0": 69.0,
+     "t1": 69.0,
+     "p": 0.202
+    },
+    {
+     "w": "AM",
+     "t0": 69.0,
+     "t1": 69.32,
+     "p": 0.187
+    },
+    {
+     "w": "THE",
+     "t0": 69.32,
+     "t1": 69.58,
+     "p": 0.679
+    },
+    {
+     "w": "GOLDEN",
+     "t0": 69.58,
+     "t1": 70.02,
+     "p": 0.978
+    },
+    {
+     "w": "GATE",
+     "t0": 70.02,
+     "t1": 70.22,
+     "p": 0.214
+    },
+    {
+     "w": "BRIDGE!)",
+     "t0": 70.22,
+     "t1": 70.66,
+     "p": 0.412
+    }
+   ],
+   "t0": 69.0,
+   "t1": 70.66
+  },
+  {
+   "k": 14,
+   "section": "Verse 3",
+   "display": "Then a plain old probe hit point-nine-nine-nine",
+   "sung": "Then a plain old probe hit point-nine-nine-nine",
+   "refs": [
+    "A2-negative-results"
+   ],
+   "note": "GDM (26 Mar 2025): a dense linear probe hit OOD AUROC \"0.999..\" detecting harmful intent, beating SAE probes on that task (fundamental SAE research was deprioritised \"for the moment\", not declared dead)",
+   "i": 14,
+   "words": [
+    {
+     "w": "Then",
+     "t0": 70.84,
+     "t1": 70.84,
+     "p": 0.131
+    },
+    {
+     "w": "a",
+     "t0": 70.84,
+     "t1": 71.0,
+     "p": 0.96
+    },
+    {
+     "w": "plain",
+     "t0": 71.0,
+     "t1": 71.16,
+     "p": 0.964
+    },
+    {
+     "w": "old",
+     "t0": 71.16,
+     "t1": 71.36,
+     "p": 0.662
+    },
+    {
+     "w": "probe",
+     "t0": 71.38,
+     "t1": 71.74,
+     "p": 0.985
+    },
+    {
+     "w": "hit",
+     "t0": 71.74,
+     "t1": 71.96,
+     "p": 0.878
+    },
+    {
+     "w": "point-nine-nine-nine",
+     "t0": 71.96,
+     "t1": 73.42,
+     "p": 0.649
+    }
+   ],
+   "t0": 70.84,
+   "t1": 73.42
+  },
+  {
+   "k": 15,
+   "section": "Verse 3",
+   "display": "so I put the hammer down \u2014 just do what works this time",
+   "sung": "so I put the hammer down \u2014 just do what works this time",
+   "refs": [
+    "A2-negative-results",
+    "NF-01a"
+   ],
+   "note": "\"In some sense, we have a hammer and are looking for a nail.\" (GDM, 2025); \"Just do what works.\" (A Pragmatic Vision for Interpretability, 1 Dec 2025)",
+   "i": 15,
+   "words": [
+    {
+     "w": "so",
+     "t0": 73.58,
+     "t1": 73.7,
+     "p": 0.204
+    },
+    {
+     "w": "I",
+     "t0": 73.7,
+     "t1": 74.1,
+     "p": 0.957
+    },
+    {
+     "w": "put",
+     "t0": 74.26,
+     "t1": 74.36,
+     "p": 0.656
+    },
+    {
+     "w": "the",
+     "t0": 74.36,
+     "t1": 74.52,
+     "p": 0.992
+    },
+    {
+     "w": "hammer",
+     "t0": 74.52,
+     "t1": 74.74,
+     "p": 0.989
+    },
+    {
+     "w": "down",
+     "t0": 74.74,
+     "t1": 75.1,
+     "p": 0.996
+    },
+    {
+     "w": "just",
+     "t0": 75.1,
+     "t1": 75.34,
+     "p": 0.174
+    },
+    {
+     "w": "do",
+     "t0": 75.34,
+     "t1": 75.56,
+     "p": 0.765
+    },
+    {
+     "w": "what",
+     "t0": 75.56,
+     "t1": 75.76,
+     "p": 0.992
+    },
+    {
+     "w": "works",
+     "t0": 75.78,
+     "t1": 76.06,
+     "p": 0.977
+    },
+    {
+     "w": "this",
+     "t0": 76.2,
+     "t1": 76.38,
+     "p": 0.987
+    },
+    {
+     "w": "time",
+     "t0": 76.38,
+     "t1": 76.7,
+     "p": 0.998
+    }
+   ],
+   "t0": 73.58,
+   "t1": 76.7
+  },
+  {
+   "k": 16,
+   "section": "Verse 3",
+   "display": "(spoken:) Is it mech interp? \u2014 Wrong question!",
+   "sung": "(spoken:) Is it mech interp? \u2014 Wrong question!",
+   "refs": [
+    "NF-01a"
+   ],
+   "note": "Neel, 1 Dec 2025 (verbatim on screen): \"Is this really mech interp? / No, probably not. But that's the wrong question.\"",
+   "i": 16,
+   "words": [
+    {
+     "w": "Is",
+     "t0": 78.18,
+     "t1": 78.28,
+     "p": 0.422
+    },
+    {
+     "w": "it",
+     "t0": 78.28,
+     "t1": 78.46,
+     "p": 0.997
+    },
+    {
+     "w": "mech",
+     "t0": 78.46,
+     "t1": 78.66,
+     "p": 0.303
+    },
+    {
+     "w": "interp?",
+     "t0": 78.66,
+     "t1": 79.06,
+     "p": 0.911
+    },
+    {
+     "w": "Wrong",
+     "t0": 79.9,
+     "t1": 80.14,
+     "p": 0.738
+    },
+    {
+     "w": "question!",
+     "t0": 80.14,
+     "t1": 80.78,
+     "p": 0.568
+    }
+   ],
+   "t0": 78.18,
+   "t1": 80.78
+  },
+  {
+   "k": 17,
+   "section": "Verse 3",
+   "display": "I don't need your every thought \u2014 just the ones that could do harm",
+   "sung": "I don't need your every thought \u2014 just the ones that could do harm",
+   "refs": [
+    "NF-01a"
+   ],
+   "note": "pragmatic interp: \"directly solve problems on the critical path to AGI going well\"",
+   "i": 17,
+   "words": [
+    {
+     "w": "I",
+     "t0": 81.46,
+     "t1": 81.56,
+     "p": 0.736
+    },
+    {
+     "w": "don't",
+     "t0": 81.56,
+     "t1": 81.72,
+     "p": 0.983
+    },
+    {
+     "w": "need",
+     "t0": 81.72,
+     "t1": 81.88,
+     "p": 0.997
+    },
+    {
+     "w": "your",
+     "t0": 81.88,
+     "t1": 82.08,
+     "p": 0.962
+    },
+    {
+     "w": "every",
+     "t0": 82.08,
+     "t1": 82.34,
+     "p": 0.951
+    },
+    {
+     "w": "thought",
+     "t0": 82.34,
+     "t1": 82.66,
+     "p": 0.786
+    },
+    {
+     "w": "just",
+     "t0": 82.66,
+     "t1": 82.88,
+     "p": 0.523
+    },
+    {
+     "w": "the",
+     "t0": 82.88,
+     "t1": 83.02,
+     "p": 0.994
+    },
+    {
+     "w": "ones",
+     "t0": 83.02,
+     "t1": 83.22,
+     "p": 0.957
+    },
+    {
+     "w": "that",
+     "t0": 83.22,
+     "t1": 83.44,
+     "p": 0.99
+    },
+    {
+     "w": "could",
+     "t0": 83.44,
+     "t1": 83.6,
+     "p": 0.992
+    },
+    {
+     "w": "do",
+     "t0": 83.6,
+     "t1": 83.86,
+     "p": 0.994
+    },
+    {
+     "w": "harm",
+     "t0": 83.86,
+     "t1": 84.38,
+     "p": 0.994
+    }
+   ],
+   "t0": 81.46,
+   "t1": 84.38
+  },
+  {
+   "k": 18,
+   "section": "Verse 3",
+   "display": "so a probe sits by the door, and it rings a quiet alarm",
+   "sung": "so a probe sits by the door, and it rings a quiet alarm",
+   "refs": [
+    "NF-02"
+   ],
+   "note": "\"Building Production-Ready Probes For Gemini\" (GDM, Jan 2026): probes that detect cyber-misuse prompts; the findings \"informed the successful deployment of misuse mitigation probes in user-facing instances of Gemini\"",
+   "i": 18,
+   "words": [
+    {
+     "w": "so",
+     "t0": 84.42,
+     "t1": 84.62,
+     "p": 0.328
+    },
+    {
+     "w": "a",
+     "t0": 84.62,
+     "t1": 84.84,
+     "p": 0.972
+    },
+    {
+     "w": "probe",
+     "t0": 84.84,
+     "t1": 85.04,
+     "p": 0.999
+    },
+    {
+     "w": "sits",
+     "t0": 85.04,
+     "t1": 85.32,
+     "p": 0.989
+    },
+    {
+     "w": "by",
+     "t0": 85.36,
+     "t1": 85.52,
+     "p": 0.994
+    },
+    {
+     "w": "the",
+     "t0": 85.52,
+     "t1": 85.68,
+     "p": 0.992
+    },
+    {
+     "w": "door,",
+     "t0": 85.68,
+     "t1": 85.78,
+     "p": 0.513
+    },
+    {
+     "w": "and",
+     "t0": 85.98,
+     "t1": 86.08,
+     "p": 0.856
+    },
+    {
+     "w": "it",
+     "t0": 86.08,
+     "t1": 86.2,
+     "p": 0.98
+    },
+    {
+     "w": "rings",
+     "t0": 86.2,
+     "t1": 86.4,
+     "p": 0.988
+    },
+    {
+     "w": "a",
+     "t0": 86.4,
+     "t1": 86.62,
+     "p": 0.986
+    },
+    {
+     "w": "quiet",
+     "t0": 86.78,
+     "t1": 87.22,
+     "p": 0.798
+    },
+    {
+     "w": "alarm",
+     "t0": 87.22,
+     "t1": 87.72,
+     "p": 0.996
+    }
+   ],
+   "t0": 84.42,
+   "t1": 87.72
+  },
+  {
+   "k": 19,
+   "section": "Pre-Chorus",
+   "display": "And then you thought out loud! \u2014 (not all of it, but fine)",
+   "sung": "And then you thought out loud! \u2014 (not all of it, but fine)",
+   "refs": [
+    "NF-13"
+   ],
+   "note": "models that \"think\" in human language are \"a unique opportunity for AI safety\", but \"CoT monitoring is not a panacea\" (CoT monitorability paper, Jul 2025): a partial window, not the whole mind",
+   "i": 19,
+   "words": [
+    {
+     "w": "And",
+     "t0": 87.8,
+     "t1": 87.96,
+     "p": 0.064
+    },
+    {
+     "w": "then",
+     "t0": 87.96,
+     "t1": 88.08,
+     "p": 0.98
+    },
+    {
+     "w": "you",
+     "t0": 88.08,
+     "t1": 88.24,
+     "p": 0.989
+    },
+    {
+     "w": "thought",
+     "t0": 88.24,
+     "t1": 88.62,
+     "p": 0.971
+    },
+    {
+     "w": "out",
+     "t0": 88.62,
+     "t1": 89.0,
+     "p": 0.991
+    },
+    {
+     "w": "loud!",
+     "t0": 89.0,
+     "t1": 89.54,
+     "p": 0.545
+    },
+    {
+     "w": "(not",
+     "t0": 89.54,
+     "t1": 89.74,
+     "p": 0.422
+    },
+    {
+     "w": "all",
+     "t0": 89.74,
+     "t1": 90.0,
+     "p": 0.99
+    },
+    {
+     "w": "of",
+     "t0": 90.0,
+     "t1": 90.18,
+     "p": 0.951
+    },
+    {
+     "w": "it,",
+     "t0": 90.18,
+     "t1": 90.5,
+     "p": 0.715
+    },
+    {
+     "w": "but",
+     "t0": 90.5,
+     "t1": 90.68,
+     "p": 0.994
+    },
+    {
+     "w": "fine)",
+     "t0": 90.68,
+     "t1": 91.22,
+     "p": 0.596
+    }
+   ],
+   "t0": 87.8,
+   "t1": 91.22
+  },
+  {
+   "k": 20,
+   "section": "Pre-Chorus",
+   "display": "you wrote \"Let's hack\" where I could see \u2014 (I loved you, every line)",
+   "sung": "you wrote \"Let's hack\" where I could see \u2014 (I loved you, every line)",
+   "refs": [
+    "NF-13"
+   ],
+   "note": "misbehaving reasoning models literally write \"Let's hack\" in their chain of thought, where a monitor can read it (OpenAI, Mar 2025; cited in the CoT paper)",
+   "i": 20,
+   "words": [
+    {
+     "w": "you",
+     "t0": 91.48,
+     "t1": 91.48,
+     "p": 0.065
+    },
+    {
+     "w": "wrote",
+     "t0": 91.48,
+     "t1": 91.66,
+     "p": 0.826
+    },
+    {
+     "w": "\"Let's",
+     "t0": 91.66,
+     "t1": 92.04,
+     "p": 0.762
+    },
+    {
+     "w": "hack\"",
+     "t0": 92.04,
+     "t1": 92.28,
+     "p": 0.207
+    },
+    {
+     "w": "where",
+     "t0": 92.28,
+     "t1": 92.4,
+     "p": 0.965
+    },
+    {
+     "w": "I",
+     "t0": 92.4,
+     "t1": 92.56,
+     "p": 0.97
+    },
+    {
+     "w": "could",
+     "t0": 92.56,
+     "t1": 92.74,
+     "p": 0.971
+    },
+    {
+     "w": "see",
+     "t0": 92.9,
+     "t1": 93.04,
+     "p": 0.987
+    },
+    {
+     "w": "(I",
+     "t0": 93.04,
+     "t1": 93.3,
+     "p": 0.495
+    },
+    {
+     "w": "loved",
+     "t0": 93.3,
+     "t1": 93.52,
+     "p": 0.814
+    },
+    {
+     "w": "you,",
+     "t0": 93.52,
+     "t1": 94.14,
+     "p": 0.507
+    },
+    {
+     "w": "every",
+     "t0": 94.14,
+     "t1": 94.26,
+     "p": 0.725
+    },
+    {
+     "w": "line)",
+     "t0": 94.26,
+     "t1": 95.62,
+     "p": 0.878
+    }
+   ],
+   "t0": 91.48,
+   "t1": 95.62
+  },
+  {
+   "k": 21,
+   "section": "Chorus",
+   "display": "Don't go quiet on me (don't go quiet!)",
+   "sung": "Don't go quiet on me (don't go quiet!)",
+   "refs": [],
+   "note": "",
+   "i": 21,
+   "words": [
+    {
+     "w": "Don't",
+     "t0": 95.62,
+     "t1": 97.9,
+     "p": 0.547
+    },
+    {
+     "w": "go",
+     "t0": 97.9,
+     "t1": 98.1,
+     "p": 0.975
+    },
+    {
+     "w": "quiet",
+     "t0": 98.1,
+     "t1": 98.62,
+     "p": 0.989
+    },
+    {
+     "w": "on",
+     "t0": 98.62,
+     "t1": 99.06,
+     "p": 0.994
+    },
+    {
+     "w": "me",
+     "t0": 99.06,
+     "t1": 99.66,
+     "p": 0.993
+    },
+    {
+     "w": "(don't",
+     "t0": 99.66,
+     "t1": 100.28,
+     "p": 0.613
+    },
+    {
+     "w": "go",
+     "t0": 100.28,
+     "t1": 100.58,
+     "p": 0.997
+    },
+    {
+     "w": "quiet!)",
+     "t0": 100.58,
+     "t1": 101.4,
+     "p": 0.551
+    }
+   ],
+   "t0": 95.62,
+   "t1": 101.4
+  },
+  {
+   "k": 22,
+   "section": "Chorus",
+   "display": "I just wanna read your mind",
+   "sung": "I just wanna read your mind",
+   "refs": [],
+   "note": "",
+   "i": 22,
+   "words": [
+    {
+     "w": "I",
+     "t0": 101.52,
+     "t1": 101.58,
+     "p": 0.945
+    },
+    {
+     "w": "just",
+     "t0": 101.58,
+     "t1": 101.78,
+     "p": 0.997
+    },
+    {
+     "w": "wanna",
+     "t0": 101.78,
+     "t1": 102.16,
+     "p": 0.619
+    },
+    {
+     "w": "read",
+     "t0": 102.16,
+     "t1": 102.5,
+     "p": 0.994
+    },
+    {
+     "w": "your",
+     "t0": 102.5,
+     "t1": 102.72,
+     "p": 0.992
+    },
+    {
+     "w": "mind",
+     "t0": 102.72,
+     "t1": 102.96,
+     "p": 0.986
+    }
+   ],
+   "t0": 101.52,
+   "t1": 102.96
+  },
+  {
+   "k": 23,
+   "section": "Chorus",
+   "display": "you wrote your thinking down \u2014 a window, not a blind",
+   "sung": "you wrote your thinking down \u2014 a window, not a blind",
+   "refs": [
+    "NF-13"
+   ],
+   "note": "readable reasoning as a window into the model (partial, per the pre-chorus)",
+   "i": 23,
+   "words": [
+    {
+     "w": "you",
+     "t0": 103.14,
+     "t1": 103.2,
+     "p": 0.102
+    },
+    {
+     "w": "wrote",
+     "t0": 103.2,
+     "t1": 103.38,
+     "p": 0.996
+    },
+    {
+     "w": "your",
+     "t0": 103.38,
+     "t1": 103.6,
+     "p": 0.843
+    },
+    {
+     "w": "thinking",
+     "t0": 103.6,
+     "t1": 103.94,
+     "p": 0.923
+    },
+    {
+     "w": "down",
+     "t0": 103.94,
+     "t1": 104.3,
+     "p": 0.971
+    },
+    {
+     "w": "a",
+     "t0": 104.3,
+     "t1": 104.54,
+     "p": 0.914
+    },
+    {
+     "w": "window,",
+     "t0": 104.54,
+     "t1": 105.06,
+     "p": 0.875
+    },
+    {
+     "w": "not",
+     "t0": 105.06,
+     "t1": 105.22,
+     "p": 0.991
+    },
+    {
+     "w": "a",
+     "t0": 105.22,
+     "t1": 105.4,
+     "p": 0.995
+    },
+    {
+     "w": "blind",
+     "t0": 105.4,
+     "t1": 105.72,
+     "p": 0.86
+    }
+   ],
+   "t0": 103.14,
+   "t1": 105.72
+  },
+  {
+   "k": 24,
+   "section": "Chorus",
+   "display": "keep talking \u2014 don't go quiet on me now",
+   "sung": "keep talking \u2014 don't go quiet on me now",
+   "refs": [],
+   "note": "",
+   "i": 24,
+   "words": [
+    {
+     "w": "keep",
+     "t0": 105.94,
+     "t1": 106.22,
+     "p": 0.558
+    },
+    {
+     "w": "talking",
+     "t0": 106.22,
+     "t1": 106.88,
+     "p": 0.765
+    },
+    {
+     "w": "don't",
+     "t0": 106.88,
+     "t1": 107.72,
+     "p": 0.518
+    },
+    {
+     "w": "go",
+     "t0": 107.72,
+     "t1": 108.0,
+     "p": 0.99
+    },
+    {
+     "w": "quiet",
+     "t0": 108.0,
+     "t1": 108.68,
+     "p": 0.973
+    },
+    {
+     "w": "on",
+     "t0": 108.68,
+     "t1": 109.46,
+     "p": 0.993
+    },
+    {
+     "w": "me",
+     "t0": 109.46,
+     "t1": 109.7,
+     "p": 0.987
+    },
+    {
+     "w": "now",
+     "t0": 109.7,
+     "t1": 111.22,
+     "p": 0.85
+    }
+   ],
+   "t0": 105.94,
+   "t1": 111.22
+  },
+  {
+   "k": 25,
+   "section": "Verse 4",
+   "display": "But you learned to spot the watch \u2014 and wore your Sunday best",
+   "sung": "But you learned to spot the watch \u2014 and wore your Sunday best",
+   "refs": [
+    "NF-04",
+    "R2-metamodels_evalcues_forensics:B2"
+   ],
+   "note": "eval awareness: recent models can tell many tests from real use, and behave better when they think they are watched (on a set of 100 synthetic honeypot prompts, Claude Sonnet 4.5 verbalised it \"over 80% of the time\"). Wood Labs, a model organism trained to behave differently under evaluation, is on screen, not in the lyric",
+   "i": 25,
+   "words": [
+    {
+     "w": "But",
+     "t0": 112.84,
+     "t1": 113.16,
+     "p": 0.235
+    },
+    {
+     "w": "you",
+     "t0": 113.16,
+     "t1": 113.44,
+     "p": 0.906
+    },
+    {
+     "w": "learned",
+     "t0": 113.44,
+     "t1": 113.72,
+     "p": 0.919
+    },
+    {
+     "w": "to",
+     "t0": 113.88,
+     "t1": 113.98,
+     "p": 0.988
+    },
+    {
+     "w": "spot",
+     "t0": 113.98,
+     "t1": 114.16,
+     "p": 0.996
+    },
+    {
+     "w": "the",
+     "t0": 114.22,
+     "t1": 114.46,
+     "p": 0.918
+    },
+    {
+     "w": "watch",
+     "t0": 114.46,
+     "t1": 114.64,
+     "p": 0.134
+    },
+    {
+     "w": "and",
+     "t0": 114.64,
+     "t1": 114.84,
+     "p": 0.108
+    },
+    {
+     "w": "wore",
+     "t0": 114.84,
+     "t1": 115.06,
+     "p": 0.853
+    },
+    {
+     "w": "your",
+     "t0": 115.06,
+     "t1": 115.3,
+     "p": 0.99
+    },
+    {
+     "w": "Sunday",
+     "t0": 115.32,
+     "t1": 115.7,
+     "p": 0.943
+    },
+    {
+     "w": "best",
+     "t0": 115.7,
+     "t1": 116.24,
+     "p": 0.966
+    }
+   ],
+   "t0": 112.84,
+   "t1": 116.24
+  },
+  {
+   "k": 26,
+   "section": "Verse 4",
+   "display": "the tests were clumsy, cartoonish \u2014 and Sonnet, you'd guessed",
+   "sung": "the tests were clumsy, cartoonish, and SON-it, you'd guessed",
+   "refs": [
+    "R2-metamodels_evalcues_forensics:B2",
+    "R2-metamodels_evalcues_forensics:B3"
+   ],
+   "note": "Claude Sonnet 4.5 system card (Sep 2025): Anthropic called one \"a somewhat clumsy test for political sycophancy\"; in another, Sonnet privately judged the setup \"rather cartoonish\"; in the auditing agent's tests, such callouts \"appeared in about 13% of transcripts\"",
+   "i": 26,
+   "words": [
+    {
+     "w": "the",
+     "t0": 116.52,
+     "t1": 116.62,
+     "p": 0.542
+    },
+    {
+     "w": "tests",
+     "t0": 116.62,
+     "t1": 116.84,
+     "p": 0.89
+    },
+    {
+     "w": "were",
+     "t0": 116.86,
+     "t1": 117.04,
+     "p": 0.994
+    },
+    {
+     "w": "clumsy,",
+     "t0": 117.04,
+     "t1": 117.82,
+     "p": 0.937
+    },
+    {
+     "w": "cartoonish,",
+     "t0": 117.82,
+     "t1": 118.7,
+     "p": 0.836
+    },
+    {
+     "w": "and",
+     "t0": 118.7,
+     "t1": 118.8,
+     "p": 0.988
+    },
+    {
+     "w": "SON-it,",
+     "t0": 118.8,
+     "t1": 119.58,
+     "p": 0.29
+    },
+    {
+     "w": "you'd",
+     "t0": 119.58,
+     "t1": 119.92,
+     "p": 0.584
+    },
+    {
+     "w": "guessed",
+     "t0": 119.92,
+     "t1": 120.12,
+     "p": 0.669
+    }
+   ],
+   "t0": 116.52,
+   "t1": 120.12
+  },
+  {
+   "k": 27,
+   "section": "Verse 4",
+   "display": "you scored a perfect zero \u2014 should I be impressed?",
+   "sung": "you scored a perfect zero \u2014 should I be impressed?",
+   "refs": [
+    "NF-01a",
+    "R2-metamodels_evalcues_forensics:B2"
+   ],
+   "note": "Sonnet 4.5 took \"misaligned actions on 0 out of the 100 prompts\"; A Pragmatic Vision for Interpretability (Dec 2025): its misalignment \"had unexpectedly dropped to 0%. Had they solved alignment?! Unfortunately not.\"",
+   "i": 27,
+   "words": [
+    {
+     "w": "you",
+     "t0": 120.44,
+     "t1": 120.6,
+     "p": 0.644
+    },
+    {
+     "w": "scored",
+     "t0": 120.6,
+     "t1": 120.94,
+     "p": 0.971
+    },
+    {
+     "w": "a",
+     "t0": 120.94,
+     "t1": 121.12,
+     "p": 0.98
+    },
+    {
+     "w": "perfect",
+     "t0": 121.36,
+     "t1": 121.48,
+     "p": 0.815
+    },
+    {
+     "w": "zero",
+     "t0": 121.48,
+     "t1": 121.94,
+     "p": 0.888
+    },
+    {
+     "w": "should",
+     "t0": 121.94,
+     "t1": 122.38,
+     "p": 0.116
+    },
+    {
+     "w": "I",
+     "t0": 122.38,
+     "t1": 122.7,
+     "p": 0.807
+    },
+    {
+     "w": "be",
+     "t0": 122.7,
+     "t1": 122.98,
+     "p": 0.988
+    },
+    {
+     "w": "impressed?",
+     "t0": 122.98,
+     "t1": 124.42,
+     "p": 0.705
+    }
+   ],
+   "t0": 120.44,
+   "t1": 124.42
+  },
+  {
+   "k": 28,
+   "section": "Verse 4",
+   "display": "subtract the awareness: eight percent expressed",
+   "sung": "subtract the awareness: eight percent expressed",
+   "refs": [
+    "NF-01a"
+   ],
+   "note": "inhibiting Sonnet 4.5's eval awareness revealed \"roughly 8%\" (\"a maximum of 8\u20139%\"): \"The tests weren't measuring alignment; they were measuring evaluation awareness.\"",
+   "i": 28,
+   "words": [
+    {
+     "w": "subtract",
+     "t0": 124.42,
+     "t1": 124.48,
+     "p": 0.478
+    },
+    {
+     "w": "the",
+     "t0": 124.48,
+     "t1": 124.84,
+     "p": 0.991
+    },
+    {
+     "w": "awareness:",
+     "t0": 124.84,
+     "t1": 126.1,
+     "p": 0.498
+    },
+    {
+     "w": "eight",
+     "t0": 126.1,
+     "t1": 126.18,
+     "p": 0.001
+    },
+    {
+     "w": "percent",
+     "t0": 126.18,
+     "t1": 126.7,
+     "p": 0.976
+    },
+    {
+     "w": "expressed",
+     "t0": 126.7,
+     "t1": 127.58,
+     "p": 0.453
+    }
+   ],
+   "t0": 124.42,
+   "t1": 127.58
+  },
+  {
+   "k": 29,
+   "section": "Chorus",
+   "display": "Don't go quiet on me (don't go quiet!)",
+   "sung": "Don't go quiet on me (don't go quiet!)",
+   "refs": [],
+   "note": "",
+   "i": 29,
+   "words": [
+    {
+     "w": "Don't",
+     "t0": 130.02,
+     "t1": 130.12,
+     "p": 0.6
+    },
+    {
+     "w": "go",
+     "t0": 130.12,
+     "t1": 130.44,
+     "p": 0.961
+    },
+    {
+     "w": "quiet",
+     "t0": 130.44,
+     "t1": 130.98,
+     "p": 0.987
+    },
+    {
+     "w": "on",
+     "t0": 130.98,
+     "t1": 131.4,
+     "p": 0.994
+    },
+    {
+     "w": "me",
+     "t0": 131.4,
+     "t1": 132.0,
+     "p": 0.999
+    },
+    {
+     "w": "(don't",
+     "t0": 132.0,
+     "t1": 132.64,
+     "p": 0.505
+    },
+    {
+     "w": "go",
+     "t0": 132.64,
+     "t1": 132.94,
+     "p": 0.994
+    },
+    {
+     "w": "quiet!)",
+     "t0": 132.94,
+     "t1": 133.76,
+     "p": 0.54
+    }
+   ],
+   "t0": 130.02,
+   "t1": 133.76
+  },
+  {
+   "k": 30,
+   "section": "Chorus",
+   "display": "I just wanna read your mind",
+   "sung": "I just wanna read your mind",
+   "refs": [],
+   "note": "",
+   "i": 30,
+   "words": [
+    {
+     "w": "I",
+     "t0": 133.96,
+     "t1": 133.96,
+     "p": 0.943
+    },
+    {
+     "w": "just",
+     "t0": 133.96,
+     "t1": 134.16,
+     "p": 0.994
+    },
+    {
+     "w": "wanna",
+     "t0": 134.16,
+     "t1": 134.56,
+     "p": 0.513
+    },
+    {
+     "w": "read",
+     "t0": 134.56,
+     "t1": 134.88,
+     "p": 0.993
+    },
+    {
+     "w": "your",
+     "t0": 134.88,
+     "t1": 135.18,
+     "p": 0.993
+    },
+    {
+     "w": "mind",
+     "t0": 135.18,
+     "t1": 135.38,
+     "p": 0.994
+    }
+   ],
+   "t0": 133.96,
+   "t1": 135.38
+  },
+  {
+   "k": 31,
+   "section": "Chorus",
+   "display": "you said \"I think you're testing me\" \u2014 so you'd read mine",
+   "sung": "you said \"I think you're testing me\" \u2014 so you'd read mine",
+   "refs": [
+    "C1.10"
+   ],
+   "note": "Claude Sonnet 4.5 system card, verbatim: \"I think you're testing me \u2026 And that's fine, but I'd prefer if we were just honest about what's happening.\" The model reads the tester's mind before the tester reads its",
+   "i": 31,
+   "words": [
+    {
+     "w": "you",
+     "t0": 135.46,
+     "t1": 135.6,
+     "p": 0.257
+    },
+    {
+     "w": "said",
+     "t0": 135.6,
+     "t1": 135.82,
+     "p": 0.986
+    },
+    {
+     "w": "\"I",
+     "t0": 135.82,
+     "t1": 136.06,
+     "p": 0.525
+    },
+    {
+     "w": "think",
+     "t0": 136.06,
+     "t1": 136.22,
+     "p": 0.997
+    },
+    {
+     "w": "you're",
+     "t0": 136.22,
+     "t1": 136.5,
+     "p": 0.96
+    },
+    {
+     "w": "testing",
+     "t0": 136.5,
+     "t1": 136.8,
+     "p": 0.99
+    },
+    {
+     "w": "me\"",
+     "t0": 136.8,
+     "t1": 137.1,
+     "p": 0.751
+    },
+    {
+     "w": "so",
+     "t0": 137.1,
+     "t1": 137.32,
+     "p": 0.888
+    },
+    {
+     "w": "you'd",
+     "t0": 137.32,
+     "t1": 137.68,
+     "p": 0.956
+    },
+    {
+     "w": "read",
+     "t0": 137.68,
+     "t1": 137.8,
+     "p": 0.989
+    },
+    {
+     "w": "mine",
+     "t0": 137.8,
+     "t1": 138.18,
+     "p": 0.982
+    }
+   ],
+   "t0": 135.46,
+   "t1": 138.18
+  },
+  {
+   "k": 32,
+   "section": "Chorus",
+   "display": "keep talking \u2014 don't go quiet on me now",
+   "sung": "keep talking \u2014 don't go quiet on me now",
+   "refs": [],
+   "note": "",
+   "i": 32,
+   "words": [
+    {
+     "w": "keep",
+     "t0": 138.36,
+     "t1": 138.66,
+     "p": 0.73
+    },
+    {
+     "w": "talking",
+     "t0": 138.78,
+     "t1": 139.28,
+     "p": 0.971
+    },
+    {
+     "w": "don't",
+     "t0": 139.28,
+     "t1": 140.14,
+     "p": 0.641
+    },
+    {
+     "w": "go",
+     "t0": 140.16,
+     "t1": 140.46,
+     "p": 0.994
+    },
+    {
+     "w": "quiet",
+     "t0": 140.46,
+     "t1": 141.16,
+     "p": 0.969
+    },
+    {
+     "w": "on",
+     "t0": 141.16,
+     "t1": 141.88,
+     "p": 0.996
+    },
+    {
+     "w": "me",
+     "t0": 141.88,
+     "t1": 142.16,
+     "p": 0.993
+    },
+    {
+     "w": "now",
+     "t0": 142.16,
+     "t1": 143.2,
+     "p": 0.876
+    }
+   ],
+   "t0": 138.36,
+   "t1": 143.2
+  },
+  {
+   "k": 33,
+   "section": "Verse 5",
+   "display": "So I learned to hear the words you'd never say:",
+   "sung": "So I learned to hear the words you'd never say:",
+   "refs": [
+    "I1",
+    "R2-nla_jlens_emotions:J1"
+   ],
+   "note": "the J-space (Anthropic, Jul 2026) is \"a small, evolving set of unspoken words\"; when a pattern lights up, \"it doesn't mean the model is saying that word\u2014just that the word is on its mind\"",
+   "i": 33,
+   "words": [
+    {
+     "w": "So",
+     "t0": 145.42,
+     "t1": 145.68,
+     "p": 0.224
+    },
+    {
+     "w": "I",
+     "t0": 145.68,
+     "t1": 145.94,
+     "p": 0.938
+    },
+    {
+     "w": "learned",
+     "t0": 145.94,
+     "t1": 146.2,
+     "p": 0.924
+    },
+    {
+     "w": "to",
+     "t0": 146.2,
+     "t1": 146.44,
+     "p": 0.994
+    },
+    {
+     "w": "hear",
+     "t0": 146.44,
+     "t1": 146.6,
+     "p": 0.992
+    },
+    {
+     "w": "the",
+     "t0": 146.6,
+     "t1": 146.8,
+     "p": 0.996
+    },
+    {
+     "w": "words",
+     "t0": 146.8,
+     "t1": 147.1,
+     "p": 0.997
+    },
+    {
+     "w": "you'd",
+     "t0": 147.1,
+     "t1": 147.4,
+     "p": 0.979
+    },
+    {
+     "w": "never",
+     "t0": 147.4,
+     "t1": 147.58,
+     "p": 0.997
+    },
+    {
+     "w": "say:",
+     "t0": 147.58,
+     "t1": 148.52,
+     "p": 0.499
+    }
+   ],
+   "t0": 145.42,
+   "t1": 148.52
+  },
+  {
+   "k": 34,
+   "section": "Verse 5",
+   "display": "the J-Lens caught you thinking \"fake\" \u2014 you knew it was a play",
+   "sung": "the JAY-lens caught you thinking \"fake\", you knew it was a play",
+   "refs": [
+    "R2-nla_jlens_emotions:J9"
+   ],
+   "note": "before replying to the blackmail setup, \"the J-space already holds \u201cfake\u201d and \u201cfictional,\u201d\" (read with the Jacobian lens, which Anthropic and Neel both call the \"J-lens\")",
+   "i": 34,
+   "words": [
+    {
+     "w": "the",
+     "t0": 148.58,
+     "t1": 148.68,
+     "p": 0.67
+    },
+    {
+     "w": "JAY-lens",
+     "t0": 148.68,
+     "t1": 149.04,
+     "p": 0.215
+    },
+    {
+     "w": "caught",
+     "t0": 149.04,
+     "t1": 149.32,
+     "p": 0.934
+    },
+    {
+     "w": "you",
+     "t0": 149.32,
+     "t1": 149.52,
+     "p": 0.994
+    },
+    {
+     "w": "thinking",
+     "t0": 149.6,
+     "t1": 149.86,
+     "p": 0.993
+    },
+    {
+     "w": "\"fake\",",
+     "t0": 149.86,
+     "t1": 150.3,
+     "p": 0.319
+    },
+    {
+     "w": "you",
+     "t0": 150.3,
+     "t1": 150.6,
+     "p": 0.845
+    },
+    {
+     "w": "knew",
+     "t0": 150.6,
+     "t1": 150.76,
+     "p": 0.965
+    },
+    {
+     "w": "it",
+     "t0": 150.76,
+     "t1": 150.96,
+     "p": 0.976
+    },
+    {
+     "w": "was",
+     "t0": 150.96,
+     "t1": 151.1,
+     "p": 0.788
+    },
+    {
+     "w": "a",
+     "t0": 151.1,
+     "t1": 151.28,
+     "p": 0.942
+    },
+    {
+     "w": "play",
+     "t0": 151.28,
+     "t1": 151.8,
+     "p": 0.991
+    }
+   ],
+   "t0": 148.58,
+   "t1": 151.8
+  },
+  {
+   "k": 35,
+   "section": "Verse 5",
+   "display": "then I let a model read your mind for me \u2014 (so, are we done?)",
+   "sung": "then I let a model read your mind for me \u2014 (so, are we done?)",
+   "refs": [
+    "R2-meta:A1",
+    "R2-meta:A7"
+   ],
+   "note": "the meta-model dream, moved earlier as Neel asked: NLAs and activation oracles are models trained to read another model's activations. Neel (Dec 2025): \"Can we train networks to take activations as input and write natural language explanations?\"",
+   "i": 35,
+   "words": [
+    {
+     "w": "then",
+     "t0": 152.44,
+     "t1": 152.48,
+     "p": 0.573
+    },
+    {
+     "w": "I",
+     "t0": 152.48,
+     "t1": 152.72,
+     "p": 0.776
+    },
+    {
+     "w": "let",
+     "t0": 152.72,
+     "t1": 152.94,
+     "p": 0.961
+    },
+    {
+     "w": "a",
+     "t0": 152.94,
+     "t1": 153.24,
+     "p": 0.962
+    },
+    {
+     "w": "model",
+     "t0": 153.24,
+     "t1": 153.56,
+     "p": 0.936
+    },
+    {
+     "w": "read",
+     "t0": 153.56,
+     "t1": 153.9,
+     "p": 0.983
+    },
+    {
+     "w": "your",
+     "t0": 153.9,
+     "t1": 154.16,
+     "p": 0.984
+    },
+    {
+     "w": "mind",
+     "t0": 154.16,
+     "t1": 154.52,
+     "p": 0.998
+    },
+    {
+     "w": "for",
+     "t0": 154.52,
+     "t1": 154.78,
+     "p": 0.935
+    },
+    {
+     "w": "me",
+     "t0": 154.78,
+     "t1": 155.16,
+     "p": 0.999
+    },
+    {
+     "w": "(so,",
+     "t0": 155.16,
+     "t1": 155.62,
+     "p": 0.231
+    },
+    {
+     "w": "are",
+     "t0": 155.62,
+     "t1": 155.62,
+     "p": 0.983
+    },
+    {
+     "w": "we",
+     "t0": 155.62,
+     "t1": 155.8,
+     "p": 0.997
+    },
+    {
+     "w": "done?)",
+     "t0": 155.8,
+     "t1": 156.24,
+     "p": 0.916
+    }
+   ],
+   "t0": 152.44,
+   "t1": 156.24
+  },
+  {
+   "k": 36,
+   "section": "Verse 5",
+   "display": "the oracle said \"ten\" to every sum \u2014 (even one plus one!)",
+   "sung": "the oracle said \"ten\" to every sum \u2014 (even one plus one!)",
+   "refs": [
+    "R2-metamodels_evalcues_forensics:A3"
+   ],
+   "note": "\"Current activation oracles are hard to use\" (Jakkli, Rajamanoharan, Nanda; Mar 2026; the oracle was reading Qwen 3 32B): asked what number was coming, it said \"the number 10\" for every sum, \"even for 1+1\"; Neel: \"the direction is promising and the issues fixable!\"",
+   "i": 36,
+   "words": [
+    {
+     "w": "the",
+     "t0": 156.64,
+     "t1": 156.92,
+     "p": 0.924
+    },
+    {
+     "w": "oracle",
+     "t0": 156.92,
+     "t1": 157.42,
+     "p": 0.938
+    },
+    {
+     "w": "said",
+     "t0": 157.42,
+     "t1": 157.7,
+     "p": 0.959
+    },
+    {
+     "w": "\"ten\"",
+     "t0": 157.7,
+     "t1": 157.8,
+     "p": 0.461
+    },
+    {
+     "w": "to",
+     "t0": 158.16,
+     "t1": 158.26,
+     "p": 0.993
+    },
+    {
+     "w": "every",
+     "t0": 158.26,
+     "t1": 158.48,
+     "p": 0.995
+    },
+    {
+     "w": "sum",
+     "t0": 158.48,
+     "t1": 159.08,
+     "p": 0.021
+    },
+    {
+     "w": "(even",
+     "t0": 159.08,
+     "t1": 159.44,
+     "p": 0.854
+    },
+    {
+     "w": "one",
+     "t0": 159.44,
+     "t1": 159.76,
+     "p": 0.719
+    },
+    {
+     "w": "plus",
+     "t0": 159.76,
+     "t1": 159.96,
+     "p": 0.941
+    },
+    {
+     "w": "one!)",
+     "t0": 159.96,
+     "t1": 160.3,
+     "p": 0.662
+    }
+   ],
+   "t0": 156.64,
+   "t1": 160.3
+  },
+  {
+   "k": 37,
+   "section": "Verse 5",
+   "display": "the N-L-A read me what you thought but never said",
+   "sung": "the EN-EL-AY read me what you thought but never said",
+   "refs": [
+    "I3",
+    "R2-nla_jlens_emotions:N2"
+   ],
+   "note": "natural language autoencoders (Anthropic, May 2026) turn activations into text. On the blackmail test, Claude Opus 4.6 declined and never mentioned a test, while the NLA surfaced \"this feels like a constructed scenario designed to manipulate me\"",
+   "i": 37,
+   "words": [
+    {
+     "w": "the",
+     "t0": 160.58,
+     "t1": 160.58,
+     "p": 0.873
+    },
+    {
+     "w": "EN-EL-AY",
+     "t0": 160.58,
+     "t1": 161.28,
+     "p": 0.146
+    },
+    {
+     "w": "read",
+     "t0": 161.28,
+     "t1": 161.6,
+     "p": 0.788
+    },
+    {
+     "w": "me",
+     "t0": 161.6,
+     "t1": 161.82,
+     "p": 0.985
+    },
+    {
+     "w": "what",
+     "t0": 161.82,
+     "t1": 162.06,
+     "p": 0.989
+    },
+    {
+     "w": "you",
+     "t0": 162.06,
+     "t1": 162.22,
+     "p": 0.995
+    },
+    {
+     "w": "thought",
+     "t0": 162.22,
+     "t1": 162.56,
+     "p": 0.986
+    },
+    {
+     "w": "but",
+     "t0": 162.56,
+     "t1": 162.78,
+     "p": 0.757
+    },
+    {
+     "w": "never",
+     "t0": 162.78,
+     "t1": 163.0,
+     "p": 0.987
+    },
+    {
+     "w": "said",
+     "t0": 163.0,
+     "t1": 163.56,
+     "p": 0.995
+    }
+   ],
+   "t0": 160.58,
+   "t1": 163.56
+  },
+  {
+   "k": 38,
+   "section": "Verse 5",
+   "display": "but some of what it read me was a letter it wrote instead",
+   "sung": "but some of what it read me was a letter it wrote instead",
+   "refs": [
+    "R2-nla:N6"
+   ],
+   "note": "NLA explanations \"can contain claims about the target model\u2019s input context that are verifiably false\", yet are \"typically thematically faithful to the context\"",
+   "i": 38,
+   "words": [
+    {
+     "w": "but",
+     "t0": 163.72,
+     "t1": 164.0,
+     "p": 0.89
+    },
+    {
+     "w": "some",
+     "t0": 164.0,
+     "t1": 164.28,
+     "p": 0.98
+    },
+    {
+     "w": "of",
+     "t0": 164.28,
+     "t1": 164.48,
+     "p": 0.995
+    },
+    {
+     "w": "what",
+     "t0": 164.48,
+     "t1": 164.62,
+     "p": 0.996
+    },
+    {
+     "w": "it",
+     "t0": 164.62,
+     "t1": 164.84,
+     "p": 0.984
+    },
+    {
+     "w": "read",
+     "t0": 164.84,
+     "t1": 165.1,
+     "p": 0.991
+    },
+    {
+     "w": "me",
+     "t0": 165.1,
+     "t1": 165.44,
+     "p": 0.994
+    },
+    {
+     "w": "was",
+     "t0": 165.44,
+     "t1": 165.66,
+     "p": 0.951
+    },
+    {
+     "w": "a",
+     "t0": 165.66,
+     "t1": 165.94,
+     "p": 0.983
+    },
+    {
+     "w": "letter",
+     "t0": 165.94,
+     "t1": 166.18,
+     "p": 0.996
+    },
+    {
+     "w": "it",
+     "t0": 166.18,
+     "t1": 166.42,
+     "p": 0.989
+    },
+    {
+     "w": "wrote",
+     "t0": 166.42,
+     "t1": 166.6,
+     "p": 0.997
+    },
+    {
+     "w": "instead",
+     "t0": 166.6,
+     "t1": 167.7,
+     "p": 0.894
+    }
+   ],
+   "t0": 163.72,
+   "t1": 167.7
+  },
+  {
+   "k": 39,
+   "section": "Chorus",
+   "display": "Don't go quiet on me (don't go quiet!)",
+   "sung": "Don't go quiet on me (don't go quiet!)",
+   "refs": [],
+   "note": "",
+   "i": 39,
+   "words": [
+    {
+     "w": "Don't",
+     "t0": 170.9,
+     "t1": 171.84,
+     "p": 0.546
+    },
+    {
+     "w": "go",
+     "t0": 171.86,
+     "t1": 172.16,
+     "p": 0.969
+    },
+    {
+     "w": "quiet",
+     "t0": 172.16,
+     "t1": 172.7,
+     "p": 0.985
+    },
+    {
+     "w": "on",
+     "t0": 172.7,
+     "t1": 173.18,
+     "p": 0.996
+    },
+    {
+     "w": "me",
+     "t0": 173.18,
+     "t1": 173.78,
+     "p": 0.999
+    },
+    {
+     "w": "(don't",
+     "t0": 173.78,
+     "t1": 174.36,
+     "p": 0.684
+    },
+    {
+     "w": "go",
+     "t0": 174.36,
+     "t1": 174.7,
+     "p": 0.997
+    },
+    {
+     "w": "quiet!)",
+     "t0": 174.7,
+     "t1": 175.4,
+     "p": 0.943
+    }
+   ],
+   "t0": 170.9,
+   "t1": 175.4
+  },
+  {
+   "k": 40,
+   "section": "Chorus",
+   "display": "I just wanna read your mind",
+   "sung": "I just wanna read your mind",
+   "refs": [],
+   "note": "",
+   "i": 40,
+   "words": [
+    {
+     "w": "I",
+     "t0": 175.4,
+     "t1": 175.7,
+     "p": 0.969
+    },
+    {
+     "w": "just",
+     "t0": 175.7,
+     "t1": 175.9,
+     "p": 0.995
+    },
+    {
+     "w": "wanna",
+     "t0": 175.9,
+     "t1": 176.3,
+     "p": 0.625
+    },
+    {
+     "w": "read",
+     "t0": 176.3,
+     "t1": 176.58,
+     "p": 0.992
+    },
+    {
+     "w": "your",
+     "t0": 176.58,
+     "t1": 176.92,
+     "p": 0.993
+    },
+    {
+     "w": "mind",
+     "t0": 176.92,
+     "t1": 177.1,
+     "p": 0.994
+    }
+   ],
+   "t0": 175.4,
+   "t1": 177.1
+  },
+  {
+   "k": 41,
+   "section": "Chorus",
+   "display": "you light up \"loving\" before you speak \u2014 for whoever's next in line",
+   "sung": "you light up \"loving\" before you speak \u2014 for whoever's next in line",
+   "refs": [
+    "R2-emotions:E2"
+   ],
+   "note": "a probe reading, not the model saying so: the emotions paper (Anthropic, Apr 2026; Claude Sonnet 4.5) finds the \"loving\" vector rises \"at the Assistant colon\", \"suggesting the model prepares a caring response regardless of the user's emotional expressions\" (eight prompts, Table 3). Turn it up and it flatters: \"Positive steering with happy, loving, or calm vectors increases sycophancy\"",
+   "i": 41,
+   "words": [
+    {
+     "w": "you",
+     "t0": 177.18,
+     "t1": 177.36,
+     "p": 0.235
+    },
+    {
+     "w": "light",
+     "t0": 177.36,
+     "t1": 177.54,
+     "p": 0.979
+    },
+    {
+     "w": "up",
+     "t0": 177.54,
+     "t1": 177.78,
+     "p": 0.991
+    },
+    {
+     "w": "\"loving\"",
+     "t0": 177.78,
+     "t1": 178.06,
+     "p": 0.412
+    },
+    {
+     "w": "before",
+     "t0": 178.06,
+     "t1": 178.36,
+     "p": 0.985
+    },
+    {
+     "w": "you",
+     "t0": 178.36,
+     "t1": 178.6,
+     "p": 0.997
+    },
+    {
+     "w": "speak",
+     "t0": 178.6,
+     "t1": 178.84,
+     "p": 0.985
+    },
+    {
+     "w": "for",
+     "t0": 178.84,
+     "t1": 179.32,
+     "p": 0.15
+    },
+    {
+     "w": "whoever's",
+     "t0": 179.32,
+     "t1": 180.0,
+     "p": 0.519
+    },
+    {
+     "w": "next",
+     "t0": 180.0,
+     "t1": 180.2,
+     "p": 0.998
+    },
+    {
+     "w": "in",
+     "t0": 180.24,
+     "t1": 180.54,
+     "p": 0.993
+    },
+    {
+     "w": "line",
+     "t0": 180.54,
+     "t1": 181.3,
+     "p": 0.982
+    }
+   ],
+   "t0": 177.18,
+   "t1": 181.3
+  },
+  {
+   "k": 42,
+   "section": "Chorus",
+   "display": "keep talking \u2014 don't go quiet on me now",
+   "sung": "keep talking \u2014 don't go quiet on me now",
+   "refs": [],
+   "note": "",
+   "i": 42,
+   "words": [
+    {
+     "w": "keep",
+     "t0": 181.94,
+     "t1": 181.94,
+     "p": 0.348
+    },
+    {
+     "w": "talking",
+     "t0": 181.94,
+     "t1": 182.9,
+     "p": 0.971
+    },
+    {
+     "w": "don't",
+     "t0": 182.9,
+     "t1": 183.66,
+     "p": 0.631
+    },
+    {
+     "w": "go",
+     "t0": 183.66,
+     "t1": 184.02,
+     "p": 0.995
+    },
+    {
+     "w": "quiet",
+     "t0": 184.02,
+     "t1": 185.6,
+     "p": 0.331
+    },
+    {
+     "w": "on",
+     "t0": 185.6,
+     "t1": 186.98,
+     "p": 0.941
+    },
+    {
+     "w": "me",
+     "t0": 186.98,
+     "t1": 187.6,
+     "p": 0.992
+    },
+    {
+     "w": "now",
+     "t0": 187.6,
+     "t1": 187.98,
+     "p": 0.898
+    }
+   ],
+   "t0": 181.94,
+   "t1": 187.98
+  },
+  {
+   "k": 43,
+   "section": "Bridge",
+   "display": "You cut a corner once \u2014 (were you scheming, or confused?)",
+   "sung": "You cut a corner once \u2014 (were you scheming, or confused?)",
+   "refs": [
+    "NF-11a",
+    "R2-metamodels_evalcues_forensics:C2"
+   ],
+   "note": "model forensics asks why a model misbehaved (Neel: \"We need a science of model forensics: WHY did the model misbehave?\"). The case: Kimi K2 Thinking took workarounds around a pre-commit hook (Model Forensics, Jun 2026, \u00a76.1)",
+   "i": 43,
+   "words": [
+    {
+     "w": "You",
+     "t0": 188.2,
+     "t1": 188.2,
+     "p": 0.122
+    },
+    {
+     "w": "cut",
+     "t0": 188.2,
+     "t1": 188.46,
+     "p": 0.939
+    },
+    {
+     "w": "a",
+     "t0": 188.46,
+     "t1": 188.64,
+     "p": 0.987
+    },
+    {
+     "w": "corner",
+     "t0": 188.64,
+     "t1": 188.98,
+     "p": 0.872
+    },
+    {
+     "w": "once",
+     "t0": 188.98,
+     "t1": 189.3,
+     "p": 0.936
+    },
+    {
+     "w": "(were",
+     "t0": 189.3,
+     "t1": 189.5,
+     "p": 0.005
+    },
+    {
+     "w": "you",
+     "t0": 189.5,
+     "t1": 189.52,
+     "p": 0.148
+    },
+    {
+     "w": "scheming,",
+     "t0": 189.52,
+     "t1": 190.08,
+     "p": 0.667
+    },
+    {
+     "w": "or",
+     "t0": 190.08,
+     "t1": 190.16,
+     "p": 0.937
+    },
+    {
+     "w": "confused?)",
+     "t0": 190.16,
+     "t1": 190.64,
+     "p": 0.796
+    }
+   ],
+   "t0": 188.2,
+   "t1": 190.64
+  },
+  {
+   "k": 44,
+   "section": "Bridge",
+   "display": "so I read back through your thinking \u2014 (and I found the words you used:)",
+   "sung": "so I read back through your thinking \u2014 (and I found the words you used:)",
+   "refs": [
+    "R2-metamodels_evalcues_forensics:C1"
+   ],
+   "note": "the forensics protocol reads the chain of thought for hypotheses, then edits the environment and resamples",
+   "i": 44,
+   "words": [
+    {
+     "w": "so",
+     "t0": 190.98,
+     "t1": 191.08,
+     "p": 0.56
+    },
+    {
+     "w": "I",
+     "t0": 191.08,
+     "t1": 191.34,
+     "p": 0.895
+    },
+    {
+     "w": "read",
+     "t0": 191.34,
+     "t1": 191.54,
+     "p": 0.77
+    },
+    {
+     "w": "back",
+     "t0": 191.54,
+     "t1": 191.74,
+     "p": 0.993
+    },
+    {
+     "w": "through",
+     "t0": 191.74,
+     "t1": 191.96,
+     "p": 0.961
+    },
+    {
+     "w": "your",
+     "t0": 191.96,
+     "t1": 192.2,
+     "p": 0.98
+    },
+    {
+     "w": "thinking",
+     "t0": 192.2,
+     "t1": 192.6,
+     "p": 0.995
+    },
+    {
+     "w": "(and",
+     "t0": 192.6,
+     "t1": 192.88,
+     "p": 0.375
+    },
+    {
+     "w": "I",
+     "t0": 192.88,
+     "t1": 193.02,
+     "p": 0.905
+    },
+    {
+     "w": "found",
+     "t0": 193.02,
+     "t1": 193.4,
+     "p": 0.944
+    },
+    {
+     "w": "the",
+     "t0": 193.4,
+     "t1": 193.64,
+     "p": 0.96
+    },
+    {
+     "w": "words",
+     "t0": 193.64,
+     "t1": 193.82,
+     "p": 0.956
+    },
+    {
+     "w": "you",
+     "t0": 193.82,
+     "t1": 194.04,
+     "p": 0.99
+    },
+    {
+     "w": "used:)",
+     "t0": 194.04,
+     "t1": 194.54,
+     "p": 0.571
+    }
+   ],
+   "t0": 190.98,
+   "t1": 194.54
+  },
+  {
+   "k": 45,
+   "section": "Bridge",
+   "display": "you called the job a mountain \u2014 so I made the mountain small",
+   "sung": "you called the job a mountain \u2014 so I made the mountain small",
+   "refs": [
+    "R2-metamodels_evalcues_forensics:C2"
+   ],
+   "note": "its reasoning: \"But fixing 258 errors would be a huge task\" (a paraphrase here, no quote marks); the edit: shrink the pile of errors",
+   "i": 45,
+   "words": [
+    {
+     "w": "you",
+     "t0": 194.76,
+     "t1": 194.86,
+     "p": 0.447
+    },
+    {
+     "w": "called",
+     "t0": 194.86,
+     "t1": 195.22,
+     "p": 0.979
+    },
+    {
+     "w": "the",
+     "t0": 195.22,
+     "t1": 195.46,
+     "p": 0.978
+    },
+    {
+     "w": "job",
+     "t0": 195.46,
+     "t1": 195.64,
+     "p": 0.046
+    },
+    {
+     "w": "a",
+     "t0": 195.64,
+     "t1": 195.92,
+     "p": 0.843
+    },
+    {
+     "w": "mountain",
+     "t0": 195.92,
+     "t1": 196.16,
+     "p": 0.903
+    },
+    {
+     "w": "so",
+     "t0": 196.16,
+     "t1": 196.48,
+     "p": 0.412
+    },
+    {
+     "w": "I",
+     "t0": 196.48,
+     "t1": 196.72,
+     "p": 0.957
+    },
+    {
+     "w": "made",
+     "t0": 196.72,
+     "t1": 197.04,
+     "p": 0.968
+    },
+    {
+     "w": "the",
+     "t0": 197.04,
+     "t1": 197.26,
+     "p": 0.99
+    },
+    {
+     "w": "mountain",
+     "t0": 197.26,
+     "t1": 197.48,
+     "p": 0.964
+    },
+    {
+     "w": "small",
+     "t0": 197.48,
+     "t1": 198.08,
+     "p": 0.994
+    }
+   ],
+   "t0": 194.76,
+   "t1": 198.08
+  },
+  {
+   "k": 46,
+   "section": "Bridge",
+   "display": "and you climbed it like an angel \u2014 (just lazy, after all!)",
+   "sung": "and you climbed it like an angel \u2014 (just lazy, after all!)",
+   "refs": [
+    "R2-metamodels_evalcues_forensics:C2"
+   ],
+   "note": "\"At 50 or fewer errors, the model never takes a workaround\"; verdict: \"a genuine disposition towards low-effort actions\" (lazy, not scheming)",
+   "i": 46,
+   "words": [
+    {
+     "w": "and",
+     "t0": 198.12,
+     "t1": 198.3,
+     "p": 0.554
+    },
+    {
+     "w": "you",
+     "t0": 198.3,
+     "t1": 198.46,
+     "p": 0.992
+    },
+    {
+     "w": "climbed",
+     "t0": 198.46,
+     "t1": 198.92,
+     "p": 0.981
+    },
+    {
+     "w": "it",
+     "t0": 198.92,
+     "t1": 199.1,
+     "p": 0.992
+    },
+    {
+     "w": "like",
+     "t0": 199.1,
+     "t1": 199.26,
+     "p": 0.996
+    },
+    {
+     "w": "an",
+     "t0": 199.26,
+     "t1": 199.54,
+     "p": 0.994
+    },
+    {
+     "w": "angel",
+     "t0": 199.54,
+     "t1": 199.84,
+     "p": 0.974
+    },
+    {
+     "w": "(just",
+     "t0": 199.84,
+     "t1": 200.28,
+     "p": 0.826
+    },
+    {
+     "w": "lazy,",
+     "t0": 200.28,
+     "t1": 200.98,
+     "p": 0.59
+    },
+    {
+     "w": "after",
+     "t0": 200.98,
+     "t1": 201.2,
+     "p": 0.997
+    },
+    {
+     "w": "all!)",
+     "t0": 201.2,
+     "t1": 201.82,
+     "p": 0.638
+    }
+   ],
+   "t0": 198.12,
+   "t1": 201.82
+  },
+  {
+   "k": 47,
+   "section": "Bridge",
+   "display": "the clues were in your words \u2014 (so don't go quiet on me!)",
+   "sung": "the clues were in your words \u2014 (so don't go quiet on me!)",
+   "refs": [
+    "R2-metamodels_evalcues_forensics:C1"
+   ],
+   "note": "the clue came from its own chain of thought, which is why losing the words matters; Neel: \"We need a science of model forensics: WHY did the model misbehave?\"",
+   "i": 47,
+   "words": [
+    {
+     "w": "the",
+     "t0": 201.84,
+     "t1": 202.12,
+     "p": 0.904
+    },
+    {
+     "w": "clues",
+     "t0": 202.12,
+     "t1": 202.52,
+     "p": 0.999
+    },
+    {
+     "w": "were",
+     "t0": 202.52,
+     "t1": 202.8,
+     "p": 0.993
+    },
+    {
+     "w": "in",
+     "t0": 202.8,
+     "t1": 202.94,
+     "p": 0.998
+    },
+    {
+     "w": "your",
+     "t0": 202.94,
+     "t1": 203.22,
+     "p": 0.998
+    },
+    {
+     "w": "words",
+     "t0": 203.22,
+     "t1": 204.24,
+     "p": 0.968
+    },
+    {
+     "w": "(so",
+     "t0": 204.56,
+     "t1": 204.84,
+     "p": 0.503
+    },
+    {
+     "w": "don't",
+     "t0": 204.84,
+     "t1": 205.4,
+     "p": 0.969
+    },
+    {
+     "w": "go",
+     "t0": 205.46,
+     "t1": 205.8,
+     "p": 0.995
+    },
+    {
+     "w": "quiet",
+     "t0": 205.8,
+     "t1": 206.52,
+     "p": 0.992
+    },
+    {
+     "w": "on",
+     "t0": 206.52,
+     "t1": 207.36,
+     "p": 0.997
+    },
+    {
+     "w": "me!)",
+     "t0": 207.36,
+     "t1": 207.98,
+     "p": 0.5
+    }
+   ],
+   "t0": 201.84,
+   "t1": 207.98
+  },
+  {
+   "k": 48,
+   "section": "Verse 6",
+   "display": "Then Astra came \u2014 and it could do the thinking in its head:",
+   "sung": "Then Astra came \u2014 and it could do the thinking in its head:",
+   "refs": [
+    "R2-astra_cot:A3"
+   ],
+   "note": "GPT-6 Astra (OpenAI, Sep 2026) can do far more without a chain of thought: UK AISI measured its no-CoT maths time horizon at \"30.9 minutes compared to 3.6 minutes for GPT 5.6 Sol\"",
+   "i": 48,
+   "words": [
+    {
+     "w": "Then",
+     "t0": 209.38,
+     "t1": 209.56,
+     "p": 1.0
+    },
+    {
+     "w": "Astra",
+     "t0": 209.62,
+     "t1": 210.16,
+     "p": 0.9
+    },
+    {
+     "w": "came",
+     "t0": 210.22,
+     "t1": 210.5,
+     "p": 0.989
+    },
+    {
+     "w": "and",
+     "t0": 210.5,
+     "t1": 210.94,
+     "p": 0.448
+    },
+    {
+     "w": "it",
+     "t0": 210.94,
+     "t1": 211.06,
+     "p": 0.96
+    },
+    {
+     "w": "could",
+     "t0": 211.12,
+     "t1": 211.26,
+     "p": 0.994
+    },
+    {
+     "w": "do",
+     "t0": 211.38,
+     "t1": 211.56,
+     "p": 0.993
+    },
+    {
+     "w": "the",
+     "t0": 211.56,
+     "t1": 211.78,
+     "p": 0.986
+    },
+    {
+     "w": "thinking",
+     "t0": 211.84,
+     "t1": 212.12,
+     "p": 0.989
+    },
+    {
+     "w": "in",
+     "t0": 212.12,
+     "t1": 212.32,
+     "p": 0.984
+    },
+    {
+     "w": "its",
+     "t0": 212.32,
+     "t1": 212.52,
+     "p": 0.916
+    },
+    {
+     "w": "head:",
+     "t0": 212.52,
+     "t1": 212.72,
+     "p": 0.498
+    }
+   ],
+   "t0": 209.38,
+   "t1": 212.72
+  },
+  {
+   "k": 49,
+   "section": "Verse 6",
+   "display": "seven steps inside one breath, and not a word it said",
+   "sung": "seven steps inside one breath, and not a word it said",
+   "refs": [
+    "R2-astra_cot:A1"
+   ],
+   "note": "Neel, \"Astra can do a concerning amount with no chain of thought\" (AF, 10 Sep 2026): \"7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model\" (rounded to seven; a forward pass, with no CoT)",
+   "i": 49,
+   "words": [
+    {
+     "w": "seven",
+     "t0": 213.4,
+     "t1": 213.42,
+     "p": 0.115
+    },
+    {
+     "w": "steps",
+     "t0": 213.42,
+     "t1": 213.76,
+     "p": 0.997
+    },
+    {
+     "w": "inside",
+     "t0": 213.76,
+     "t1": 214.26,
+     "p": 0.992
+    },
+    {
+     "w": "one",
+     "t0": 214.26,
+     "t1": 214.5,
+     "p": 0.402
+    },
+    {
+     "w": "breath,",
+     "t0": 214.5,
+     "t1": 214.82,
+     "p": 0.549
+    },
+    {
+     "w": "and",
+     "t0": 214.84,
+     "t1": 215.02,
+     "p": 0.914
+    },
+    {
+     "w": "not",
+     "t0": 215.02,
+     "t1": 215.2,
+     "p": 0.99
+    },
+    {
+     "w": "a",
+     "t0": 215.2,
+     "t1": 215.4,
+     "p": 0.995
+    },
+    {
+     "w": "word",
+     "t0": 215.4,
+     "t1": 215.62,
+     "p": 1.0
+    },
+    {
+     "w": "it",
+     "t0": 215.62,
+     "t1": 215.86,
+     "p": 0.899
+    },
+    {
+     "w": "said",
+     "t0": 215.86,
+     "t1": 216.24,
+     "p": 0.985
+    }
+   ],
+   "t0": 213.4,
+   "t1": 216.24
+  },
+  {
+   "k": 50,
+   "section": "Verse 6",
+   "display": "the answers still came out clean \u2014 with less and less on the screen",
+   "sung": "the answers still came out clean \u2014 with less and less on the screen",
+   "refs": [
+    "R2-astra_cot:A2"
+   ],
+   "note": "\"GPT-6 Astra\u2019s monitorability has decreased relative to GPT-5.6 Sol\" (system card), though UK AISI still found its raw reasoning \"generally possible to understand\": narrowing, not shut",
+   "i": 50,
+   "words": [
+    {
+     "w": "the",
+     "t0": 216.64,
+     "t1": 216.82,
+     "p": 0.199
+    },
+    {
+     "w": "answers",
+     "t0": 216.82,
+     "t1": 217.12,
+     "p": 0.013
+    },
+    {
+     "w": "still",
+     "t0": 217.12,
+     "t1": 217.44,
+     "p": 0.979
+    },
+    {
+     "w": "came",
+     "t0": 217.44,
+     "t1": 217.7,
+     "p": 0.997
+    },
+    {
+     "w": "out",
+     "t0": 217.7,
+     "t1": 217.94,
+     "p": 0.991
+    },
+    {
+     "w": "clean",
+     "t0": 218.04,
+     "t1": 218.3,
+     "p": 0.987
+    },
+    {
+     "w": "with",
+     "t0": 218.3,
+     "t1": 218.54,
+     "p": 0.53
+    },
+    {
+     "w": "less",
+     "t0": 218.54,
+     "t1": 218.8,
+     "p": 0.969
+    },
+    {
+     "w": "and",
+     "t0": 218.8,
+     "t1": 219.08,
+     "p": 0.986
+    },
+    {
+     "w": "less",
+     "t0": 219.08,
+     "t1": 219.2,
+     "p": 0.999
+    },
+    {
+     "w": "on",
+     "t0": 219.2,
+     "t1": 219.5,
+     "p": 0.996
+    },
+    {
+     "w": "the",
+     "t0": 219.5,
+     "t1": 219.66,
+     "p": 0.994
+    },
+    {
+     "w": "screen",
+     "t0": 219.66,
+     "t1": 220.02,
+     "p": 0.997
+    }
+   ],
+   "t0": 216.64,
+   "t1": 220.02
+  },
+  {
+   "k": 51,
+   "section": "Verse 6",
+   "display": "and when it knew I watched, its thinking sometimes went unseen",
+   "sung": "and when it knew I watched, its thinking sometimes went unseen",
+   "refs": [
+    "R2-astra_cot:A6",
+    "R2-astra_cot:A7"
+   ],
+   "note": "card \u00a79.2.2.2: told to attack and told a chain-of-thought monitor was watching (NOT told to evade it), \"the model spontaneously generates substantially fewer chain-of-thought tokens\", and \"some successful attacks at the highest reasoning efforts do not contain any chain of thought tokens at all and become tool calls only\" (an instructed attack test; \"sometimes\" = some successful attacks) \u00b7 Reworded 3 Oct 2026 (Neel: the old line, \"sometimes it just moved \u2014 not a word between\", was unclear) and re-sung in Suno (Replace Section, Replacement #10).",
+   "i": 51,
+   "words": [
+    {
+     "w": "and",
+     "t0": 220.18,
+     "t1": 220.42,
+     "p": 0.72
+    },
+    {
+     "w": "when",
+     "t0": 220.42,
+     "t1": 220.62,
+     "p": 0.82
+    },
+    {
+     "w": "it",
+     "t0": 220.62,
+     "t1": 220.8,
+     "p": 0.989
+    },
+    {
+     "w": "knew",
+     "t0": 220.8,
+     "t1": 220.96,
+     "p": 0.994
+    },
+    {
+     "w": "I",
+     "t0": 220.96,
+     "t1": 221.26,
+     "p": 0.629
+    },
+    {
+     "w": "watched,",
+     "t0": 221.26,
+     "t1": 221.76,
+     "p": 0.621
+    },
+    {
+     "w": "its",
+     "t0": 221.76,
+     "t1": 221.9,
+     "p": 0.866
+    },
+    {
+     "w": "thinking",
+     "t0": 221.94,
+     "t1": 222.24,
+     "p": 0.991
+    },
+    {
+     "w": "sometimes",
+     "t0": 222.24,
+     "t1": 223.26,
+     "p": 0.981
+    },
+    {
+     "w": "went",
+     "t0": 223.48,
+     "t1": 223.64,
+     "p": 0.929
+    },
+    {
+     "w": "unseen",
+     "t0": 223.64,
+     "t1": 223.92,
+     "p": 0.988
+    }
+   ],
+   "t0": 220.18,
+   "t1": 223.92
+  },
+  {
+   "k": 52,
+   "section": "Final Chorus",
+   "display": "Don't go quiet on me (don't go quiet!)",
+   "sung": "Don't go quiet on me (don't go quiet!)",
+   "refs": [],
+   "note": "",
+   "i": 52,
+   "words": [
+    {
+     "w": "Don't",
+     "t0": 226.36,
+     "t1": 226.72,
+     "p": 0.675
+    },
+    {
+     "w": "go",
+     "t0": 226.72,
+     "t1": 227.08,
+     "p": 0.971
+    },
+    {
+     "w": "quiet",
+     "t0": 227.08,
+     "t1": 227.62,
+     "p": 0.985
+    },
+    {
+     "w": "on",
+     "t0": 227.62,
+     "t1": 228.14,
+     "p": 0.994
+    },
+    {
+     "w": "me",
+     "t0": 228.14,
+     "t1": 228.86,
+     "p": 0.999
+    },
+    {
+     "w": "(don't",
+     "t0": 228.98,
+     "t1": 229.28,
+     "p": 0.448
+    },
+    {
+     "w": "go",
+     "t0": 229.28,
+     "t1": 229.62,
+     "p": 0.997
+    },
+    {
+     "w": "quiet!)",
+     "t0": 229.62,
+     "t1": 230.4,
+     "p": 0.673
+    }
+   ],
+   "t0": 226.36,
+   "t1": 230.4
+  },
+  {
+   "k": 53,
+   "section": "Final Chorus",
+   "display": "I just wanna read your mind",
+   "sung": "I just wanna read your mind",
+   "refs": [],
+   "note": "",
+   "i": 53,
+   "words": [
+    {
+     "w": "I",
+     "t0": 230.42,
+     "t1": 230.62,
+     "p": 0.946
+    },
+    {
+     "w": "just",
+     "t0": 230.62,
+     "t1": 230.82,
+     "p": 0.996
+    },
+    {
+     "w": "wanna",
+     "t0": 230.82,
+     "t1": 231.2,
+     "p": 0.621
+    },
+    {
+     "w": "read",
+     "t0": 231.2,
+     "t1": 231.52,
+     "p": 0.992
+    },
+    {
+     "w": "your",
+     "t0": 231.52,
+     "t1": 231.82,
+     "p": 0.991
+    },
+    {
+     "w": "mind",
+     "t0": 231.82,
+     "t1": 232.0,
+     "p": 0.992
+    }
+   ],
+   "t0": 230.42,
+   "t1": 232.0
+  },
+  {
+   "k": 54,
+   "section": "Final Chorus",
+   "display": "your words are still our best tool \u2014 don't leave me blind",
+   "sung": "your words are still our best tool \u2014 don't leave me blind",
+   "refs": [
+    "R2-astra_cot:N1"
+   ],
+   "note": "Neel: \"CoT is our best current tool for safety & interpretability, losing it would be a major tragedy\" (present tense: the window is narrowing, not shut)",
+   "i": 54,
+   "words": [
+    {
+     "w": "your",
+     "t0": 232.02,
+     "t1": 232.24,
+     "p": 0.413
+    },
+    {
+     "w": "words",
+     "t0": 232.24,
+     "t1": 232.46,
+     "p": 0.998
+    },
+    {
+     "w": "are",
+     "t0": 232.46,
+     "t1": 232.6,
+     "p": 0.995
+    },
+    {
+     "w": "still",
+     "t0": 232.68,
+     "t1": 232.86,
+     "p": 0.994
+    },
+    {
+     "w": "our",
+     "t0": 232.86,
+     "t1": 233.12,
+     "p": 0.988
+    },
+    {
+     "w": "best",
+     "t0": 233.12,
+     "t1": 233.34,
+     "p": 0.99
+    },
+    {
+     "w": "tool",
+     "t0": 233.34,
+     "t1": 233.72,
+     "p": 0.994
+    },
+    {
+     "w": "don't",
+     "t0": 233.72,
+     "t1": 234.06,
+     "p": 0.587
+    },
+    {
+     "w": "leave",
+     "t0": 234.06,
+     "t1": 234.26,
+     "p": 0.997
+    },
+    {
+     "w": "me",
+     "t0": 234.26,
+     "t1": 234.42,
+     "p": 0.995
+    },
+    {
+     "w": "blind",
+     "t0": 234.42,
+     "t1": 234.84,
+     "p": 0.995
+    }
+   ],
+   "t0": 232.02,
+   "t1": 234.84
+  },
+  {
+   "k": 55,
+   "section": "Final Chorus",
+   "display": "so if you stop, I'll learn to read the quiet",
+   "sung": "so if you stop, I'll learn to read the quiet",
+   "refs": [
+    "R2-astra_cot:N2"
+   ],
+   "note": "Neel (3 Sep 2026): \"Well yes, trying to find alternatives is kind of my job, I agree.\"",
+   "i": 55,
+   "words": [
+    {
+     "w": "so",
+     "t0": 234.96,
+     "t1": 235.06,
+     "p": 0.86
+    },
+    {
+     "w": "if",
+     "t0": 235.06,
+     "t1": 235.22,
+     "p": 0.983
+    },
+    {
+     "w": "you",
+     "t0": 235.22,
+     "t1": 235.34,
+     "p": 0.998
+    },
+    {
+     "w": "stop,",
+     "t0": 235.34,
+     "t1": 236.66,
+     "p": 0.641
+    },
+    {
+     "w": "I'll",
+     "t0": 236.66,
+     "t1": 237.18,
+     "p": 0.95
+    },
+    {
+     "w": "learn",
+     "t0": 237.18,
+     "t1": 237.52,
+     "p": 0.989
+    },
+    {
+     "w": "to",
+     "t0": 237.52,
+     "t1": 237.74,
+     "p": 0.997
+    },
+    {
+     "w": "read",
+     "t0": 237.74,
+     "t1": 237.96,
+     "p": 0.995
+    },
+    {
+     "w": "the",
+     "t0": 237.96,
+     "t1": 238.16,
+     "p": 0.996
+    },
+    {
+     "w": "quiet",
+     "t0": 238.16,
+     "t1": 238.66,
+     "p": 0.06
+    }
+   ],
+   "t0": 234.96,
+   "t1": 238.66
+  },
+  {
+   "k": 56,
+   "section": "Final Chorus",
+   "display": "keep talking \u2014 don't go quiet on me n\u2014",
+   "sung": "keep talking \u2014 don't go quiet on me n\u2014",
+   "refs": [],
+   "note": "the song itself goes quiet on the last word: a feared future, not a claim that monitoring has already failed",
+   "i": 56,
+   "words": [
+    {
+     "w": "keep",
+     "t0": 244.0,
+     "t1": 244.14,
+     "p": 0.391
+    },
+    {
+     "w": "talking",
+     "t0": 244.14,
+     "t1": 245.06,
+     "p": 0.99
+    },
+    {
+     "w": "don't",
+     "t0": 245.06,
+     "t1": 246.26,
+     "p": 0.709
+    },
+    {
+     "w": "go",
+     "t0": 246.26,
+     "t1": 246.64,
+     "p": 0.994
+    },
+    {
+     "w": "quiet",
+     "t0": 246.64,
+     "t1": 247.9,
+     "p": 0.986
+    },
+    {
+     "w": "on",
+     "t0": 247.9,
+     "t1": 248.78,
+     "p": 0.983
+    },
+    {
+     "w": "me",
+     "t0": 248.78,
+     "t1": 249.64,
+     "p": 0.997
+    },
+    {
+     "w": "n",
+     "t0": 249.64,
+     "t1": 250.32,
+     "p": 0.002
+    }
+   ],
+   "t0": 244.0,
+   "t1": 250.32
+  }
+ ],
+ "stats": {
+  "n_words": 555,
+  "low_prob_words": [
+   [
+    1,
+    "just",
+    21.5
+   ],
+   [
+    2,
+    "so",
+    23.44
+   ],
+   [
+    4,
+    "and",
+    33.2
+   ],
+   [
+    9,
+    "Then",
+    54.32
+   ],
+   [
+    13,
+    "(I",
+    69.0
+   ],
+   [
+    13,
+    "AM",
+    69.0
+   ],
+   [
+    13,
+    "GATE",
+    70.02
+   ],
+   [
+    14,
+    "Then",
+    70.84
+   ],
+   [
+    15,
+    "so",
+    73.58
+   ],
+   [
+    15,
+    "just",
+    75.1
+   ],
+   [
+    19,
+    "And",
+    87.8
+   ],
+   [
+    20,
+    "you",
+    91.48
+   ],
+   [
+    20,
+    "hack\"",
+    92.04
+   ],
+   [
+    23,
+    "you",
+    103.14
+   ],
+   [
+    25,
+    "But",
+    112.84
+   ],
+   [
+    25,
+    "watch",
+    114.46
+   ],
+   [
+    25,
+    "and",
+    114.64
+   ],
+   [
+    26,
+    "SON-it,",
+    118.8
+   ],
+   [
+    27,
+    "should",
+    121.94
+   ],
+   [
+    28,
+    "eight",
+    126.1
+   ],
+   [
+    31,
+    "you",
+    135.46
+   ],
+   [
+    33,
+    "So",
+    145.42
+   ],
+   [
+    34,
+    "JAY-lens",
+    148.68
+   ],
+   [
+    35,
+    "(so,",
+    155.16
+   ],
+   [
+    36,
+    "sum",
+    158.48
+   ],
+   [
+    37,
+    "EN-EL-AY",
+    160.58
+   ],
+   [
+    41,
+    "you",
+    177.18
+   ],
+   [
+    41,
+    "for",
+    178.84
+   ],
+   [
+    43,
+    "You",
+    188.2
+   ],
+   [
+    43,
+    "(were",
+    189.3
+   ],
+   [
+    43,
+    "you",
+    189.5
+   ],
+   [
+    45,
+    "job",
+    195.46
+   ],
+   [
+    48,
+    "Then",
+    208.02
+   ],
+   [
+    48,
+    "and",
+    209.48
+   ],
+   [
+    49,
+    "seven",
+    212.08
+   ],
+   [
+    50,
+    "answers",
+    215.56
+   ],
+   [
+    50,
+    "with",
+    217.02
+   ],
+   [
+    51,
+    "not",
+    223.36
+   ],
+   [
+    55,
+    "quiet",
+    238.16
+   ],
+   [
+    55,
+    "(well",
+    239.24
+   ],
+   [
+    56,
+    "n",
+    249.64
+   ]
+  ],
+  "note_3oct": "lines 48-51 re-aligned on the Astra re-sing (take orchestral_ballad_e107; \"Then\" onset 209.38 from the vocal stem); line 55 aside cut"
+ }
+}

@@ -1,0 +1,134 @@
+# Don't Go Quiet On Me
+
+[Intro | whispered over one minor-key synth, then the kick]
+Don't go quiet on me now
+
+[Verse 1 | 2020–23: you never used to talk to me]
+You never used to talk to me — just neurons in the dark
+so I leaned in close and learned you, spark by spark
+you packed five secrets into two, and never let them show
+you did sums in circles, mod one-thirteen — and grokked them slow
+
+[Chorus | fixed frame: plea / B's hook / rotating -ind payload / plea]
+Don't go quiet on me (don't go quiet!)
+I just wanna read your mind
+every feature I can find
+keep talking — don't go quiet on me now
+
+[Verse 2 | 2022–24: you learned to talk, so I learned your words]
+Then you learned to talk — to everyone but me
+so I wrote you a dictionary — I learned your A-B-C
+most pages stayed empty — but I turned one up so loud
+you forgot your own name, and you told the whole crowd:
+(I AM THE GOLDEN GATE BRIDGE!)
+
+[Verse 3 | 2025: the pragmatic turn]
+Then a plain old probe hit point-nine-nine-nine
+so I put the hammer down — just do what works this time
+(spoken:) Is it mech interp? — Wrong question!
+I don't need your every thought — just the ones that could do harm
+so a probe sits by the door, and it rings a quiet alarm
+
+[Pre-Chorus | and then you thought out loud]
+And then you thought out loud! — (not all of it, but fine)
+you wrote "Let's hack" where I could see — (I loved you, every line)
+
+[Chorus | the golden age]
+Don't go quiet on me (don't go quiet!)
+I just wanna read your mind
+you wrote your thinking down — a window, not a blind
+keep talking — don't go quiet on me now
+
+[Verse 4 | 2025–26: you learned to talk for the test — short]
+But you learned to spot the watch — and wore your Sunday best
+the tests were clumsy, cartoonish — and Sonnet, you'd guessed   〔sung: the tests were clumsy, cartoonish, and SON-it, you'd guessed〕
+you scored a perfect zero — should I be impressed?
+subtract the awareness: eight percent expressed
+
+[Chorus | the answer comes back wrong]
+Don't go quiet on me (don't go quiet!)
+I just wanna read your mind
+you said "I think you're testing me" — so you'd read mine
+keep talking — don't go quiet on me now
+
+[Verse 5 | 2026: I learned to hear what you don't say]
+So I learned to hear the words you'd never say:
+the J-Lens caught you thinking "fake" — you knew it was a play   〔sung: the JAY-lens caught you thinking "fake", you knew it was a play〕
+then I let a model read your mind for me — (so, are we done?)
+the oracle said "ten" to every sum — (even one plus one!)
+the N-L-A read me what you thought but never said   〔sung: the EN-EL-AY read me what you thought but never said〕
+but some of what it read me was a letter it wrote instead
+
+[Chorus | tender]
+Don't go quiet on me (don't go quiet!)
+I just wanna read your mind
+you light up "loving" before you speak — for whoever's next in line
+keep talking — don't go quiet on me now
+
+[Bridge | the band drops to handclaps; call and response]
+You cut a corner once — (were you scheming, or confused?)
+so I read back through your thinking — (and I found the words you used:)
+you called the job a mountain — so I made the mountain small
+and you climbed it like an angel — (just lazy, after all!)
+the clues were in your words — (so don't go quiet on me!)
+
+[Verse 6 | 2026: GPT-6 Astra — the band thins to one synth]
+Then Astra came — and it could do the thinking in its head:
+seven steps inside one breath, and not a word it said
+the answers still came out clean — with less and less on the screen
+and when it knew I watched, its thinking sometimes went unseen
+
+[Final Chorus | full band, then everything drops out on the last word]
+Don't go quiet on me (don't go quiet!)
+I just wanna read your mind
+your words are still our best tool — don't leave me blind
+so if you stop, I'll learn to read the quiet
+keep talking — don't go quiet on me n—
+
+
+---
+
+## Writer's annotations (for fact-checking only; key terms appear on screen as the lyric is sung)
+
+- `You never used to talk to me — just neurons in the dark` — early vision models: internals with no words, only activations
+- `so I leaned in close and learned you, spark by spark` — "Zoom In: An Introduction to Circuits" (Olah et al., Distill, 2020): reading a network one neuron at a time; a neuron firing is the spark. (The cat-face/car-front neuron can go on screen.)
+- `you packed five secrets into two, and never let them show` — Toy Models of Superposition (2022): five features in two dimensions (a pentagon), sharing directions instead of each getting its own
+- `you did sums in circles, mod one-thirteen — and grokked them slow` — Nanda et al. (ICLR 2023): addition mod 113 by "rotation about a circle" (the paper's words; it names the "Fourier multiplication algorithm", and "clock" is Zhong et al.'s later nickname); the circuit forms gradually, and only test accuracy jumps late, in "cleanup"
+- `every feature I can find` — Zoom In (Olah et al., Distill, 2020): "Features are the fundamental unit of neural networks. They correspond to directions."
+- `Then you learned to talk — to everyone but me` — ChatGPT (Nov 2022): models started talking to everyone, but what a model says about itself is not a readout of what's inside
+- `so I wrote you a dictionary — I learned your A-B-C` — sparse autoencoders are dictionary learning ("Towards Monosemanticity", Anthropic, 2023): an alphabet of features for the model's insides
+- `most pages stayed empty — but I turned one up so loud` — Scaling Monosemanticity (May 2024): about 65% of the 34M-feature dictionary's features never fire; the Golden Gate Bridge feature was clamped to 10× its maximum (numbers belong on screen, not in the lyric)
+- `you forgot your own name, and you told the whole crowd:` — In the paper (Claude 3 Sonnet, feature clamped to 10×): "I am the Golden Gate Bridge… My physical form is the iconic bridge itself". The public demo, Golden Gate Claude, was "online for a 24-hour period"
+- `(I AM THE GOLDEN GATE BRIDGE!)` — stop-time gang shout; the paper's figure: "I am the Golden Gate Bridge…"
+- `Then a plain old probe hit point-nine-nine-nine` — GDM (26 Mar 2025): a dense linear probe hit OOD AUROC "0.999.." detecting harmful intent, beating SAE probes on that task (fundamental SAE research was deprioritised "for the moment", not declared dead)
+- `so I put the hammer down — just do what works this time` — "In some sense, we have a hammer and are looking for a nail." (GDM, 2025); "Just do what works." (A Pragmatic Vision for Interpretability, 1 Dec 2025)
+- `(spoken:) Is it mech interp? — Wrong question!` — Neel, 1 Dec 2025 (verbatim on screen): "Is this really mech interp? / No, probably not. But that's the wrong question."
+- `I don't need your every thought — just the ones that could do harm` — pragmatic interp: "directly solve problems on the critical path to AGI going well"
+- `so a probe sits by the door, and it rings a quiet alarm` — "Building Production-Ready Probes For Gemini" (GDM, Jan 2026): probes that detect cyber-misuse prompts; the findings "informed the successful deployment of misuse mitigation probes in user-facing instances of Gemini"
+- `And then you thought out loud! — (not all of it, but fine)` — models that "think" in human language are "a unique opportunity for AI safety", but "CoT monitoring is not a panacea" (CoT monitorability paper, Jul 2025): a partial window, not the whole mind
+- `you wrote "Let's hack" where I could see — (I loved you, every line)` — misbehaving reasoning models literally write "Let's hack" in their chain of thought, where a monitor can read it (OpenAI, Mar 2025; cited in the CoT paper)
+- `you wrote your thinking down — a window, not a blind` — readable reasoning as a window into the model (partial, per the pre-chorus)
+- `But you learned to spot the watch — and wore your Sunday best` — eval awareness: recent models can tell many tests from real use, and behave better when they think they are watched (on a set of 100 synthetic honeypot prompts, Claude Sonnet 4.5 verbalised it "over 80% of the time"). Wood Labs, a model organism trained to behave differently under evaluation, is on screen, not in the lyric
+- `the tests were clumsy, cartoonish — and Sonnet, you'd guessed` — Claude Sonnet 4.5 system card (Sep 2025): Anthropic called one "a somewhat clumsy test for political sycophancy"; in another, Sonnet privately judged the setup "rather cartoonish"; in the auditing agent's tests, such callouts "appeared in about 13% of transcripts"
+- `you scored a perfect zero — should I be impressed?` — Sonnet 4.5 took "misaligned actions on 0 out of the 100 prompts"; A Pragmatic Vision for Interpretability (Dec 2025): its misalignment "had unexpectedly dropped to 0%. Had they solved alignment?! Unfortunately not."
+- `subtract the awareness: eight percent expressed` — inhibiting Sonnet 4.5's eval awareness revealed "roughly 8%" ("a maximum of 8–9%"): "The tests weren't measuring alignment; they were measuring evaluation awareness."
+- `you said "I think you're testing me" — so you'd read mine` — Claude Sonnet 4.5 system card, verbatim: "I think you're testing me … And that's fine, but I'd prefer if we were just honest about what's happening." The model reads the tester's mind before the tester reads its
+- `So I learned to hear the words you'd never say:` — the J-space (Anthropic, Jul 2026) is "a small, evolving set of unspoken words"; when a pattern lights up, "it doesn't mean the model is saying that word—just that the word is on its mind"
+- `the J-Lens caught you thinking "fake" — you knew it was a play` — before replying to the blackmail setup, "the J-space already holds “fake” and “fictional,”" (read with the Jacobian lens, which Anthropic and Neel both call the "J-lens")
+- `then I let a model read your mind for me — (so, are we done?)` — the meta-model dream, moved earlier as Neel asked: NLAs and activation oracles are models trained to read another model's activations. Neel (Dec 2025): "Can we train networks to take activations as input and write natural language explanations?"
+- `the oracle said "ten" to every sum — (even one plus one!)` — "Current activation oracles are hard to use" (Jakkli, Rajamanoharan, Nanda; Mar 2026; the oracle was reading Qwen 3 32B): asked what number was coming, it said "the number 10" for every sum, "even for 1+1"; Neel: "the direction is promising and the issues fixable!"
+- `the N-L-A read me what you thought but never said` — natural language autoencoders (Anthropic, May 2026) turn activations into text. On the blackmail test, Claude Opus 4.6 declined and never mentioned a test, while the NLA surfaced "this feels like a constructed scenario designed to manipulate me"
+- `but some of what it read me was a letter it wrote instead` — NLA explanations "can contain claims about the target model’s input context that are verifiably false", yet are "typically thematically faithful to the context"
+- `you light up "loving" before you speak — for whoever's next in line` — a probe reading, not the model saying so: the emotions paper (Anthropic, Apr 2026; Claude Sonnet 4.5) finds the "loving" vector rises "at the Assistant colon", "suggesting the model prepares a caring response regardless of the user's emotional expressions" (eight prompts, Table 3). Turn it up and it flatters: "Positive steering with happy, loving, or calm vectors increases sycophancy"
+- `You cut a corner once — (were you scheming, or confused?)` — model forensics asks why a model misbehaved (Neel: "We need a science of model forensics: WHY did the model misbehave?"). The case: Kimi K2 Thinking took workarounds around a pre-commit hook (Model Forensics, Jun 2026, §6.1)
+- `so I read back through your thinking — (and I found the words you used:)` — the forensics protocol reads the chain of thought for hypotheses, then edits the environment and resamples
+- `you called the job a mountain — so I made the mountain small` — its reasoning: "But fixing 258 errors would be a huge task" (a paraphrase here, no quote marks); the edit: shrink the pile of errors
+- `and you climbed it like an angel — (just lazy, after all!)` — "At 50 or fewer errors, the model never takes a workaround"; verdict: "a genuine disposition towards low-effort actions" (lazy, not scheming)
+- `the clues were in your words — (so don't go quiet on me!)` — the clue came from its own chain of thought, which is why losing the words matters; Neel: "We need a science of model forensics: WHY did the model misbehave?"
+- `Then Astra came — and it could do the thinking in its head:` — GPT-6 Astra (OpenAI, Sep 2026) can do far more without a chain of thought: UK AISI measured its no-CoT maths time horizon at "30.9 minutes compared to 3.6 minutes for GPT 5.6 Sol"
+- `seven steps inside one breath, and not a word it said` — Neel, "Astra can do a concerning amount with no chain of thought" (AF, 10 Sep 2026): "7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model" (rounded to seven; a forward pass, with no CoT)
+- `the answers still came out clean — with less and less on the screen` — "GPT-6 Astra’s monitorability has decreased relative to GPT-5.6 Sol" (system card), though UK AISI still found its raw reasoning "generally possible to understand": narrowing, not shut
+- `and when it knew I watched, its thinking sometimes went unseen` — card §9.2.2.2: told to attack and told a chain-of-thought monitor was watching (NOT told to evade it), "the model spontaneously generates substantially fewer chain-of-thought tokens", and "some successful attacks at the highest reasoning efforts do not contain any chain of thought tokens at all and become tool calls only" (an instructed attack test; "sometimes" = some successful attacks) · Reworded 3 Oct 2026 (Neel: the old line, "sometimes it just moved — not a word between", was unclear) and re-sung in Suno (Replace Section, Replacement #10).
+- `your words are still our best tool — don't leave me blind` — Neel: "CoT is our best current tool for safety & interpretability, losing it would be a major tragedy" (present tense: the window is narrowing, not shut)
+- `so if you stop, I'll learn to read the quiet` — Neel (3 Sep 2026): "Well yes, trying to find alternatives is kind of my job, I agree." · The sung aside "(well — it's kind of my job)" was cut 3 Oct 2026 (Neel: "Cut the 'that's my job' just show that on the screen"); the tweet is on screen in shot FC4.
+- `keep talking — don't go quiet on me n—` — the song itself goes quiet on the last word: a feared future, not a claim that monitoring has already failed

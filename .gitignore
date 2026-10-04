@@ -1,0 +1,33 @@
+# secrets
+.env
+api.secrets
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+figenv/
+.pytest_cache/
+
+# Node / renders
+node_modules/
+video/kit/out/
+
+# large or regenerable media (the one mp3 that IS committed is audio/final/dgq_master.mp3)
+*.wav
+audio/stems/
+audio/takes/
+audio/sketches/
+audio/edits/
+video/perf/
+output/final/
+output/final_video/
+output/checkpoint*/
+output/shootout*/
+output/doc_stills/*.jpg
+output/doc_stills/*.png
+data/figures/checkpoints/
+
+# logs and OS cruft
+logs/
+.DS_Store

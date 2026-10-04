@@ -1,0 +1,196 @@
+{
+ "src": "lyrics/round3/rD",
+ "out": "audio/sketches/r3",
+ "seed": 31,
+ "base": [
+  "crisp English enunciation, every word clear",
+  "dry upfront vocal"
+ ],
+ "negative": [
+  "heavy reverb",
+  "mumbled vocals",
+  "distorted vocals",
+  "long instrumental intro"
+ ],
+ "sketches": {
+  "A_verse5": [
+   "A_dont_go_quiet",
+   [
+    [
+     9,
+     0,
+     null
+    ]
+   ],
+   128,
+   [
+    "minor-key K-pop synth-pop, tight half-rapped verse",
+    "bright female lead vocal"
+   ],
+   "N-L-A"
+  ],
+  "B_chorus": [
+   "B_whats_on_your_mind_2",
+   [
+    [
+     0,
+     3,
+     null
+    ],
+    [
+     1,
+     0,
+     null
+    ]
+   ],
+   124,
+   [
+    "glossy K-pop girl-group synth-pop",
+    "a robotic vocoder voice answers in the gap",
+    "bright female lead vocal"
+   ],
+   ""
+  ],
+  "B_third_time": [
+   "B_whats_on_your_mind_2",
+   [
+    [
+     5,
+     0,
+     null
+    ],
+    [
+     6,
+     0,
+     null
+    ]
+   ],
+   124,
+   [
+    "glossy K-pop girl-group synth-pop, a build into a stop-time chorus",
+    "the answer spoken deadpan by a robotic vocoder voice while the beat drops out",
+    "bright female lead vocal"
+   ],
+   ""
+  ],
+  "C_chorus": [
+   "N1b_when_i_was_small",
+   [
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     2,
+     0,
+     null
+    ]
+   ],
+   112,
+   [
+    "swung mid-tempo pop, Rhodes piano, upright bass, finger snaps",
+    "warm, amused male lead vocal; the last line sung full voice and held"
+   ],
+   ""
+  ],
+  "C_final": [
+   "N1b_when_i_was_small",
+   [
+    [
+     10,
+     0,
+     null
+    ]
+   ],
+   112,
+   [
+    "swung pop building to a key-change finale, full band",
+    "warm male lead vocal; the band stops dead before the last line, sung alone"
+   ],
+   ""
+  ],
+  "D_chorus": [
+   "N3b_you_told_me_everything",
+   [
+    [
+     2,
+     0,
+     null
+    ],
+    [
+     3,
+     0,
+     null
+    ]
+   ],
+   140,
+   [
+    "bouncy early-2000s pop-rock, palm-muted guitars, driving drums",
+    "energetic female lead vocal with gang backing vocals"
+   ],
+   ""
+  ],
+  "D_turn": [
+   "N3b_you_told_me_everything",
+   [
+    [
+     7,
+     2,
+     null
+    ],
+    [
+     8,
+     0,
+     null
+    ]
+   ],
+   140,
+   [
+    "early-2000s pop-rock: one clean guitar, then the band stops dead, then slams back in",
+    "energetic female lead vocal, the last line a soft backing vocal"
+   ],
+   ""
+  ],
+  "E_chorus": [
+   "N2a_reading_the_stars",
+   [
+    [
+     0,
+     0,
+     null
+    ],
+    [
+     2,
+     0,
+     null
+    ]
+   ],
+   108,
+   [
+    "dreamy city-pop, shimmering synth arpeggios, soft drum machine",
+    "hazy but clear female lead vocal"
+   ],
+   ""
+  ],
+  "E_astra": [
+   "N2a_reading_the_stars",
+   [
+    [
+     10,
+     0,
+     null
+    ]
+   ],
+   108,
+   [
+    "dreamy city-pop; the band stops for an a cappella line, then the arpeggio returns slower",
+    "hazy but clear female lead vocal"
+   ],
+   "Astra"
+  ]
+ },
+ "reuse": {
+  "A_chorus": "audio/sketches/r2/12_chorus"
+ }
+}

@@ -1,0 +1,18 @@
+# Python tools for the lyrics and audio pipeline (tools/, tests/). Rendering the video needs only Node, Chrome and ffmpeg.
+# Tested with Python 3.12. The figure scripts (scripts/figures/) use their own env: see data/figures/README.md.
+python-dotenv>=1.0.0
+requests
+numpy
+scipy
+soundfile
+librosa                 # tools/beats.py, tools/take_profile.py
+pyloudnorm              # loudness checks in tools/vocal_qa.py
+openai                  # gpt-4o-transcribe in tools/vocal_qa.py
+demucs                  # vocal stems (run as `python -m demucs` by tools/vocal_qa.py)
+stable-ts               # forced alignment in tools/align.py (import stable_whisper)
+mlx-whisper; sys_platform == "darwin" and platform_machine == "arm64"   # local transcriber, Apple Silicon only
+opencv-python-headless  # tools/roto.py
+Pillow                  # tools/render_mocks.py, video/tests/seedance/analyze_lipsync.py
+matplotlib              # video/tests/seedance/analyze_lipsync.py
+beautifulsoup4          # refs/round2/sources/html2txt.py
+pytest

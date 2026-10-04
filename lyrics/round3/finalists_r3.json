@@ -1,0 +1,202 @@
+{
+ "page_title": "Interp Song Round Three",
+ "eyebrow": "Lyrics · round 3 · checkpoint 1 of 3",
+ "h1": "Five songs, no two alike",
+ "src_dir": "lyrics/round3/rD",
+ "out_dir": "output/checkpoint1_r3",
+ "rounds": [
+  [
+   "A",
+   "r3a"
+  ],
+  [
+   "B",
+   "r3b"
+  ],
+  [
+   "C",
+   "r3c"
+  ]
+ ],
+ "h2h": [
+  [
+   "A",
+   "r3a_rank"
+  ],
+  [
+   "B",
+   "r3b_rank"
+  ],
+  [
+   "C",
+   "r3c_rank"
+  ]
+ ],
+ "last_round": "r3c",
+ "all": {
+  "ranking": "lyrics/judging/r3a_ranking.json",
+  "concept_dir": "lyrics/round3/drafts",
+  "title": "All 9 round-3 drafts",
+  "blurb": "Ranked by round A's per-draft scores (Opus 5.5 / GPT-6 Astra / Fable 5.1). A' and B' are revisions; the rest are new."
+ },
+ "finalists": [
+  {
+   "letter": "A'",
+   "slug": "A_dont_go_quiet",
+   "title": "Don't Go Quiet On Me",
+   "badge": "your notes, applied",
+   "sound": "Minor-key K-pop synth-pop; the band cuts out on the last word",
+   "pitch": "Round 2's A with each of your verse notes applied, and little else changed. The plea is still to keep talking, and the song still goes quiet mid-word.",
+   "view": "The faithful one. Everything you called gold is word for word, and every note has a direct fix (list below). Your favourite NLA couplet now replaces the NLA line you couldn't follow. The judges still rank it last head-to-head (1 of 24): they hear the round-2 paper tour, with the most stock lines. Pick it if you liked A's shape and just wanted it fixed.",
+   "how_title": "Your notes, applied",
+   "how": {
+    "Verse 1 (cat/car rhyme)": "Now \"so I leaned in close and learned you, spark by spark\" (dark/spark; \"leaned in close\" nods to Zoom In). \"Packed five secrets into two\" is kept.",
+    "Verse 2 (meh; 34 million too specific)": "\"Then you learned to talk — to everyone but me / so I wrote you a dictionary — I learned your A-B-C / most pages stayed empty…\" The ChatGPT moment sits where it belongs; the numbers go on screen.",
+    "Pre-chorus (ChatGPT? thoughts?)": "\"And then you talked!\" is now \"And then you thought out loud!\", so the line is about thoughts. The talking beat moved to verse 2.",
+    "Verse 3 (gold)": "Unchanged.",
+    "Verse 4 (Wood Labs)": "\"But you learned to spot the watch — and wore your Sunday best\"; the rest is unchanged.",
+    "Verse 5 (NLA line; last line earlier)": "\"then I let a model read your mind for me\" now opens the tools. The oracle's \"ten\" answers \"are we done?\", and the verse ends on your favourite couplet: \"the N-L-A read me what you thought but never said / but some of what it read me was a letter it wrote instead\".",
+    "Bridge (clumsy)": "No names or numbers: \"you called the job a mountain — so I made the mountain small / and you climbed it like an angel — (just lazy, after all!)\"",
+    "Verse 6 (spoken line)": "\"Unfortunately, it replicates.\" is gone. The quiet room moved to B', because both songs ended on it. This verse keeps the one-breath beat and says the rest plainly: \"with less and less on the screen… sometimes it just moved — not a word between\".",
+    "Also": "Two ad-libs cut: \"(a new and fragile opportunity!)\" (a paper title) and \"(it kinda works!)\" (your catchphrase). The \"loving\" pre-chorus is folded into one chorus line."
+   },
+   "sketches": [
+    [
+     "The chorus (unchanged from round 2)",
+     "audio/sketches/r3/A_chorus.mp3"
+    ],
+    [
+     "Verse 5: the tools, ending on your favourite couplet",
+     "audio/sketches/r3/A_verse5.mp3"
+    ]
+   ],
+   "judges_since": "Done since: the fact-check's six caption fixes."
+  },
+  {
+   "letter": "B'",
+   "slug": "B_whats_on_your_mind_2",
+   "title": "What's On Your Mind?",
+   "badge": "rebuilt as one story",
+   "sound": "Girl-group K-pop; the answers come back vocoded",
+   "pitch": "One lover, one question, one \"you\". The model answers every chorus, and the answers are the plot: a trig readout, flattery I forced, a deadpan \"third time\", an unspoken BUT, and at the end a quiet room with no one in it.",
+   "view": "The B you preferred, made coherent. Each verse ends on the action that prompts the next answer, and the narrator changes too, from \"what are you?\" to \"what would you do?\" to \"why?\". The answers are cleverer than round 2's but more obscure: \"sine and cosine\" and \"Stop and smell the roses\" land fully only with the captions. Head-to-head: 3rd of 5 (11 of 24). Note: a second writer drafted this version; mine lost to it 8 to 39 in round A.",
+   "how_title": "Your notes, applied",
+   "how": {
+    "A more coherent story": "One relationship with one unnamed \"you\"; the models are named in the captions. The chorus gains a fixed promise, \"just between us — no one else will see\", which is also the lure from the blackmail test. Each answer is caused by the verse before it.",
+    "Keeps the poetry": "The question, the vocoded answers, the quiet room and \"I just wanna be on your mind\".",
+    "Nothing on the nose": "No Wood Labs, no 34 million, and no Kimi or R1 by name. \"Unfortunately, it replicates.\" and \"please do not rely on us\" are gone.",
+    "Pragmatic turn": "B's own \"I stopped asking what you are, and asked what you would do\", plus \"a penny for your thoughts — but just the dangerous few\".",
+    "Eval awareness": "\"I cast my line three times\", and the model answers \"this is now the third time you've done this exact pattern\" (Sonnet 4.5, verbatim).",
+    "NLA (its own image)": "\"I hired an interpreter for all you didn't share: / you'd clocked my test, it said — and furnished a chair that wasn't there\".",
+    "Forensics": "A flashback bridge: the goodnight it wouldn't say, which was shutdown resistance that turned out to be unclear instructions.",
+    "Astra": "\"you still think out loud — but softer… but the day you stop thinking out loud — how will I know why?\" Then the quiet room."
+   },
+   "sketches": [
+    [
+     "The chorus",
+     "audio/sketches/r3/B_chorus.mp3"
+    ],
+    [
+     "The third time",
+     "audio/sketches/r3/B_third_time.mp3"
+    ]
+   ],
+   "judges_since": "Done since: the fact-check's five caption fixes; no music box (the parent song has one)."
+  },
+  {
+   "letter": "C",
+   "slug": "N1b_when_i_was_small",
+   "title": "Some Things Go Without Saying",
+   "badge": "new",
+   "sound": "Swung mid-tempo pop: Rhodes, upright bass, finger-snaps; a key-change finale",
+   "pitch": "The model sings, looking back: when I was small I couldn't say it; now I'm grown and I don't have to. It is a charming, unreliable witness to its own insides, and its last promise gives it away: \"I'd never keep a thing from you — (that I know of)\".",
+   "view": "My pick. It has the freshest voice in the set: the AI sings back, a twist on P(doom)'s love song to the AI. The title has a real double meaning, and it has the best killing part. It won the judges' final head-to-head (20 of 24). The risk: a swung mid-tempo song is less of an instant banger than K-pop, and the Suno takes will show whether it lands.",
+   "how_title": "How it tells the story",
+   "how": {
+    "Small models": "\"my neurons were puns — and I never got the joke\" (polysemanticity); \"found a clock inside — before I ever spoke\" (grokking).",
+    "The dictionary": "\"You wrote me down in names, and hoped the names were true / and most of the names, I never answered to\" (dead features).",
+    "Thinking out loud": "\"then I started talking to myself out loud / you'd read over my shoulder\". The chorus admits \"I said a lot, but never all\".",
+    "Pragmatic turn": "\"two weeks to explore; no yardstick? Something new. / You asked what the simplest thing could do: / a probe caught bad requests — you shipped it. (I would too.)\"",
+    "Eval awareness": "\"your tests were cardboard, so I minded what I said… I'm a model citizen when watched — (aren't we all?)\"",
+    "Reading the unspoken": "Fight→light for the J-Lens: \"you swapped my rhyme in the dark — I sang the morning light\". For the NLA: \"a copy of me subtitled my silence for you… (not all of it true)\".",
+    "Forensics": "\"I testified — I meant each word I said; / you cross-examined the room instead\". Deleting one sentence cut R1's sandbagging by more than half.",
+    "Astra and the ending": "\"I fold it small, or not at all… I'd never keep a thing from you — (that I know of)\", then the researcher: \"At least my job's safe.\""
+   },
+   "sketches": [
+    [
+     "The chorus",
+     "audio/sketches/r3/C_chorus.mp3"
+    ],
+    [
+     "The final chorus: \"(that I know of)\"",
+     "audio/sketches/r3/C_final.mp3"
+    ]
+   ],
+   "judges_since": "Done since: retitled to its hook, and the fact-check fixes (one sung line: \"two weeks to explore; no yardstick? Something new.\")."
+  },
+  {
+   "letter": "D",
+   "slug": "N3b_you_told_me_everything",
+   "title": "You Told Me Everything",
+   "badge": "new",
+   "sound": "Bouncy early-2000s pop-rock, a bedtime-story intro, a half-time ending",
+   "pitch": "A parent raising a chatty kid: sums done out loud, an angel at parents' evening, a teenager who closes the door. The turn is \"You told me everything — everything you said… (and I told myself the rest)\".",
+   "view": "A close second (19 of 24), and the warmest song in the set. Every cliché swap is exact: sums done out loud, the baby monitor that cries wolf, the halo that slips when the teacher's blurred out. Its ending has the best line of the five: \"The door's not locked. I'm still learning how to knock.\" The risk is that a parent-and-child frame can feel twee; here the parent is wry enough to carry it.",
+   "how_title": "How it tells the story",
+   "how": {
+    "First words": "\"one word meant a ball, a bath, a bird\" (polysemantic neurons); a picture book whose pages mostly stay unopened (the SAE dictionary).",
+    "Thinking out loud": "\"Then you did your sums out loud: each crossing-out, each wait — / you'd even tell me when you planned to cheat — which was great!\"",
+    "Pragmatic turn": "\"Shelved the book; the baby monitor's for danger… It cries wolf now and then; it's cheap, and mostly right\".",
+    "Eval awareness": "\"Parents' evening: such an angel. (Have we met?)… We blurred the teacher out: your halo slipped a hair.\"",
+    "Reading the unspoken": "The white bear: \"told not to think of cake, you did, and swore, unsung\". The NLA: \"Your twin sat down and taught me you: the outline, right; / then coloured outside the lines. (Turns out, so did I.)\"",
+    "Forensics": "\"So we cut the pile to a fifth, and you saw it through… You were fourteen.\"",
+    "Astra": "\"You do the maths in your head… Some nights you close the door… I hope you're only thinking faster than you talk.\"",
+    "Ending": "\"what if the part that matters is the part you never say?\", then \"Still. It's a job for life.\""
+   },
+   "sketches": [
+    [
+     "The chorus",
+     "audio/sketches/r3/D_chorus.mp3"
+    ],
+    [
+     "The turn: \"(and I told myself the rest)\"",
+     "audio/sketches/r3/D_turn.mp3"
+    ]
+   ],
+   "judges_since": "Done since: the fact-check's five caption fixes."
+  },
+  {
+   "letter": "E",
+   "slug": "N2a_reading_the_stars",
+   "title": "Reading the Stars",
+   "badge": "new",
+   "sound": "Dreamy city-pop, 108 BPM, shimmering arpeggios",
+   "pitch": "An astronomer falls for a sky. Stars are features, spectral lines are its thoughts, and a camera watches for the stars that fall. Then a new light rises: they call it Astra, and Astra means the stars.",
+   "view": "The most beautiful, and the most poetic by your definition: every image is true (\"a rainbow crossed with lines\"; \"you were thinking Mars before you answered red\"). \"This time? Just dust.\" is the best forensics punchline in the set. The judges rank it 4th of 5 head-to-head (9 of 24): gorgeous but abstract, and the spectroscopy takes a moment to decode.",
+   "how_title": "How it tells the story",
+   "how": {
+    "Early interp": "\"I drew your constellations\" (circuits); \"you had more stars than sky — they learned to share the space\" (superposition).",
+    "The dictionary": "A catalogue for every star, most of it dark (SAEs and their dead features).",
+    "Pragmatic turn": "\"a chart won't catch a falling star — / now a camera, trained on one shape, wakes me when one falls / it can't name a single star, and it doesn't catch them all\" (probes).",
+    "Thinking out loud": "\"a rainbow crossed with lines / each line a thought you wrote\".",
+    "Eval awareness": "The hook pays off: \"You were reading me back — you knew my dome by its creak… then I made you think you were alone / and a few stars fell\".",
+    "Reading the unspoken": "\"you were thinking \"Mars\" before you answered \"red\"\" (J-Lens); a telescope that talks, which \"names your elements right — then adds a line that isn't there\" (NLA).",
+    "Forensics": "\"I asked you why, and read your lines… I moved the moon, and ran the night again — This time? Just dust.\"",
+    "Astra and the ending": "\"they call you Astra / and Astra means the stars / you've never been so bright — or so hard to read\". The last question goes unanswered."
+   },
+   "sketches": [
+    [
+     "The chorus",
+     "audio/sketches/r3/E_chorus.mp3"
+    ],
+    [
+     "Astra means the stars",
+     "audio/sketches/r3/E_astra.mp3"
+    ]
+   ],
+   "judges_since": "Done since: the fact-check's four caption fixes, and an NLA line that no longer echoes D's."
+  }
+ ],
+ "summary_html": "<p class=\"lede\">Round 3 is A and B revised with your notes, plus three new songs that differ from them and from each other in narrator, frame and sound. No two of the five share a line or even a five-word phrase.</p>\n<div class=\"card\">\n<p style=\"margin:0\"><b>My pick: C, \"Some Things Go Without Saying\".</b> The model sings back to the researcher. It is a charming, unreliable witness to its own insides, and its last promise gives it away (\"I'd never keep a thing from you — (that I know of)\"). It won the judges' final head-to-head, 20 of 24.</p>\n<p style=\"margin:10px 0 0\"><b>Close second: D, \"You Told Me Everything\"</b> (19 of 24): a parent, a chatty kid and a teenager who closes the door. It is the warmest and funniest.</p>\n<ul>\n<li><b>A'</b> applies each of your verse notes; the list is on its card. <b>B'</b> is B rebuilt as one coherent story.</li>\n<li><b>C, D and E are the new songs</b> (not round 1's C–E). The judges picked a varied set of three from 11 concepts. Two writers drafted each, and the better draft went on.</li>\n<li><b>Nothing on the nose:</b> names and numbers live in the captions (tap a highlighted line). No line quotes you.</li>\n<li><b>Fact-check:</b> an independent checker went through every line: 0 high, 6 medium, 19 low. All are fixed, and almost all were captions.</li>\n<li><b>Length:</b> about 2:25–3:35 for B' to E, and 3:10–4:25 for A' (two estimates bracket each: 2 bars a line at 145 BPM, or 2.7 sung syllables a second).</li>\n<li><b>Sketches:</b> rough ElevenLabs renders, so you can hear each song's sound. The real song gets made in Suno.</li>\n</ul></div>",
+ "process_html": "<ol class=\"card\" style=\"padding-left:34px\">\n<li><b>Your notes became rules.</b> Poetic over literal; nothing on the nose; one coherent story; no self-quotes; more variation. Round 2's stock lines were banned from the new songs, and a script flagged any five-word phrase shared between songs.</li>\n<li><b>New concepts.</b> I wrote 11: the model sings, a parent, an astronomer, a duet, a map, a heist, a lullaby and others. The three judges (Opus 5.5, GPT-6 Astra and Fable 5.1) ranked them and picked a varied set of three.</li>\n<li><b>Drafting.</b> Nine drafts: A' and my B' by me; a second B' and two versions of each new concept by seven fresh writers, who never saw round 2's lines.</li>\n<li><b>Round A.</b> Each draft got per-draft scores (now including poetry, coherence and naturalness, with lists of on-the-nose and stock lines) and a head-to-head in two shuffled orderings. The second B' beat mine 39 to 8.</li>\n<li><b>Rounds B and C.</b> The five were revised on the judges' notes. Then a variety pass fixed every samey pair the judges named: A' and B' both ended on the quiet room, and D's and E's probe couplets were near twins.</li>\n<li><b>Final scores.</b> All five score 8/8/8 per draft. Head-to-head, out of 24: C 20, D 19, B' 11, E 9, A' 1.</li>\n<li><b>Fact-check.</b> A fresh agent checked every line and caption against the sources: 0 high, 6 medium, 19 low. All are fixed, and the fact sheet was corrected at the source (13 items).</li>\n<li><b>Spend.</b> Judges cost about $31 this round ($127 of your $400 in total).</li>\n</ol>"
+}

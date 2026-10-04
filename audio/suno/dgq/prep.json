@@ -1,0 +1,79 @@
+{
+ "slug": "dgq",
+ "ver": "v9",
+ "cut": true,
+ "sliders": {
+  "Weirdness": "25%",
+  "Style Influence": "75%",
+  "Variety": "0 (drafts; 30 when exploring)"
+ },
+ "vocal_gender": {
+  "kpop_electro": "Female",
+  "kpop_dark": "Female",
+  "acappella_solo": "Male",
+  "acappella_choir": "Female",
+  "orchestral_ballad": "Female",
+  "orchestral_trailer": "Male",
+  "broadway": "Female",
+  "hiphop_musical": "Male",
+  "pdoom_pop": "Female",
+  "comedy_musical": "Male",
+  "shanty": "Male",
+  "acappella_solo_v2": "Male",
+  "orchestral_ballad_v2": "Female"
+ },
+ "exclude": {
+  "kpop_electro": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, guitar solo, screamed vocals",
+  "kpop_dark": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, guitar solo, screamed vocals",
+  "acappella_solo": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, drums, drum machine, guitar, piano, synthesizer, bass guitar, strings, orchestra, instruments",
+  "acappella_choir": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, drums, drum machine, guitar, piano, synthesizer, bass guitar, strings, orchestra, instruments",
+  "orchestral_ballad": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, EDM drop, trap hi-hats, rap, electric guitar",
+  "orchestral_trailer": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, electric guitar solo, dubstep wobble",
+  "broadway": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, electric guitar, EDM, trap beats",
+  "hiphop_musical": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, EDM drop, metal guitars",
+  "pdoom_pop": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, minor key, sad, melancholic, slow ballad, cinematic orchestra, guitar solo, screamed vocals",
+  "comedy_musical": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, sad, melancholic, minor key, EDM, trap beats, electric guitar solo",
+  "shanty": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, synthesizer, EDM, trap beats, electric guitar, orchestra, sad, melancholic",
+  "acappella_solo_v2": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, drums, drum machine, guitar, piano, synthesizer, bass guitar, strings, orchestra, instruments",
+  "orchestral_ballad_v2": "heavy reverb, lo-fi, muddy mix, mumbled vocals, slurred diction, heavy autotune, long instrumental intro, long instrumental outro, EDM drop, trap hi-hats, rap, electric guitar"
+ },
+ "styles": {
+  "kpop_electro": "electro K-pop girl group, 128 BPM, minor key, glossy supersaw synths, punchy electro bass, hard-hitting four-on-the-floor drops, trap hi-hats in the verses, unison girl-group hooks and gang chants, clear bright female lead with crisp English enunciation, dry upfront vocals, half-rapped verses, dance-break bridge, whispered intro, stop-time breaks before shouted lines, key change up for the final chorus, dramatic builds and drops, urgent, emotional, catchy",
+  "kpop_dark": "dark electropop with K-pop production, 132 BPM, pulsing analog bass, glitchy vocal chops, distorted 808s, breathy verses that explode into belted choruses, female lead with crisp English diction, dry upfront vocals, cinematic synth swells, sudden silences, half-time bridge, key change, moody, tense, dramatic",
+  "acappella_solo": "a cappella, one male singer multitracked into a full vocal band, beatboxing, deep vocal bass, close-harmony backing stacks, vocal trumpet and synth imitations, clear male lead with crisp English diction, witty and nerdy YouTube a cappella style, dramatic dynamics from one voice to a wall of voices, key change up for the final chorus",
+  "acappella_choir": "contemporary a cappella group, mixed voices, female lead with crisp English diction, beatboxing and vocal percussion, deep bass singer, lush jazz harmonies, call and response between lead and group, whispered intro, swelling choir builds, sudden silences, key change up for the final chorus, dramatic and joyful",
+  "orchestral_ballad": "cinematic orchestral pop ballad, epic orchestral pop cover, sweeping strings, grand piano, French horns, timpani rolls, soaring choir, female lead with crisp English diction, builds from solo piano to full orchestra, key change for the final chorus, film-score drama, emotional, grand",
+  "orchestral_trailer": "epic cinematic trailer pop, 118 BPM, staccato strings, booming taiko and timpani, brass stabs, pulsing synth bass under the orchestra, haunting choir, male lead with crisp English diction, tense half-rapped verses, colossal choruses, sudden silences, final key change, dark and dramatic",
+  "broadway": "Broadway musical theatre showstopper, full pit orchestra, belted female lead with crisp English diction, ensemble chorus answering the lead, quick witty patter-song verses, spoken lines over underscore, tempo and key changes, a big finale, theatrical, witty, emotional, dramatic",
+  "hiphop_musical": "hip-hop musical theatre, 100 BPM, rapid-fire rap verses, soaring sung chorus, ensemble harmonies and call and response, strings and piano over boom-bap drums, clear male lead with crisp English diction, theatrical spoken asides, dramatic builds and stops, key change for the final chorus",
+  "pdoom_pop": "bubbly electropop with K-pop sparkle, 144 BPM, bright major key, bouncy four-on-the-floor, sparkling supersaw synths, chiptune blips, handclaps, cheeky playful female lead with crisp English diction, dry upfront vocals, sugary girl-group gang vocals, deadpan spoken asides, cute ad-libs, tongue-in-cheek and silly, fast, upbeat, fun, hyper-catchy hook",
+  "comedy_musical": "comedy musical theatre, 152 BPM, witty patter song, bouncy vaudeville piano and full pit band, brass stabs, snare rolls and rimshots, cheeky British male lead with razor-crisp diction, comic timing with pauses before punchlines, deadpan spoken asides, ensemble answering in big silly harmonies, mock-heroic flourishes, tongue-in-cheek, playful, hilarious",
+  "shanty": "rowdy sea shanty pop, 116 BPM getting faster and faster, foot stomps and handclaps, accordion, fiddle, bodhran, upright bass, cheeky male lead with crisp clear diction, a pub crew of gang vocals answering every line, call and response, drinking-song energy, tongue-in-cheek, silly, joyful, breakneck final chorus",
+  "acappella_solo_v2": "a cappella, one male singer multitracked into a full vocal band, beatboxing, deep vocal bass, close-harmony backing stacks, vocal trumpet and synth imitations, clear male lead with crisp English diction, witty and nerdy YouTube a cappella style, dramatic dynamics from one voice to a wall of voices, key change up for the final chorus",
+  "orchestral_ballad_v2": "cinematic orchestral pop ballad, epic orchestral pop cover, sweeping strings, grand piano, French horns, timpani rolls, soaring choir, female lead with crisp English diction, builds from solo piano to full orchestra, key change for the final chorus, film-score drama, emotional, grand"
+ },
+ "checks": {
+  "lyrics_chars": 3683,
+  "styles_chars": {
+   "kpop_electro": 459,
+   "kpop_dark": 309,
+   "acappella_solo": 334,
+   "acappella_choir": 311,
+   "orchestral_ballad": 284,
+   "orchestral_trailer": 286,
+   "broadway": 278,
+   "hiphop_musical": 287,
+   "pdoom_pop": 351,
+   "comedy_musical": 354,
+   "shanty": 312,
+   "acappella_solo_v2": 334,
+   "orchestral_ballad_v2": 284
+  },
+  "exclude_chars": 224,
+  "sung_syllables": 682,
+  "projected": {
+   "2.7/s": "4:24",
+   "3.0/s": "3:59"
+  }
+ }
+}

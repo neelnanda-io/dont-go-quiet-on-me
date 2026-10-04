@@ -1,0 +1,37 @@
+What this licence covers
+------------------------
+
+The code in this repository (the animation in video/kit/src/, the renderer, the Python and Node tools, the tests and
+the figure scripts) is released under the MIT licence below.
+
+Not covered by the MIT licence:
+
+- The song "Don't Go Quiet On Me" (the audio in audio/final/dgq_master.mp3), its lyrics (lyrics.txt, lyrics/final/
+  and the lyric files in audio/suno/dgq/) and the music video are (c) 2026 Neel Nanda. All rights reserved.
+- The base animation kit in video/kit/ is ClaudeAnimationBase by John Heibel, also MIT; its original notice is kept in
+  video/kit/LICENSE.
+- The fonts in video/kit/assets/fonts/ are under the SIL Open Font License 1.1 (their own authors' copyright).
+- tools/checks/flashcheck.py is adapted from Jesse Caple's flashcheck.py (github.com/jessecaple/pdoom), MIT.
+
+MIT License
+-----------
+
+Copyright (c) 2026 Neel Nanda
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

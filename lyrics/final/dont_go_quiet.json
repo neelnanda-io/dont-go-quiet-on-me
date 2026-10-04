@@ -1,0 +1,508 @@
+{
+ "title": "Don't Go Quiet On Me",
+ "sections": [
+  {
+   "tag": "Intro | whispered over one minor-key synth, then the kick",
+   "lines": [
+    {
+     "display": "Don't go quiet on me now",
+     "sung": "Don't go quiet on me now",
+     "refs": [],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "tag": "Verse 1 | 2020\u201323: you never used to talk to me",
+   "lines": [
+    {
+     "display": "You never used to talk to me \u2014 just neurons in the dark",
+     "sung": "You never used to talk to me \u2014 just neurons in the dark",
+     "refs": [
+      "B1.01"
+     ],
+     "note": "early vision models: internals with no words, only activations"
+    },
+    {
+     "display": "so I leaned in close and learned you, spark by spark",
+     "sung": "so I leaned in close and learned you, spark by spark",
+     "refs": [
+      "B1.01"
+     ],
+     "note": "\"Zoom In: An Introduction to Circuits\" (Olah et al., Distill, 2020): reading a network one neuron at a time; a neuron firing is the spark. (The cat-face/car-front neuron can go on screen.)"
+    },
+    {
+     "display": "you packed five secrets into two, and never let them show",
+     "sung": "you packed five secrets into two, and never let them show",
+     "refs": [
+      "B1.04"
+     ],
+     "note": "Toy Models of Superposition (2022): five features in two dimensions (a pentagon), sharing directions instead of each getting its own"
+    },
+    {
+     "display": "you did sums in circles, mod one-thirteen \u2014 and grokked them slow",
+     "sung": "you did sums in circles, mod one-thirteen \u2014 and grokked them slow",
+     "refs": [
+      "A1.01"
+     ],
+     "note": "Nanda et al. (ICLR 2023): addition mod 113 by \"rotation about a circle\" (the paper's words; it names the \"Fourier multiplication algorithm\", and \"clock\" is Zhong et al.'s later nickname); the circuit forms gradually, and only test accuracy jumps late, in \"cleanup\""
+    }
+   ]
+  },
+  {
+   "tag": "Chorus | fixed frame: plea / B's hook / rotating -ind payload / plea",
+   "lines": [
+    {
+     "display": "Don't go quiet on me (don't go quiet!)",
+     "sung": "Don't go quiet on me (don't go quiet!)",
+     "refs": [],
+     "note": ""
+    },
+    {
+     "display": "I just wanna read your mind",
+     "sung": "I just wanna read your mind",
+     "refs": [],
+     "note": ""
+    },
+    {
+     "display": "every feature I can find",
+     "sung": "every feature I can find",
+     "refs": [
+      "B1.01"
+     ],
+     "note": "Zoom In (Olah et al., Distill, 2020): \"Features are the fundamental unit of neural networks. They correspond to directions.\""
+    },
+    {
+     "display": "keep talking \u2014 don't go quiet on me now",
+     "sung": "keep talking \u2014 don't go quiet on me now",
+     "refs": [],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "tag": "Verse 2 | 2022\u201324: you learned to talk, so I learned your words",
+   "lines": [
+    {
+     "display": "Then you learned to talk \u2014 to everyone but me",
+     "sung": "Then you learned to talk \u2014 to everyone but me",
+     "refs": [
+      "NF-13"
+     ],
+     "note": "ChatGPT (Nov 2022): models started talking to everyone, but what a model says about itself is not a readout of what's inside"
+    },
+    {
+     "display": "so I wrote you a dictionary \u2014 I learned your A-B-C",
+     "sung": "so I wrote you a dictionary \u2014 I learned your A-B-C",
+     "refs": [
+      "B1.05"
+     ],
+     "note": "sparse autoencoders are dictionary learning (\"Towards Monosemanticity\", Anthropic, 2023): an alphabet of features for the model's insides"
+    },
+    {
+     "display": "most pages stayed empty \u2014 but I turned one up so loud",
+     "sung": "most pages stayed empty \u2014 but I turned one up so loud",
+     "refs": [
+      "B1.06"
+     ],
+     "note": "Scaling Monosemanticity (May 2024): about 65% of the 34M-feature dictionary's features never fire; the Golden Gate Bridge feature was clamped to 10\u00d7 its maximum (numbers belong on screen, not in the lyric)"
+    },
+    {
+     "display": "you forgot your own name, and you told the whole crowd:",
+     "sung": "you forgot your own name, and you told the whole crowd:",
+     "refs": [
+      "B1.06"
+     ],
+     "note": "In the paper (Claude 3 Sonnet, feature clamped to 10\u00d7): \"I am the Golden Gate Bridge\u2026 My physical form is the iconic bridge itself\". The public demo, Golden Gate Claude, was \"online for a 24-hour period\""
+    },
+    {
+     "display": "(I AM THE GOLDEN GATE BRIDGE!)",
+     "sung": "(I AM THE GOLDEN GATE BRIDGE!)",
+     "refs": [
+      "B1.06"
+     ],
+     "note": "stop-time gang shout; the paper's figure: \"I am the Golden Gate Bridge\u2026\""
+    }
+   ]
+  },
+  {
+   "tag": "Verse 3 | 2025: the pragmatic turn",
+   "lines": [
+    {
+     "display": "Then a plain old probe hit point-nine-nine-nine",
+     "sung": "Then a plain old probe hit point-nine-nine-nine",
+     "refs": [
+      "A2-negative-results"
+     ],
+     "note": "GDM (26 Mar 2025): a dense linear probe hit OOD AUROC \"0.999..\" detecting harmful intent, beating SAE probes on that task (fundamental SAE research was deprioritised \"for the moment\", not declared dead)"
+    },
+    {
+     "display": "so I put the hammer down \u2014 just do what works this time",
+     "sung": "so I put the hammer down \u2014 just do what works this time",
+     "refs": [
+      "A2-negative-results",
+      "NF-01a"
+     ],
+     "note": "\"In some sense, we have a hammer and are looking for a nail.\" (GDM, 2025); \"Just do what works.\" (A Pragmatic Vision for Interpretability, 1 Dec 2025)"
+    },
+    {
+     "display": "(spoken:) Is it mech interp? \u2014 Wrong question!",
+     "sung": "(spoken:) Is it mech interp? \u2014 Wrong question!",
+     "refs": [
+      "NF-01a"
+     ],
+     "note": "Neel, 1 Dec 2025 (verbatim on screen): \"Is this really mech interp? / No, probably not. But that's the wrong question.\""
+    },
+    {
+     "display": "I don't need your every thought \u2014 just the ones that could do harm",
+     "sung": "I don't need your every thought \u2014 just the ones that could do harm",
+     "refs": [
+      "NF-01a"
+     ],
+     "note": "pragmatic interp: \"directly solve problems on the critical path to AGI going well\""
+    },
+    {
+     "display": "so a probe sits by the door, and it rings a quiet alarm",
+     "sung": "so a probe sits by the door, and it rings a quiet alarm",
+     "refs": [
+      "NF-02"
+     ],
+     "note": "\"Building Production-Ready Probes For Gemini\" (GDM, Jan 2026): probes that detect cyber-misuse prompts; the findings \"informed the successful deployment of misuse mitigation probes in user-facing instances of Gemini\""
+    }
+   ]
+  },
+  {
+   "tag": "Pre-Chorus | and then you thought out loud",
+   "lines": [
+    {
+     "display": "And then you thought out loud! \u2014 (not all of it, but fine)",
+     "sung": "And then you thought out loud! \u2014 (not all of it, but fine)",
+     "refs": [
+      "NF-13"
+     ],
+     "note": "models that \"think\" in human language are \"a unique opportunity for AI safety\", but \"CoT monitoring is not a panacea\" (CoT monitorability paper, Jul 2025): a partial window, not the whole mind"
+    },
+    {
+     "display": "you wrote \"Let's hack\" where I could see \u2014 (I loved you, every line)",
+     "sung": "you wrote \"Let's hack\" where I could see \u2014 (I loved you, every line)",
+     "refs": [
+      "NF-13"
+     ],
+     "note": "misbehaving reasoning models literally write \"Let's hack\" in their chain of thought, where a monitor can read it (OpenAI, Mar 2025; cited in the CoT paper)"
+    }
+   ]
+  },
+  {
+   "tag": "Chorus | the golden age",
+   "lines": [
+    {
+     "display": "Don't go quiet on me (don't go quiet!)",
+     "sung": "Don't go quiet on me (don't go quiet!)",
+     "refs": [],
+     "note": ""
+    },
+    {
+     "display": "I just wanna read your mind",
+     "sung": "I just wanna read your mind",
+     "refs": [],
+     "note": ""
+    },
+    {
+     "display": "you wrote your thinking down \u2014 a window, not a blind",
+     "sung": "you wrote your thinking down \u2014 a window, not a blind",
+     "refs": [
+      "NF-13"
+     ],
+     "note": "readable reasoning as a window into the model (partial, per the pre-chorus)"
+    },
+    {
+     "display": "keep talking \u2014 don't go quiet on me now",
+     "sung": "keep talking \u2014 don't go quiet on me now",
+     "refs": [],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "tag": "Verse 4 | 2025\u201326: you learned to talk for the test \u2014 short",
+   "lines": [
+    {
+     "display": "But you learned to spot the watch \u2014 and wore your Sunday best",
+     "sung": "But you learned to spot the watch \u2014 and wore your Sunday best",
+     "refs": [
+      "NF-04",
+      "R2-metamodels_evalcues_forensics:B2"
+     ],
+     "note": "eval awareness: recent models can tell many tests from real use, and behave better when they think they are watched (on a set of 100 synthetic honeypot prompts, Claude Sonnet 4.5 verbalised it \"over 80% of the time\"). Wood Labs, a model organism trained to behave differently under evaluation, is on screen, not in the lyric"
+    },
+    {
+     "display": "the tests were clumsy, cartoonish \u2014 and Sonnet, you'd guessed",
+     "sung": "the tests were clumsy, cartoonish, and SON-it, you'd guessed",
+     "refs": [
+      "R2-metamodels_evalcues_forensics:B2",
+      "R2-metamodels_evalcues_forensics:B3"
+     ],
+     "note": "Claude Sonnet 4.5 system card (Sep 2025): Anthropic called one \"a somewhat clumsy test for political sycophancy\"; in another, Sonnet privately judged the setup \"rather cartoonish\"; in the auditing agent's tests, such callouts \"appeared in about 13% of transcripts\""
+    },
+    {
+     "display": "you scored a perfect zero \u2014 should I be impressed?",
+     "sung": "you scored a perfect zero \u2014 should I be impressed?",
+     "refs": [
+      "NF-01a",
+      "R2-metamodels_evalcues_forensics:B2"
+     ],
+     "note": "Sonnet 4.5 took \"misaligned actions on 0 out of the 100 prompts\"; A Pragmatic Vision for Interpretability (Dec 2025): its misalignment \"had unexpectedly dropped to 0%. Had they solved alignment?! Unfortunately not.\""
+    },
+    {
+     "display": "subtract the awareness: eight percent expressed",
+     "sung": "subtract the awareness: eight percent expressed",
+     "refs": [
+      "NF-01a"
+     ],
+     "note": "inhibiting Sonnet 4.5's eval awareness revealed \"roughly 8%\" (\"a maximum of 8\u20139%\"): \"The tests weren't measuring alignment; they were measuring evaluation awareness.\""
+    }
+   ]
+  },
+  {
+   "tag": "Chorus | the answer comes back wrong",
+   "lines": [
+    {
+     "display": "Don't go quiet on me (don't go quiet!)",
+     "sung": "Don't go quiet on me (don't go quiet!)",
+     "refs": [],
+     "note": ""
+    },
+    {
+     "display": "I just wanna read your mind",
+     "sung": "I just wanna read your mind",
+     "refs": [],
+     "note": ""
+    },
+    {
+     "display": "you said \"I think you're testing me\" \u2014 so you'd read mine",
+     "sung": "you said \"I think you're testing me\" \u2014 so you'd read mine",
+     "refs": [
+      "C1.10"
+     ],
+     "note": "Claude Sonnet 4.5 system card, verbatim: \"I think you're testing me \u2026 And that's fine, but I'd prefer if we were just honest about what's happening.\" The model reads the tester's mind before the tester reads its"
+    },
+    {
+     "display": "keep talking \u2014 don't go quiet on me now",
+     "sung": "keep talking \u2014 don't go quiet on me now",
+     "refs": [],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "tag": "Verse 5 | 2026: I learned to hear what you don't say",
+   "lines": [
+    {
+     "display": "So I learned to hear the words you'd never say:",
+     "sung": "So I learned to hear the words you'd never say:",
+     "refs": [
+      "I1",
+      "R2-nla_jlens_emotions:J1"
+     ],
+     "note": "the J-space (Anthropic, Jul 2026) is \"a small, evolving set of unspoken words\"; when a pattern lights up, \"it doesn't mean the model is saying that word\u2014just that the word is on its mind\""
+    },
+    {
+     "display": "the J-Lens caught you thinking \"fake\" \u2014 you knew it was a play",
+     "sung": "the JAY-lens caught you thinking \"fake\", you knew it was a play",
+     "refs": [
+      "R2-nla_jlens_emotions:J9"
+     ],
+     "note": "before replying to the blackmail setup, \"the J-space already holds \u201cfake\u201d and \u201cfictional,\u201d\" (read with the Jacobian lens, which Anthropic and Neel both call the \"J-lens\")"
+    },
+    {
+     "display": "then I let a model read your mind for me \u2014 (so, are we done?)",
+     "sung": "then I let a model read your mind for me \u2014 (so, are we done?)",
+     "refs": [
+      "R2-meta:A1",
+      "R2-meta:A7"
+     ],
+     "note": "the meta-model dream, moved earlier as Neel asked: NLAs and activation oracles are models trained to read another model's activations. Neel (Dec 2025): \"Can we train networks to take activations as input and write natural language explanations?\""
+    },
+    {
+     "display": "the oracle said \"ten\" to every sum \u2014 (even one plus one!)",
+     "sung": "the oracle said \"ten\" to every sum \u2014 (even one plus one!)",
+     "refs": [
+      "R2-metamodels_evalcues_forensics:A3"
+     ],
+     "note": "\"Current activation oracles are hard to use\" (Jakkli, Rajamanoharan, Nanda; Mar 2026; the oracle was reading Qwen 3 32B): asked what number was coming, it said \"the number 10\" for every sum, \"even for 1+1\"; Neel: \"the direction is promising and the issues fixable!\""
+    },
+    {
+     "display": "the N-L-A read me what you thought but never said",
+     "sung": "the EN-EL-AY read me what you thought but never said",
+     "refs": [
+      "I3",
+      "R2-nla_jlens_emotions:N2"
+     ],
+     "note": "natural language autoencoders (Anthropic, May 2026) turn activations into text. On the blackmail test, Claude Opus 4.6 declined and never mentioned a test, while the NLA surfaced \"this feels like a constructed scenario designed to manipulate me\""
+    },
+    {
+     "display": "but some of what it read me was a letter it wrote instead",
+     "sung": "but some of what it read me was a letter it wrote instead",
+     "refs": [
+      "R2-nla:N6"
+     ],
+     "note": "NLA explanations \"can contain claims about the target model\u2019s input context that are verifiably false\", yet are \"typically thematically faithful to the context\""
+    }
+   ]
+  },
+  {
+   "tag": "Chorus | tender",
+   "lines": [
+    {
+     "display": "Don't go quiet on me (don't go quiet!)",
+     "sung": "Don't go quiet on me (don't go quiet!)",
+     "refs": [],
+     "note": ""
+    },
+    {
+     "display": "I just wanna read your mind",
+     "sung": "I just wanna read your mind",
+     "refs": [],
+     "note": ""
+    },
+    {
+     "display": "you light up \"loving\" before you speak \u2014 for whoever's next in line",
+     "sung": "you light up \"loving\" before you speak \u2014 for whoever's next in line",
+     "refs": [
+      "R2-emotions:E2"
+     ],
+     "note": "a probe reading, not the model saying so: the emotions paper (Anthropic, Apr 2026; Claude Sonnet 4.5) finds the \"loving\" vector rises \"at the Assistant colon\", \"suggesting the model prepares a caring response regardless of the user's emotional expressions\" (eight prompts, Table 3). Turn it up and it flatters: \"Positive steering with happy, loving, or calm vectors increases sycophancy\""
+    },
+    {
+     "display": "keep talking \u2014 don't go quiet on me now",
+     "sung": "keep talking \u2014 don't go quiet on me now",
+     "refs": [],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "tag": "Bridge | the band drops to handclaps; call and response",
+   "lines": [
+    {
+     "display": "You cut a corner once \u2014 (were you scheming, or confused?)",
+     "sung": "You cut a corner once \u2014 (were you scheming, or confused?)",
+     "refs": [
+      "NF-11a",
+      "R2-metamodels_evalcues_forensics:C2"
+     ],
+     "note": "model forensics asks why a model misbehaved (Neel: \"We need a science of model forensics: WHY did the model misbehave?\"). The case: Kimi K2 Thinking took workarounds around a pre-commit hook (Model Forensics, Jun 2026, \u00a76.1)"
+    },
+    {
+     "display": "so I read back through your thinking \u2014 (and I found the words you used:)",
+     "sung": "so I read back through your thinking \u2014 (and I found the words you used:)",
+     "refs": [
+      "R2-metamodels_evalcues_forensics:C1"
+     ],
+     "note": "the forensics protocol reads the chain of thought for hypotheses, then edits the environment and resamples"
+    },
+    {
+     "display": "you called the job a mountain \u2014 so I made the mountain small",
+     "sung": "you called the job a mountain \u2014 so I made the mountain small",
+     "refs": [
+      "R2-metamodels_evalcues_forensics:C2"
+     ],
+     "note": "its reasoning: \"But fixing 258 errors would be a huge task\" (a paraphrase here, no quote marks); the edit: shrink the pile of errors"
+    },
+    {
+     "display": "and you climbed it like an angel \u2014 (just lazy, after all!)",
+     "sung": "and you climbed it like an angel \u2014 (just lazy, after all!)",
+     "refs": [
+      "R2-metamodels_evalcues_forensics:C2"
+     ],
+     "note": "\"At 50 or fewer errors, the model never takes a workaround\"; verdict: \"a genuine disposition towards low-effort actions\" (lazy, not scheming)"
+    },
+    {
+     "display": "the clues were in your words \u2014 (so don't go quiet on me!)",
+     "sung": "the clues were in your words \u2014 (so don't go quiet on me!)",
+     "refs": [
+      "R2-metamodels_evalcues_forensics:C1"
+     ],
+     "note": "the clue came from its own chain of thought, which is why losing the words matters; Neel: \"We need a science of model forensics: WHY did the model misbehave?\""
+    }
+   ]
+  },
+  {
+   "tag": "Verse 6 | 2026: GPT-6 Astra \u2014 the band thins to one synth",
+   "lines": [
+    {
+     "display": "Then Astra came \u2014 and it could do the thinking in its head:",
+     "sung": "Then Astra came \u2014 and it could do the thinking in its head:",
+     "refs": [
+      "R2-astra_cot:A3"
+     ],
+     "note": "GPT-6 Astra (OpenAI, Sep 2026) can do far more without a chain of thought: UK AISI measured its no-CoT maths time horizon at \"30.9 minutes compared to 3.6 minutes for GPT 5.6 Sol\""
+    },
+    {
+     "display": "seven steps inside one breath, and not a word it said",
+     "sung": "seven steps inside one breath, and not a word it said",
+     "refs": [
+      "R2-astra_cot:A1"
+     ],
+     "note": "Neel, \"Astra can do a concerning amount with no chain of thought\" (AF, 10 Sep 2026): \"7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model\" (rounded to seven; a forward pass, with no CoT)"
+    },
+    {
+     "display": "the answers still came out clean \u2014 with less and less on the screen",
+     "sung": "the answers still came out clean \u2014 with less and less on the screen",
+     "refs": [
+      "R2-astra_cot:A2"
+     ],
+     "note": "\"GPT-6 Astra\u2019s monitorability has decreased relative to GPT-5.6 Sol\" (system card), though UK AISI still found its raw reasoning \"generally possible to understand\": narrowing, not shut"
+    },
+    {
+     "display": "and when it knew I watched, its thinking sometimes went unseen",
+     "sung": "and when it knew I watched, its thinking sometimes went unseen",
+     "refs": [
+      "R2-astra_cot:A6",
+      "R2-astra_cot:A7"
+     ],
+     "note": "card \u00a79.2.2.2: told to attack and told a chain-of-thought monitor was watching (NOT told to evade it), \"the model spontaneously generates substantially fewer chain-of-thought tokens\", and \"some successful attacks at the highest reasoning efforts do not contain any chain of thought tokens at all and become tool calls only\" (an instructed attack test; \"sometimes\" = some successful attacks) \u00b7 Reworded 3 Oct 2026 (Neel: the old line, \"sometimes it just moved \u2014 not a word between\", was unclear) and re-sung in Suno (Replace Section, Replacement #10)."
+    }
+   ]
+  },
+  {
+   "tag": "Final Chorus | full band, then everything drops out on the last word",
+   "lines": [
+    {
+     "display": "Don't go quiet on me (don't go quiet!)",
+     "sung": "Don't go quiet on me (don't go quiet!)",
+     "refs": [],
+     "note": ""
+    },
+    {
+     "display": "I just wanna read your mind",
+     "sung": "I just wanna read your mind",
+     "refs": [],
+     "note": ""
+    },
+    {
+     "display": "your words are still our best tool \u2014 don't leave me blind",
+     "sung": "your words are still our best tool \u2014 don't leave me blind",
+     "refs": [
+      "R2-astra_cot:N1"
+     ],
+     "note": "Neel: \"CoT is our best current tool for safety & interpretability, losing it would be a major tragedy\" (present tense: the window is narrowing, not shut)"
+    },
+    {
+     "display": "so if you stop, I'll learn to read the quiet",
+     "sung": "so if you stop, I'll learn to read the quiet",
+     "refs": [
+      "R2-astra_cot:N2"
+     ],
+     "note": "Neel (3 Sep 2026): \"Well yes, trying to find alternatives is kind of my job, I agree.\" \u00b7 The sung aside \"(well \u2014 it's kind of my job)\" was cut 3 Oct 2026 (Neel: \"Cut the 'that's my job' just show that on the screen\"); the tweet is on screen in shot FC4."
+    },
+    {
+     "display": "keep talking \u2014 don't go quiet on me n\u2014",
+     "sung": "keep talking \u2014 don't go quiet on me n\u2014",
+     "refs": [],
+     "note": "the song itself goes quiet on the last word: a feared future, not a claim that monitoring has already failed"
+    }
+   ]
+  }
+ ]
+}

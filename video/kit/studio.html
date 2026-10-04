@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clawd studio</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<style>
+  html, body { margin: 0; background: #1b1820; color: #eee; font: 13px system-ui, sans-serif; }
+  main { padding: 12px; display: grid; gap: 8px; }
+  #out { width: min(100%, 1280px); aspect-ratio: 16 / 9; height: auto; background: #F3EBDC; }
+  .p5Canvas { display: none !important; }
+  .bar { display: flex; gap: 10px; align-items: center; max-width: 1280px; }
+  #scrub { flex: 1; }
+  #tt { font-variant-numeric: tabular-nums; min-width: 190px; }
+</style>
+<script src="node_modules/p5/lib/p5.min.js"></script>
+<script src="node_modules/p5.brush/dist/p5.brush.js"></script>
+</head>
+<body>
+<main>
+  <canvas id="out" width="1920" height="1080"></canvas>
+  <div class="bar"><button id="play" title="play with the song (space)">▶</button><input id="scrub" type="range" min="0" max="11" step="0.0417" value="0"><span id="tt">loading…</span></div>
+  <audio id="au" preload="auto"></audio>
+</main>
+<!-- engine -->
+<script src="src/data/song.js"></script>
+<script src="src/config.js"></script>
+<script src="src/core.js"></script>
+<script src="src/type.js"></script>
+<script src="src/clawd.js"></script>
+<script src="src/timeline.js"></script>
+<script src="src/data/figures.js"></script>
+<script src="src/data/dgq_shots.js"></script>
+<script src="src/data/roto_test.js"></script>
+<script src="src/figures.js"></script>
+<!-- reference sheets (standalone loops) -->
+<script src="src/sheets.js"></script>
+<!-- your video: add a script per scene file, in order -->
+<!-- (src/scenes/demo.js is the kit's Clawd demo, kept for reference and not loaded) -->
+<script src="src/dgq/style.js"></script>
+<script src="src/dgq/styles.js"></script>
+<script src="src/dgq/shoggoth.js"></script>
+<script src="src/dgq/props.js"></script>
+<script src="src/dgq/board.js"></script>
+<script src="src/dgq/naturalist.js"></script>
+<script src="src/scenes/dgq_sheets.js"></script>
+<script src="src/scenes/dgq_hook.js"></script>
+<script src="src/scenes/dgq_animatic.js"></script>
+<script src="src/scenes/roto_test.js"></script>
+<!-- the finished shots (FINAL registry; video/treatment/production_plan.md) -->
+<script src="src/scenes/final_v1.js"></script>
+<script src="src/scenes/final_c1.js"></script>
+<script src="src/scenes/final_v2.js"></script>
+<script src="src/scenes/final_v3.js"></script>
+<script src="src/scenes/final_p.js"></script>
+<script src="src/scenes/final_c2.js"></script>
+<script src="src/scenes/final_v4.js"></script>
+<script src="src/scenes/final_c3.js"></script>
+<script src="src/scenes/final_v5.js"></script>
+<script src="src/scenes/final_c4.js"></script>
+<script src="src/scenes/final_b.js"></script>
+<script src="src/scenes/final_v6.js"></script>
+<script src="src/scenes/final_fc.js"></script>
+<script src="src/scenes/synctest.js"></script>
+<script src="src/scenes/checktest.js"></script>
+<script>
+  // Open studio.html?loop=emotions (or views) to scrub a standalone loop instead of the video.
+  const q = new URLSearchParams(location.search).get('loop'); if (q && LOOPS[q]) window.LOOP = LOOPS[q];
+</script>
+</body>
+</html>
