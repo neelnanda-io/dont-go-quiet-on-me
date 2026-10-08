@@ -86,6 +86,14 @@ spot" lines with source links, credits.
   BEFORE the link goes in the description, or tell them plainly that viewers can't open it until they do.
 - Optional extra people liked in the plan but never made: an easter-egg reply thread for X.
 
+## Streaming lyrics
+**DistroKid's synced-lyrics tool can be driven exactly** (Oct 2026): it is a hold-the-space-bar page whose handlers are
+`document.body.onkeydown/onkeyup` checking only `e.keyCode == 32` and stamping `track[0].getCurrentTime()` (WaveSurfer).
+Mute the player (`track[0].setVolume(0)`), then call the handlers with `{keyCode: 32, preventDefault(){}}` when the
+player's clock reaches each line's begin/end from the forced alignment. Tick from a Web Worker (`setInterval` 5 ms +
+postMessage) because a hidden tab throttles page timers to ~1 s; start playback with one real click on Play. Result:
+57 lines within 11 ms. It needs Musician Plus; Spotify delivery needs Lyric Blaster.
+
 ## Credits
 First project's end card and description: "vocals & band: Suno v6 / lyrics, animation & mix: Claude Opus 5.5 / prompt
 inspiration: Donald Jewkes / moral support: Neel Nanda". Neel removed an employer-affiliation disclaimer and "made
